@@ -1,182 +1,92 @@
 [
   {
-    "title": "Jazz On The Rooftop – Tuesdays at Virtue",
-    "date": "2026-05-05",
-    "time": "5:00 PM – 10:00 PM",
-    "location": "Virtue Rooftop (above 5Church Midtown), 84 5th St NW, Atlanta, GA",
-    "price": "Free to attend / drinks and dinner extra",
-    "description": "Weekly jazz night on one of Atlanta's most scenic rooftops. Head up after 5PM for live saxophone and city skyline views. Start with dinner at 5Church below for a perfect couple's night out. Weather-dependent.",
-    "category": "live-music"
-  },
-  {
-    "title": "LatinWednesdays at Tongue & Groove",
-    "date": "2026-05-06",
-    "time": "9:00 PM – 2:00 AM",
-    "location": "Tongue & Groove, 565 Main St NE, Atlanta, GA",
-    "price": "Check at door",
-    "description": "Atlanta's top Wednesday Latin dance night with rotating DJs playing salsa, bachata, merengue, reggaeton. Dance lesson included early in the night. Great couples energy — full bar, late night, no pressure to be a pro.",
-    "category": "dancing"
-  },
-  {
-    "title": "Breakaway Music Festival 2026 – Day 1",
+    "title": "Friday Jazz at the High Museum",
     "date": "2026-05-15",
-    "time": "Gates open per schedule",
-    "location": "Center Parc Stadium, Atlanta, GA",
-    "price": "GA from $149",
-    "description": "Two-day music festival featuring major acts across multiple stages. Huge date energy — bring a blanket, grab drinks, and catch live performances. Check lineup before buying. Outdoor festival vibes with food vendors on site.",
-    "category": "live-music"
+    "time": "6:00 PM - 10:00 PM",
+    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta",
+    "price": "$30 general / $10 members",
+    "description": "Live jazz in one of Atlanta's most iconic art museums. This month features Rafael Pereira and friends with two musical areas playing layered improv. Enjoy drinks, light bites, and docent-led gallery tours. Perfect date night — art, music, and atmosphere in one evening.",
+    "category": "live music"
   },
   {
-    "title": "Breakaway Music Festival 2026 – Day 2",
-    "date": "2026-05-16",
-    "time": "Gates open per schedule",
-    "location": "Center Parc Stadium, Atlanta, GA",
-    "price": "GA from $149",
-    "description": "Second day of Atlanta's biggest music festival. Bring sunscreen, snacks, and good shoes. Great couple's festival experience if you're into live music and outdoor party vibes. Check lineup and book early.",
-    "category": "live-music"
-  },
-  {
-    "title": "Brit Floyd – The Moon, The Wall, and Beyond",
-    "date": "2026-05-13",
-    "time": "7:30 PM",
-    "location": "Cobb Energy Centre, 755755 Cobb International Blvd, Kennesaw, GA",
-    "price": "Tickets at cobbenergycentre.com",
-    "description": "The world's premier Pink Floyd tribute show returns with stunning visuals, lights, and musicianship. An incredible live music experience — perfect for couples who love classic rock, dramatic performances, and an elegant venue night out.",
-    "category": "live-music"
-  },
-  {
-    "title": "Bill Burr – Live at The Tabernacle",
-    "date": "2026-05-12",
-    "time": "7:30 PM",
-    "location": "The Tabernacle, 152 Luckie St NW, Atlanta, GA",
-    "price": "Check theatlanta.com for tickets",
-    "description": "Bill Burr — Emmy-nominated comedian (Breaking Bad, Friday Night Lights) — brings his no-holds-barred stand-up to Atlanta. The Tabernacle is a legendary music venue that makes for an intimate, electric date night. Get tickets early.",
-    "category": "comedy"
-  },
-  {
-    "title": "TUMBAO Dance Social – Free Monthly",
+    "title": "Lila Iké with special guests",
     "date": "2026-05-09",
-    "time": "9:30 PM – 2:00 AM",
-    "location": "Atlanta (check salsavida.com for venue details)",
+    "time": "Doors 7:00 PM / All Ages",
+    "location": "The Loft at The Masquerade, 1374 West Peachtree St NW, Atlanta",
+    "price": "Varies",
+    "description": "Jamaican reggae sensation Lila Iké brings her captivating voice and modern reggae sound to Atlanta. One of the most talked-about reggae artists today — intimate venue, great energy, perfect for couples who love island music and good vibes.",
+    "category": "reggae"
+  },
+  {
+    "title": "40th Annual Sweet Auburn Springfest",
+    "date": "2026-05-09",
+    "time": "11:00 AM - 9:00 PM (both days)",
+    "location": "Historic Sweet Auburn District, Atlanta",
     "price": "Free",
-    "description": "Atlanta's beloved monthly salsa social dance night — FREE admission. Lessons early, then open dancing. All levels welcome. Always a great crowd. One of the best free date nights in the city if you're into dancing or want to learn.",
+    "description": "Atlanta's largest free multicultural outdoor festival celebrating its 40th anniversary. Live music, diverse food vendors, art, culture, and community. Great for couples who want a full day of exploration — multicultural, lively, and budget-friendly.",
+    "category": "live music"
+  },
+  {
+    "title": "HANGEO Thursdays: Salsa & Bachata Night",
+    "date": "2026-05-07",
+    "time": "7:00 PM",
+    "location": "290 Hilderbrand Drive Suite A5, Atlanta",
+    "price": "$5-$12 suggested",
+    "description": "Weekly Latin dance social with Salsa and Bachata. Beginner-friendly atmosphere with instruction before the social dancing begins. Mingle, learn together, and enjoy a night of dance. Great way for couples to connect physically and have fun.",
     "category": "dancing"
   },
   {
-    "title": "Like Glue Fridays – Afrobeat & Dancehall Party",
+    "title": "AfroVibez 2026: 5th Annual Africa Day Celebration",
+    "date": "2026-05-17",
+    "time": "TBD",
+    "location": "MOWA, 1705 Commerce Dr NW, Atlanta",
+    "price": "Varies",
+    "description": "Celebrate African heritage at this vibrant event. Dress code: Red, Yellow, or Green — colors representing unity, freedom, and pride in African heritage. Great cultural date for couples interested in music, food, and African diaspora culture.",
+    "category": "afrobeat"
+  },
+  {
+    "title": "Latin Wednesdays at Tongue & Groove",
+    "date": "2026-05-06",
+    "time": "8:00 PM",
+    "location": "Tongue & Groove, 950 Peachtree St NE, Atlanta",
+    "price": "Varies",
+    "description": "Weekly Latin dance night at one of Atlanta's most popular dance venues. Salsa, Bachata, Merengue and more. Great energy, good crowd, no pressure — perfect for couples who want a low-key but fun night out dancing.",
+    "category": "dancing"
+  },
+  {
+    "title": "Comedy & Candles Rooftop Night at REVERB Hotel",
     "date": "2026-05-08",
-    "time": "Doors 10:00 PM",
-    "location": "Atlanta (check eventbrite.com for location)",
-    "price": "Check eventbrite.com",
-    "description": "Atlanta's recurring Friday night Afrobeat and dancehall party with rotating DJs. High energy, full bar, dancing until 2AM. Great couples night if you love to move. Check Eventbrite for venue details and tickets.",
-    "category": "afrobeat"
-  },
-  {
-    "title": "Reggae Fest Massive ATL – Mavado, Beenie Man, Spice",
-    "date": "2026-05-23",
-    "time": "Doors per schedule",
-    "location": "State Farm Arena, 1 State Farm Dr, Atlanta, GA",
-    "price": "Check statefarmarena.com",
-    "description": "Massive reggae and dancehall lineup featuring Mavado, Busy Signal, Beenie Man, Spice, Elephant Man, and more. One of the biggest reggae events in the Southeast — arena energy, incredible live performances. Book early, it's a big one.",
-    "category": "afrobeat"
-  },
-  {
-    "title": "R.A.S. Memorial Weekend – 100% Reggae Afrobeat Soca",
-    "date": "2026-05-23",
-    "time": "Per allevents.in schedule",
-    "location": "Atlanta, GA (check allevents.in for venue)",
-    "price": "Check allevents.in",
-    "description": "Memorial Weekend celebration with 100% reggae, Afrobeat, and soca music. A cultural weekend event for the community — great couple's vibes if you're into Caribbean music and culture. Check AllEvents for venue and details.",
-    "category": "afrobeat"
-  },
-  {
-    "title": "AfroPianoWednesdays ATL – DJ Shine D'Beast",
-    "date": "2026-05-13",
-    "time": "Doors 8:00 PM",
-    "location": "TerangaCity, Atlanta, GA",
-    "price": "Check eventbrite.com",
-    "description": "Atlanta's go-to Afrobeat and piano-infused DJ night featuring DJ Shine D'Beast. One of the city's best recurring Afrobeat parties. Great energy, full bar, and a fun lively crowd. Perfect for couples who love to dance and discover new music.",
-    "category": "afrobeat"
-  },
-  {
-    "title": "Jazz in the Sky – Atlanta Jazz Festival",
-    "date": "2026-05-05",
-    "time": "6:00 PM – 8:00 PM",
-    "location": "Colony Square Helipad, Atlanta, GA",
-    "price": "Limited tickets — check atljazzfest.com",
-    "description": "Jazz on an elevated helipad with breathtaking views of the Atlanta skyline. Part of the Atlanta Jazz Festival — intimate setting, great music, unbeatable views. Check site for May Tuesday dates and book fast.",
-    "category": "live-music"
-  },
-  {
-    "title": "Friday Jazz – High Museum of Art",
-    "date": "2026-05-15",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta, GA",
-    "price": "$10 members / $30 non-members",
-    "description": "Live jazz at Atlanta's premier art museum. Features Rafael Pereira and friends this month. Grab a drink, wander the galleries together, then enjoy jazz in a stunning setting. Sophisticated couples date with art and live music.",
-    "category": "live-music"
-  },
-  {
-    "title": "Soil Festival 2026 – Food Well Alliance",
-    "date": "2026-05-16",
-    "time": "Per foodwellalliance.org schedule",
-    "location": "Atlanta, GA (check foodwellalliance.org)",
-    "price": "Check foodwellalliance.org",
-    "description": "Atlanta's premier urban agriculture event celebrating local food, farming, and community. Family-friendly with food vendors, workshops, and activities. Great for couples who care about sustainable food and local culture. Check website for exact date and location.",
-    "category": "vegetarian-food"
-  },
-  {
-    "title": "Vegan Soul Sunday – Weekly Community Event",
-    "date": "2026-05-10",
-    "time": "Per eventnoire.com schedule",
-    "location": "Atlanta, GA (check eventnoire.com)",
-    "price": "Check eventnoire.com",
-    "description": "Weekly Sunday vegan soul food gathering. Great community vibe, plant-based soul food, and community connection. Perfect for couples exploring vegan eating or who love good food and cultural events. Check Eventnoire for location and details.",
-    "category": "vegetarian-food"
-  },
-  {
-    "title": "Stormwater Studios – May Exhibitions & Events",
-    "date": "2026-05-09",
-    "time": "Wed–Sun, 11:00 AM – 3:00 PM (gallery hours)",
-    "location": "Stormwater Studios, Atlanta, GA",
-    "price": "Free admission",
-    "description": "Atlanta's community art gallery featuring rotating exhibitions and events. May includes 'Draw, Paint, and Connect' group sessions. A calm, inspiring date — wander the galleries together, talk about the art, grab coffee nearby. Check stormwaterstudios.org for full May schedule.",
-    "category": "art-gallery"
-  },
-  {
-    "title": "Gordon Parks: The South in Color – Jackson Fine Art",
-    "date": "2026-05-09",
-    "time": "Check jacksonfineart.com for hours",
-    "location": "Jackson Fine Art, 3115 Piedmont Rd NE, Atlanta, GA 30305",
-    "price": "Free admission",
-    "description": "Acclaimed color photography by Gordon Parks capturing the American South. A powerful, moving exhibition. Couples who appreciate photography, history, and Black American culture will find this deeply resonant. Call ahead to confirm hours.",
-    "category": "art-gallery"
-  },
-  {
-    "title": "Once the Ocean Floor – Haines Gallery",
-    "date": "2026-05-09",
-    "time": "Check hainesgallery.com for hours",
-    "location": "Haines Gallery, Atlanta, GA",
-    "price": "Free admission",
-    "description": "Group photography exhibition exploring ocean floor imagery across different photographic processes. Atmospheric, beautiful, and thought-provoking. Great low-key cultural date for couples who love visual art and quiet gallery spaces.",
-    "category": "art-gallery"
-  },
-  {
-    "title": "Brendan Sagalow – Live at Helium Comedy Club",
-    "date": "2026-05-22",
-    "time": "7:30 PM & 9:45 PM",
-    "location": "Helium Comedy Club, 1157 Euclid Ave NE, Atlanta, GA 30307",
-    "price": "Check heliumcomedy.com",
-    "description": "Brendan Sagalow brings his acclaimed stand-up to Atlanta's top comedy club. Helium has an intimate vibe, great sightlines, food and drinks. Perfect for a funny, relaxed date night — shows May 22-24.",
+    "time": "Doors 7:00 PM",
+    "location": "REVERB Hotel Rooftop, Atlanta",
+    "price": "Varies",
+    "description": "\"Love In The Dark\" rooftop comedy experience. Candlelit setting, craft cocktails, and stand-up comedy — a uniquely romantic date night format. Intimate vibes on a rooftop in the heart of Atlanta.",
     "category": "comedy"
   },
   {
-    "title": "Atlanta Contemporary – May Events & Exhibitions",
-    "date": "2026-05-09",
-    "time": "Check atlantacontemporary.org for schedule",
-    "location": "Atlanta Contemporary, 925 Marietta St NW, Atlanta, GA 30318",
+    "title": "Bachata Tuesdays at Academy Ballroom",
+    "date": "2026-05-05",
+    "time": "8:30 PM - 12:30 AM",
+    "location": "Academy Ballroom, 3750 Cambellton Rd SW, Atlanta",
+    "price": "$5-$12",
+    "description": "Weekly Bachata social dancing night in Atlanta's historic southwest district. Social dancing from 8:30 PM with Bachata music all night. Good for couples who enjoy dancing or want to learn a new style together.",
+    "category": "dancing"
+  },
+  {
+    "title": "Vegan & Friends Weekly Meetup",
+    "date": "2026-05-06",
+    "time": "6:00 PM - 10:00 PM",
+    "location": "Various venues across Atlanta",
     "price": "Free admission",
-    "description": "Atlanta's leading contemporary art space with rotating exhibitions and events. Always free, always interesting. Perfect for couples who love art and want an inspiring, low-key afternoon. Check website for specific May events.",
-    "category": "art-gallery"
+    "description": "Atlanta's weekly vegan community meetup every Wednesday night. Vibrant community of plant-based food lovers. Great for couples exploring vegan/vegetarian food scene together — brings together food vendors, music, and good energy.",
+    "category": "vegetarian"
+  },
+  {
+    "title": "Helium Comedy Club: Martin Amini",
+    "date": "2026-05-09",
+    "time": "7:00 PM & 9:15 PM shows",
+    "location": "Helium Comedy Club, 1157 Euclid Ave NE, Atlanta",
+    "price": "Varies by show",
+    "description": "Stand-up comedy with Martin Amini at Atlanta's premier comedy club. Great date night — laughter is a proven connection booster. Multiple shows on Saturday so you can choose early or late show.",
+    "category": "comedy"
   }
 ]
