@@ -1,110 +1,110 @@
 [
   {
-    "title": "HANGEO Thursdays: Salsa & Bachata Night",
-    "date": "2026-05-07",
-    "time": "7:00 PM",
-    "location": "290 Hilderbrand Drive Suite A5, Atlanta",
-    "price": "$5-$12 suggested",
-    "description": "Weekly Latin dance social with Salsa and Bachata. Beginner-friendly with instruction before the social dancing begins. Mingle, learn together, and enjoy a night of dance — a great way for couples to connect physically and have fun.",
-    "category": "dancing"
-  },
-  {
-    "title": "Comedy & Candles Rooftop Night: Love In The Dark",
+    "title": "Hissy Fit Comedy Night",
     "date": "2026-05-08",
-    "time": "Doors 7:00 PM",
-    "location": "REVERB Hotel Rooftop, Atlanta",
-    "price": "Varies",
-    "description": "Candlelit rooftop comedy experience with craft cocktails and stand-up comedy. A uniquely romantic date night format — intimate vibes, good laughs, and Atlanta's skyline as your backdrop. Book early, this one fills up.",
+    "time": "8:00 PM",
+    "location": "Wild Heaven Beer, Atlanta",
+    "price": "$12",
+    "description": "Atlanta's best comics doing stand-up. Great energy, relaxed vibe — perfect for a couple who likes to laugh together. BYO atmosphere at a brewery.",
     "category": "comedy"
   },
   {
-    "title": "Lila Iké with Special Guests",
-    "date": "2026-05-09",
-    "time": "Doors 7:00 PM / All Ages",
-    "location": "The Loft at The Masquerade, 1374 West Peachtree St NW, Atlanta",
-    "price": "Varies",
-    "description": "Jamaican reggae star Lila Iké brings her captivating voice and modern reggae sound to Atlanta. One of the most talked-about reggae artists today — intimate venue, great energy, perfect for couples who love island music and good vibes.",
-    "category": "reggae"
-  },
-  {
-    "title": "40th Annual Sweet Auburn Springfest",
-    "date": "2026-05-09",
-    "time": "11:00 AM - 9:00 PM (both days)",
-    "location": "Historic Sweet Auburn District, Atlanta",
+    "title": "HELD: Black Women and The Womb Opening",
+    "date": "2026-05-08",
+    "time": "7 PM - 11 PM",
+    "location": "Nina Baldwin Gallery, Atlanta",
     "price": "Free",
-    "description": "Atlanta's largest free multicultural outdoor festival celebrating its 40th anniversary. Live music, diverse food vendors, art, culture, and community. Great for couples who want a full day of exploration — multicultural, lively, and budget-friendly.",
-    "category": "live music"
+    "description": "Powerful opening night celebrating Black women through art. Great conversation starter. Intimate gallery setting ideal for a thoughtful date.",
+    "category": "art"
   },
   {
-    "title": "Helium Comedy Club: Martin Amini",
-    "date": "2026-05-09",
-    "time": "7:00 PM & 9:15 PM shows",
-    "location": "Helium Comedy Club, 1157 Euclid Ave NE, Atlanta",
-    "price": "Varies",
-    "description": "Stand-up comedy with Martin Amini at Atlanta's premier comedy club. Laughter is a proven connection booster — a great date night choice. Multiple shows Saturday so you can pick an early or late slot.",
+    "title": "Ilana Glazer (Broad City) Live",
+    "date": "2026-05-12",
+    "time": "7:00 PM",
+    "location": "Buckhead Theatre, Atlanta",
+    "price": "$$",
+    "description": "Ilana Glazer from Broad City brings her comedy tour to ATL. Hilarious, relatable, and way better than Netflix. Great for couples who share her humor.",
     "category": "comedy"
   },
   {
-    "title": "Friday Jazz at the High Museum",
+    "title": "Sting: 3.0 Tour",
     "date": "2026-05-15",
-    "time": "6:00 PM - 10:00 PM",
-    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta",
-    "price": "$30 general / $10 members",
-    "description": "Live jazz in one of Atlanta's most iconic art museums. This month features Rafael Pereira and friends with two musical areas playing layered improv. Enjoy drinks, light bites, and docent-led gallery tours. Perfect date night — art, music, and atmosphere in one evening.",
-    "category": "live music"
+    "time": "8:00 PM",
+    "location": "Synovus Bank Amphitheater at Chastain Park",
+    "price": "$$$",
+    "description": "Iconic Sting performing his catalog under the stars. Romantic outdoor concert — bring a blanket, pack some wine, make it an evening. Pure date magic.",
+    "category": "music"
   },
   {
-    "title": "Audio Gumbo x Slow Drag",
-    "date": "2026-05-16",
-    "time": "TBD",
-    "location": "Atlanta",
-    "price": "Varies",
-    "description": "A monthly dance party celebrating Black intimacy and culture through 70s slow jams. Uplifting, romantic, and designed for connection. Ideal for couples who want a more soulful, intimate dancing experience rather than a club vibe.",
+    "title": "Breakaway Music Festival",
+    "date": "2026-05-15",
+    "time": "Doors open afternoon",
+    "location": "Center Parc Stadium, Atlanta",
+    "price": "From $149",
+    "description": "Two-day festival with major acts. Great for couples who love music festivals, dancing, and day-drinking vibes. May 15-16.",
+    "category": "music"
+  },
+  {
+    "title": "Don Toliver: Octane Tour",
+    "date": "2026-05-19",
+    "time": "7:30 PM",
+    "location": "State Farm Arena, Atlanta",
+    "price": "$$",
+    "description": "R&B/hip-hop vibes at State Farm Arena. Smooth sounds, great lighting — solid date-night concert option.",
+    "category": "music"
+  },
+  {
+    "title": "Jim Breuer: Find The Funny",
+    "date": "2026-05-17",
+    "time": "8:00 PM",
+    "location": "Buckhead Theatre, Atlanta",
+    "price": "$$",
+    "description": "Legendary comic (SNL, Half Baked) bring his tour to Atlanta. Old-school stand-up, great storytelling — if you like Dave Chappelle, you'll love Breuer.",
+    "category": "comedy"
+  },
+  {
+    "title": "Salsa & Bachata Night (Hangeo Thursdays)",
+    "date": "2026-05-21",
+    "time": "7:00 PM",
+    "location": "290 Hilderbrand Dr, Suite A5, Atlanta",
+    "price": "$$",
+    "description": "Latin dance social — beginners welcome! Salsa and Bachata night. Great way to break a sweat together and learn something new. Perfect for couples.",
     "category": "dancing"
   },
   {
-    "title": "AfroVibez 2026: 5th Annual Africa Day Celebration",
-    "date": "2026-05-17",
-    "time": "TBD",
-    "location": "MOWA, 1705 Commerce Dr NW, Atlanta",
-    "price": "Varies",
-    "description": "Celebrate African heritage at this vibrant event. Dress code: Red, Yellow, or Green — colors representing unity, freedom, and pride. Great cultural date for couples interested in music, food, and African diaspora culture. High energy, great music, beautiful people.",
-    "category": "afrobeat"
-  },
-  {
-    "title": "Unbound Narratives: Embodied Language — Final Weekend",
-    "date": "2026-05-17",
-    "time": "11:00 AM - 5:00 PM (last day)",
-    "location": "Atlanta Contemporary, 724 Peachtree St NE, Atlanta",
-    "price": "Free",
-    "description": "Closing weekend for this powerful group exhibition exploring language, identity, and embodied experience. Featuring work by February James, Bethany Collins, Gabi Madrid, and a'driane nieves. Free admission — a sophisticated, low-cost date idea for art-loving couples.",
-    "category": "art gallery"
-  },
-  {
-    "title": "Green Market at Piedmont Park",
+    "title": "Euro Atlanta: Reggae/Dancehall/Afrobeats Night",
     "date": "2026-05-16",
+    "time": "10:00 PM",
+    "location": "Euro Atlanta",
+    "price": "Free",
+    "description": "Reggae, Dancehall, Afrobeats, and Soca all night. Great dancing, good drinks, island vibes. A fun change of pace from the typical date scene.",
+    "category": "music"
+  },
+  {
+    "title": "Piedmont Park Green Market",
+    "date": "2026-05-09",
     "time": "9:00 AM - 1:00 PM",
     "location": "Piedmont Park, Atlanta",
-    "price": "Free admission",
-    "description": "Atlanta's beloved weekly farmers market running through December. Over 50 vendors with fresh produce, artisan foods, plants, and more. Couples can spend a relaxing morning walking the park, tasting local foods, and picking up fresh ingredients together.",
-    "category": "vegetarian"
+    "price": "Free",
+    "description": "Atlanta's iconic Saturday farmers market. Walk the vendors, grab fresh food, people-watch. Low-key, cute, no pressure — great morning date.",
+    "category": "food"
   },
   {
-    "title": "Reggae Fest Massive ATL",
-    "date": "2026-05-23",
-    "time": "TBD",
-    "location": "State Farm Arena, Atlanta",
-    "price": "Varies",
-    "description": "Major reggae festival featuring Mavado, Busy Signal, Beenie Man, Spice, Elephant Man, Ding Dong, and more. State Farm Arena — a big night out with incredible live performances. One of the premier reggae events of the year in Atlanta.",
-    "category": "reggae"
+    "title": "Spruill Gallery: 'Returns' Exhibition",
+    "date": "2026-05-09",
+    "time": "11:00 AM - 3:00 PM (Wed-Sun)",
+    "location": "Spruill Gallery, Dunwoody",
+    "price": "Free",
+    "description": "Ongoing group exhibition featuring Hamidullah. Gallery is open Wed-Sun. Low-key, cultured date. Walk around, grab coffee after in Dunwoody.",
+    "category": "art"
   },
   {
-    "title": "CARIBBEAN HEAT — Memorial Weekend Day Party",
-    "date": "2026-05-23",
-    "time": "4 PM - 10 PM",
-    "location": "Atlanta (specific venue TBA)",
-    "price": "Varies",
-    "description": "Island vibes day party for Memorial Weekend — Caribbean music, food, and good energy. Outdoor setting, great for couples who want a festive beach-party vibe without leaving Atlanta.",
-    "category": "afrobeat"
+    "title": "Vegan & Friends Weekly Meetup",
+    "date": "2026-05-13",
+    "time": "6:00 PM",
+    "location": "V&F (location TBA), Atlanta",
+    "price": "Free",
+    "description": "Atlanta's weekly vegan community meetup — every Wednesday, free admission. Great for veg-curious couples or plant-based foodies. Food vendors, mingling, good vibes.",
+    "category": "food"
   }
 ]
