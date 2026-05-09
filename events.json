@@ -1,84 +1,12 @@
 [
   {
-    "title": "Hissy Fit Comedy Night",
-    "date": "2026-05-08",
-    "time": "8:00 PM",
-    "location": "Wild Heaven Beer, Atlanta",
-    "price": "$12",
-    "description": "Atlanta's best comics doing stand-up. Great energy, relaxed vibe — perfect for a couple who likes to laugh together. BYO atmosphere at a brewery.",
+    "title": "Best of Atlanta Comedy Showcase",
+    "date": "2026-05-09",
+    "time": "8:00 PM (doors 7:30 PM)",
+    "location": "Laughing Skull Lounge, 878 Peachtree St, Atlanta",
+    "price": "$45-55",
+    "description": "Intimate 74-seat venue inside the iconic Vortex Bar & Grill. The best locally touring and nationally touring comedians doing their best 10-minute sets. Great energy, relaxed vibe — perfect for a couple who loves to laugh together. Seats assigned at door.",
     "category": "comedy"
-  },
-  {
-    "title": "HELD: Black Women and The Womb Opening",
-    "date": "2026-05-08",
-    "time": "7 PM - 11 PM",
-    "location": "Nina Baldwin Gallery, Atlanta",
-    "price": "Free",
-    "description": "Powerful opening night celebrating Black women through art. Great conversation starter. Intimate gallery setting ideal for a thoughtful date.",
-    "category": "art"
-  },
-  {
-    "title": "Ilana Glazer (Broad City) Live",
-    "date": "2026-05-12",
-    "time": "7:00 PM",
-    "location": "Buckhead Theatre, Atlanta",
-    "price": "$$",
-    "description": "Ilana Glazer from Broad City brings her comedy tour to ATL. Hilarious, relatable, and way better than Netflix. Great for couples who share her humor.",
-    "category": "comedy"
-  },
-  {
-    "title": "Sting: 3.0 Tour",
-    "date": "2026-05-15",
-    "time": "8:00 PM",
-    "location": "Synovus Bank Amphitheater at Chastain Park",
-    "price": "$$$",
-    "description": "Iconic Sting performing his catalog under the stars. Romantic outdoor concert — bring a blanket, pack some wine, make it an evening. Pure date magic.",
-    "category": "music"
-  },
-  {
-    "title": "Breakaway Music Festival",
-    "date": "2026-05-15",
-    "time": "Doors open afternoon",
-    "location": "Center Parc Stadium, Atlanta",
-    "price": "From $149",
-    "description": "Two-day festival with major acts. Great for couples who love music festivals, dancing, and day-drinking vibes. May 15-16.",
-    "category": "music"
-  },
-  {
-    "title": "Don Toliver: Octane Tour",
-    "date": "2026-05-19",
-    "time": "7:30 PM",
-    "location": "State Farm Arena, Atlanta",
-    "price": "$$",
-    "description": "R&B/hip-hop vibes at State Farm Arena. Smooth sounds, great lighting — solid date-night concert option.",
-    "category": "music"
-  },
-  {
-    "title": "Jim Breuer: Find The Funny",
-    "date": "2026-05-17",
-    "time": "8:00 PM",
-    "location": "Buckhead Theatre, Atlanta",
-    "price": "$$",
-    "description": "Legendary comic (SNL, Half Baked) bring his tour to Atlanta. Old-school stand-up, great storytelling — if you like Dave Chappelle, you'll love Breuer.",
-    "category": "comedy"
-  },
-  {
-    "title": "Salsa & Bachata Night (Hangeo Thursdays)",
-    "date": "2026-05-21",
-    "time": "7:00 PM",
-    "location": "290 Hilderbrand Dr, Suite A5, Atlanta",
-    "price": "$$",
-    "description": "Latin dance social — beginners welcome! Salsa and Bachata night. Great way to break a sweat together and learn something new. Perfect for couples.",
-    "category": "dancing"
-  },
-  {
-    "title": "Euro Atlanta: Reggae/Dancehall/Afrobeats Night",
-    "date": "2026-05-16",
-    "time": "10:00 PM",
-    "location": "Euro Atlanta",
-    "price": "Free",
-    "description": "Reggae, Dancehall, Afrobeats, and Soca all night. Great dancing, good drinks, island vibes. A fun change of pace from the typical date scene.",
-    "category": "music"
   },
   {
     "title": "Piedmont Park Green Market",
@@ -86,25 +14,106 @@
     "time": "9:00 AM - 1:00 PM",
     "location": "Piedmont Park, Atlanta",
     "price": "Free",
-    "description": "Atlanta's iconic Saturday farmers market. Walk the vendors, grab fresh food, people-watch. Low-key, cute, no pressure — great morning date.",
+    "description": "Atlanta's iconic Saturday farmers market. Walk the vendors, grab fresh food, people-watch. Low-key, cute, no pressure — great morning date. Food trucks, local produce, artisan goods.",
     "category": "food"
+  },
+  {
+    "title": "Atlanta Botanical Garden: Frog Feeding",
+    "date": "2026-05-09",
+    "time": "10:00 AM",
+    "location": "Atlanta Botanical Garden, 1345 Piedmont Ave NE",
+    "price": "Free with garden admission",
+    "description": "Fun, quirky morning activity at the Botanical Garden. Learn about frogs, explore the exhibits — a nice add-on to a morning market stroll in Piedmont Park.",
+    "category": "food"
+  },
+  {
+    "title": "Xscape: The Mother's Day Love Affair",
+    "date": "2026-05-10",
+    "time": "7:30 PM (doors 6:30 PM)",
+    "location": "Fox Theatre, 660 Peachtree St NE, Atlanta",
+    "price": "Varies",
+    "description": "Iconic R&B group Xscape reunites for a Mother's Day concert at the gorgeous Fox Theatre. Great for couples who love 90s R&B — smooth harmonies, nostalgia, and a legendary venue. Book early!",
+    "category": "music"
+  },
+  {
+    "title": "Friday Jazz at the High",
+    "date": "2026-05-15",
+    "time": "6:00 PM - 9:50 PM",
+    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta",
+    "price": "$10 members / $30 non-members",
+    "description": "Live jazz at the High every third Friday. This month features Rafael Pereira and friends on the Sifly Piazza and Orkin Terrace. Enjoy drinks, light bites, docent-led tours, and exploring the galleries. Perfect romantic evening — art, music, wine.",
+    "category": "music"
+  },
+  {
+    "title": "Daft Punk Night",
+    "date": "2026-05-16",
+    "time": "9:00 PM",
+    "location": "Hell at The Masquerade, 695 Crest Ave NE, Atlanta",
+    "price": "$$",
+    "description": "Dance all night to Daft Punk hits, remixes, French house classics, and electronic anthems with immersive visuals. 18+. Masquerade is one of Atlanta's best dance venues — great energy, packed floor, perfect for couples who love to move.",
+    "category": "dancing"
+  },
+  {
+    "title": "Slow Drag — Audio Gumbo x Black Intimacy Dance Party",
+    "date": "2026-05-16",
+    "time": "Evening (TBA)",
+    "location": "Atlanta (Audio Gumbo)",
+    "price": "$$",
+    "description": "Monthly dance party inspiring Black intimacy and celebrating Black culture through 70s slow jams. 'Nothing like it in the city. A vibe!!!!' — loved by attendees. Ideal for couples who want a deeper, more intentional dance experience. Check audio-gumbo.com for details.",
+    "category": "dancing"
+  },
+  {
+    "title": "Cocktails in the Garden",
+    "date": "2026-05-14",
+    "time": "5:00 PM - 9:00 PM",
+    "location": "Atlanta Botanical Garden, 1345 Piedmont Ave NE",
+    "price": "Included with garden admission",
+    "description": "Garden's popular after-hours event — specialty cocktails, live music, explore the Niki in the Garden exhibition dramatically lit at night, Canopy Walk, and the Earth Goddess sculpture. Every Thursday through July 30. Great date vibe — atmospheric, beautiful, not too pricey.",
+    "category": "food"
+  },
+  {
+    "title": "Cocktails in the Garden (Ongoing)",
+    "date": "2026-05-21",
+    "time": "5:00 PM - 9:00 PM",
+    "location": "Atlanta Botanical Garden, 1345 Piedmont Ave NE",
+    "price": "Included with garden admission",
+    "description": "Every Thursday at the Garden — specialty cocktails, live music, explore exhibits at night. Romantic setting, beautiful lights, good food from Longleaf Restaurant. Ongoing through July.",
+    "category": "food"
+  },
+  {
+    "title": "Reggae Fest Massive ATL",
+    "date": "2026-05-23",
+    "time": "8:00 PM (doors 7:00 PM)",
+    "location": "State Farm Arena, 191 Peachtree St NE, Atlanta",
+    "price": "$$$",
+    "description": "Massive reggae/dancehall lineup featuring Mavado, Busy Signal, Beenie Man, Spice, Elephant Man, Ding Dong, Vanessa Bling, Serani, Tony Matterhorn & T.O.K. at State Farm Arena. If you love island music and dancing, this is the event of the month. Big energy, great vibes for couples who love to dance.",
+    "category": "music"
+  },
+  {
+    "title": "HELD: Black Women and The Womb Opening",
+    "date": "2026-05-08",
+    "time": "7 PM - 11 PM",
+    "location": "Nina Baldwin Gallery, Atlanta",
+    "price": "Free",
+    "description": "Powerful opening night celebrating Black women through art. Great conversation starter. Intimate gallery setting — ideal for a thoughtful, cultured date. Don't miss it if you're in Atlanta this weekend.",
+    "category": "art"
   },
   {
     "title": "Spruill Gallery: 'Returns' Exhibition",
     "date": "2026-05-09",
     "time": "11:00 AM - 3:00 PM (Wed-Sun)",
-    "location": "Spruill Gallery, Dunwoody",
+    "location": "Spruill Gallery, 4681 Ashford Dunwoody Rd, Dunwoody",
     "price": "Free",
-    "description": "Ongoing group exhibition featuring Hamidullah. Gallery is open Wed-Sun. Low-key, cultured date. Walk around, grab coffee after in Dunwoody.",
+    "description": "Group exhibition featuring Hamidullah — runs through May at Spruill Gallery. Wed-Sun, 11-3. Low-key, cultured date. Walk around, grab coffee after in Dunwoody. Great way to spend an afternoon together.",
     "category": "art"
   },
   {
-    "title": "Vegan & Friends Weekly Meetup",
-    "date": "2026-05-13",
-    "time": "6:00 PM",
-    "location": "V&F (location TBA), Atlanta",
-    "price": "Free",
-    "description": "Atlanta's weekly vegan community meetup — every Wednesday, free admission. Great for veg-curious couples or plant-based foodies. Food vendors, mingling, good vibes.",
-    "category": "food"
+    "title": "Salsa & Bachata Night — Hangeo Thursdays",
+    "date": "2026-05-21",
+    "time": "7:00 PM",
+    "location": "290 Hilderbrand Dr, Suite A5, Atlanta",
+    "price": "$$",
+    "description": "Latin dance social — beginners welcome! Salsa and Bachata night. Great way to break a sweat together and learn something new. Perfect for couples who want to get active and learn to dance. Every Thursday.",
+    "category": "dancing"
   }
 ]
