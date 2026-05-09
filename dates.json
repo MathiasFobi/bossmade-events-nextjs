@@ -1,32 +1,32 @@
 [
   {
-    "emoji": "🪩",
-    "category": "dancing",
-    "title": "Soca De Mayo Festival — Rum Punch Brunch",
-    "description": "Soca music, Caribbean vibes, dancing, and rum punch — all afternoon. Morris Brown College hosts Atlanta's hottest pre-summer festival. Doors open 4 PM, live sets run through 11 PM. Outdoor stage, food vendors, cocktails. High-energy dancing vibe, great way to end the week and start the weekend. Bring dancing shoes.",
-    "budget": "$25–$45 per person",
-    "location": "Morris Brown College, 660 Campus View Ave NW, Atlanta — Sat May 2, 4 PM–11 PM",
-    "vibe": "Caribbean, high-energy, festival — for couples who want to move and groove",
-    "validUntil": "2026-05-03"
-  },
-  {
     "emoji": "🎨",
     "category": "art",
-    "title": "WigWag Art & Music Fest — Avondale Estates",
-    "description": "A full-day art and music festival just 15 min east of Atlanta. Local artists, live bands, food trucks, maker vendors. 11 AM–9 PM in the heart of Avondale Estates. Perfect for a daytime stroll through art + an evening of live music. Free to attend, food/art purchases extra. Dog-friendly. A super well-rounded date that hits art, music, and good food.",
-    "budget": "Free to attend, $10–$30 for food/art",
-    "location": "Washington St, Avondale Estates, GA — Sat May 2, 11 AM–9 PM",
-    "vibe": "Outdoorsy, artsy, community — great for a chill daytime walk turning into live music evening",
-    "validUntil": "2026-05-03"
+    "title": "Chastain Park Spring Arts Festival",
+    "description": "Annual outdoor arts & craft festival with 200+ vendors — paintings, ceramics, jewelry, photography, live demos. It's Mother's Day weekend so it's extra lively. Free to walk the grounds, food trucks on site. Arrive anytime between 10 AM–5 PM, plan 3–4 hours to really browse and soak it in. Great people-watching and easy conversation-starter energy.",
+    "budget": "Free to attend, $10–$40 for art/food purchases",
+    "location": "Chastain Park, 4465 Stella Dr NW, Atlanta — Sat May 9, 10 AM–6 PM",
+    "vibe": "Outdoorsy, artistic, relaxed — excellent for couples who enjoy walking and browsing together",
+    "validUntil": "2026-05-10"
   },
   {
-    "emoji": "🍄",
+    "emoji": "😂",
+    "category": "comedy",
+    "title": "Best of Atlanta Comedy Showcase — Laughing Skull Lounge",
+    "description": "Top local Atlanta comedians in a tight 75-minute showcase. Intimate venue, 21+ crowd, full bar. Perfect for a fun night out — laughter is basically a bonding exercise. Shows at 8 PM (doors 7:30), easy to pair with a late dinner nearby in Virginia-Highland after.",
+    "budget": "$15–$25 per person",
+    "location": "Laughing Skull Lounge, 878 Virginia Ave NE, Atlanta — Sat May 9, 8 PM",
+    "vibe": "Fun, intimate, high-energy laugh — great second-half date move",
+    "validUntil": "2026-05-10"
+  },
+  {
+    "emoji": "🌿",
     "category": "vegetarian",
-    "title": "Atlanta Mushroom Market — Wild Heaven Beer",
-    "description": "Atlanta's monthly specialty mushroom and local food market. Vendors from across the Southeast, local mushrooms, artisan goods, and Wild Heaven Beer on tap. Noon–7 PM. Bring a tote bag and graze your way through — vegetarian and local-food heaven. After, grab a pint at Wild Heaven's beautiful taproom. Free entry.",
-    "budget": "Free to attend, $15–$40 for purchases + $6 pints",
-    "location": "Wild Heaven Beer, 1200 Innovation Dr, Decatur — Sun May 3, 12–7 PM",
-    "vibe": "Local food, community market, relaxed afternoon — perfect low-key date for foodies",
-    "validUntil": "2026-05-03"
+    "title": "Dinner at La Semilla + Evening Stroll in O4W",
+    "description": "Atlanta's most beloved vegetarian/Latin fusion spot — try the arepas, plantain bowls, and whatever's seasonal. Reservations recommended for Saturday dinner. After, walk the BeltLine fromoire Memorial Dr through the Eastside Trail — murals, street art, string lights, and good people energy. Ends near Krog Street Market if you want a nightcap or dessert. Full afternoon-to-evening date that doesn't feel like you're doing one thing.",
+    "budget": "$40–$65 per person for dinner, BeltLine is free to walk",
+    "location": "La Semilla, 780 Memorial Dr SE, Atlanta — Sat May 9, dinner from 6 PM; BeltLine after",
+    "vibe": "Foodie, walkable, creative neighborhood — great for couples who love food and exploring",
+    "validUntil": "2026-05-10"
   }
 ]
