@@ -1,8 +1,8 @@
 {
-  "title": "Atlanta Events for Couples",
-  "description": "Upcoming events in Atlanta perfect for couples — live music, reggae/Afrobeat, art galleries, vegetarian food events, comedy shows, dancing, and date ideas.",
-  "generated": "2026-05-23T14:00:00Z",
-  "focus": ["live music", "Afrobeat/reggae", "art galleries", "vegetarian food events", "comedy shows", "dancing", "fun date ideas"],
+  "title": "Atlanta Date Ideas for Couples",
+  "description": "Curated date ideas in Atlanta — live music, art, vegetarian food, dancing, comedy, and more. Updated weekly.",
+  "generated": "2026-05-23T23:33:00Z",
+  "focus": ["live music", "art galleries", "vegetarian food", "salsa dancing", "comedy shows", "cooking classes"],
   "timezone": "America/New_York",
-  "events_count": 20
+  "eventCount": 3
 }

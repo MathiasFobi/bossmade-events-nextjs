@@ -1,32 +1,32 @@
 [
   {
-    "emoji": "💃",
-    "category": "dancing",
-    "title": "Audio Gumbo x Slow Drag — Monthly Dance Party",
-    "description": "A monthly dance party celebrating Black culture through 70s slow jams and deep cuts. Intimate, curated vibe — exactly the kind of date where you end up closer than you planned. Atlanta-based event, tickets usually $20–$35. Arrive ready to dance (and hold each other). Doors open at 9 PM, goes until 2 AM. This month's edition is Sat May 16.",
-    "budget": "$20–$35 per person",
-    "location": "Atlanta — see audio-gumbo.com for exact venue and ticket link",
-    "vibe": "Romantic, groovy, Black intimacy energy — slow jams meet good company",
-    "validUntil": "2026-05-17"
-  },
-  {
-    "emoji": "🍷",
-    "category": "food",
-    "title": "Elevated Food & Wine Festival (ATL) at Atlantucky Brewing",
-    "description": "4th annual food, beverage, and specialty products festival at Atlantucky Brewing. Live music, great food vendors, and a relaxed outdoor vibe. Sat May 16 only. Free to attend with purchase. Great for couples who want to graze, sip, and explore together. Arrive afternoon between 2–6 PM to enjoy the full spread.",
-    "budget": "Free entry; food + drinks $15–$40 per person",
-    "location": "Atlantucky Brewing, Atlanta — Sat May 16",
-    "vibe": "Laid-back, foodie, outdoor — easy conversation and lots to explore",
-    "validUntil": "2026-05-17"
-  },
-  {
-    "emoji": "🎶",
+    "emoji": "🎵",
     "category": "live music",
-    "title": "Uptown Market Atlanta — Live Music, Food & Crafts",
-    "description": "Weekend market with live music, DJs, 50+ food and craft vendors, and free admission. Running every Saturday and Sunday through November. Arrive at 11 AM, grab coffee and a pastry, stroll through the vendors, catch some live tunes. Kid-friendly but perfect for a relaxed adult date too. Ends at 9 PM — ideal for an afternoon-to-early-evening outing.",
-    "budget": "Free entry; food/music donations appreciated ($5–$20 suggested)",
-    "location": "Uptown Market Atlanta — Sat May 16 & Sun May 17, 11 AM–9 PM",
-    "vibe": "Festive, outdoor, community energy — low-key and easy-going",
-    "validUntil": "2026-05-17"
+    "title": "Raury & Tray Wellington — Live at Eddie's Attic",
+    "description": "Genre-blending indie soul/folk at Eddie's Attic, Decatur. Raury is a Grammy-nominated Atlanta artist known for blending hip-hop, soul, and folk influences. Tray Wellington brings jazz andexperimental fire. Great lineup for a date — intimate room, serious artists, and Decatur's walkable brewery scene nearby for before/after. Saturday May 23, show starts 8 PM.",
+    "budget": "$25–$35 per person",
+    "location": "Eddie's Attic, 515-B E Howard Ave, Decatur, GA",
+    "vibe": "Intimate, soulful, creative — perfect for music lovers who want a real performance",
+    "validUntil": "2026-05-24"
+  },
+  {
+    "emoji": "🎨",
+    "category": "art",
+    "title": "Amy Sherald: American Sublime — High Museum of Art",
+    "description": "Amy Sherald's largest exhibition ever — the Baltimore-born, Atlanta-based painter known for her luminous portraits of everyday Black life. 'American Sublime' features 50+ works spanning her entire career. Dress code: casual cool. Walk the exhibit together, grab coffee at the museum café, then wander the Peckitt Corner galleries nearby. Runs through August so it's flexible, but this weekend is prime.",
+    "budget": "$18–$25 per person (museum admission)",
+    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta",
+    "vibe": "Sophisticated, thought-provoking, conversation-starting — great for first dates or regular date nights",
+    "validUntil": "2026-05-24"
+  },
+  {
+    "emoji": "🌿",
+    "category": "vegetarian food",
+    "title": "Life Bistro Vegan Brunch — Best Plant-Based in ATL",
+    "description": "Atlanta's top-rated vegan brunch spot. Their Chick'n & Waffles (spelt waffle + fried portobello) and the brunch bowls are legendary. Weekend hours 11 AM–3 PM. Go Saturday or Sunday around noon — the vibe is relaxed, the food is consistently great, and the portions are shareable. Lots of outdoor seating options nearby if you want to make a whole afternoon of it.",
+    "budget": "$25–$40 per person",
+    "location": "Life Bistro, 5496 Bullsboro Dr #10, Atlanta (Powers Ferry area)",
+    "vibe": "Fresh, relaxed, health-conscious — for couples who love good food without the meat默认",
+    "validUntil": "2026-05-24"
   }
 ]
