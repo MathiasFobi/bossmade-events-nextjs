@@ -1,182 +1,83 @@
 [
   {
-    "title": "Atlanta Jazz Festival",
-    "date": "2026-05-23",
-    "time": "12:00 PM – 10:00 PM",
-    "location": "Piedmont Park, Atlanta",
-    "price": "FREE",
-    "description": "49th annual free jazz festival in Piedmont Park featuring Christian McBride and Ursa Major. Three days of world-class jazz, food vendors, and a fantastic outdoor atmosphere perfect for a picnic date.",
-    "category": "live music"
-  },
-  {
-    "title": "Atlanta Jazz Festival Day 2",
-    "date": "2026-05-24",
-    "time": "12:00 PM – 10:00 PM",
-    "location": "Piedmont Park, Atlanta",
-    "price": "FREE",
-    "description": "Memorial Day weekend jazz festival continuation. Bring a blanket, pack some snacks, and enjoy live jazz under the open sky. One of Atlanta's most beloved annual traditions.",
-    "category": "live music"
-  },
-  {
-    "title": "Atlanta Jazz Festival Day 3",
-    "date": "2026-05-25",
-    "time": "12:00 PM – 8:00 PM",
-    "location": "Piedmont Park, Atlanta",
-    "price": "FREE",
-    "description": "Final day of the 49th Annual Atlanta Jazz Festival. The perfect low-pressure, high-vibe date — free admission, great music, and beautiful park setting.",
-    "category": "live music"
-  },
-  {
-    "title": "Virginia Highland Farmers Market",
-    "date": "2026-05-24",
-    "time": "8:30 AM – 12:00 PM",
-    "location": "Highland Woodworking, 1045 North Highland Ave NE, Atlanta",
-    "price": "Free admission",
-    "description": "A charming Sunday morning market in the heart of Virginia Highland. Browse fresh produce, artisanal goods, and support local vendors together. Great way to start a relaxed weekend date.",
-    "category": "vegetarian food events"
-  },
-  {
-    "title": "Poetic Jazz: A Jazzy Artist Talk",
-    "date": "2026-05-26",
-    "time": "8:00 PM – 10:00 PM",
-    "location": "Buckhead Art & Company, Atlanta",
-    "price": "Varies",
-    "description": "Conversation and culture collide at this intimate jazz event. Features live jazz paired with artist discussion — intellectual and soothing. Perfect for couples who love art and music.",
-    "category": "live music"
-  },
-  {
-    "title": "Marcus D. Wiley – Helium Comedy Club",
-    "date": "2026-05-29",
-    "time": "7:00 PM",
-    "location": "Helium Comedy Club, Atlanta",
-    "price": "$20–$35",
-    "description": "Hilarious stand-up from Marcus D. Wiley. Comedy clubs make fantastic date nights — shared laughter builds connection, plus there's a full bar and food menu.",
-    "category": "comedy shows"
-  },
-  {
-    "title": "Marcus D. Wiley – Helium Comedy Club (Late Show)",
+    "title": "Marcus D. Wiley Comedy Show",
     "date": "2026-05-30",
     "time": "6:00 PM",
-    "location": "Helium Comedy Club, Atlanta",
-    "price": "$20–$35",
-    "description": "Saturday night comedy show at Helium. Great energy, solid drinks, and guaranteed laughs. One of Atlanta's best date night options.",
-    "category": "comedy shows"
+    "location": "Helium Comedy Club, 1157 Euclid Ave NE, Atlanta, GA 30307",
+    "price": "~$35-45",
+    "description": "Marcus D. Wiley brings his hilarious stand-up to Atlanta for a perfect date night out. Known for his clean yet side-splitting humor, Marcus has been making audiences laugh for over 20 years. Great energy, relatable stories, and an unforgettable night.",
+    "category": "comedy"
   },
   {
-    "title": "Casita Nights – Salsa & Bachata Social",
-    "date": "2026-05-29",
-    "time": "8:00 PM – 1:00 AM",
-    "location": "1180 McKendree Church Rd, Lawrenceville",
-    "price": "Varies",
-    "description": "A fun, welcoming salsa and bachata social night in Lawrenceville. No partner needed — it's a friendly crowd. Dance the night away together! Great for couples who want to move and have fun.",
-    "category": "dancing"
+    "title": "Standups & Startups – ATL June Edition",
+    "date": "2026-06-04",
+    "time": "6:00 PM - 8:00 PM",
+    "location": "Siemens Energy Innovation Center, 500 10th St NW, Atlanta, GA 30318",
+    "price": "Free",
+    "description": "Atlanta's startup community's favorite comedy night is back! Enjoy hilarious stand-up while networking with Atlanta's innovation scene. Full bar available, casual vibe — perfect for a fun and different date night that keeps the conversation flowing.",
+    "category": "comedy"
   },
   {
-    "title": "Like Glue Fridays – Reggae, Afrobeat & Dancehall",
-    "date": "2026-05-29",
-    "time": "10:00 PM – 2:00 AM",
-    "location": "Suite Lounge, 375 Luckie St NW, Atlanta",
-    "price": "$10–$20",
-    "description": "Atlanta's premier weekly international music night featuring reggae, soca, Afrobeat, and dancehall. New dance floor, great vibes, and a fun crowd. A very date-worthy night out for couples who love to dance.",
-    "category": "Afrobeat/reggae"
-  },
-  {
-    "title": "Latin Vibes – Tago Life Center",
-    "date": "2026-06-03",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "Tago Life Center, Atlanta",
-    "price": "Varies",
-    "description": "Feel the heat and move your feet at Tropical Latin Night. Passport to sizzling rhythms and vibrant energy with non-stop dancing. Great date energy with food and drink available.",
-    "category": "dancing"
-  },
-  {
-    "title": "Jess Hilarious – Helium Comedy Club",
+    "title": "Afro Beat & Caribbean Vibes Night",
     "date": "2026-06-05",
-    "time": "7:00 PM",
-    "location": "Helium Comedy Club, Atlanta",
-    "price": "$25–$40",
-    "description": "Comedian Jess Hilarious brings her high-energy humor to Atlanta. Friday night show = perfect date night setup. Helium has great seating and a solid dinner menu.",
-    "category": "comedy shows"
+    "time": "6:00 PM - 10:00 PM",
+    "location": "Tago Life Center, 892 Jefferson St NW, Atlanta, GA 30318",
+    "price": "$10",
+    "description": "Dance the night away with infectious Afrobeat and Caribbean rhythms! Tropical Vibes Night brings the best island energy to Midtown Atlanta. Great vibes, positive people, and non-stop dancing — ideal for couples who love to move together.",
+    "category": "afrobeat"
   },
   {
-    "title": "Jess Hilarious – Helium Comedy Club (Saturday Show)",
+    "title": "Jess Hilarious Live Comedy",
     "date": "2026-06-06",
     "time": "7:00 PM",
-    "location": "Helium Comedy Club, Atlanta",
-    "price": "$25–$40",
-    "description": "Saturday night show with Jess Hilarious. Back-to-back weekend shows. A comedy date is always a winner — share some nachos and laugh together.",
-    "category": "comedy shows"
+    "location": "Helium Comedy Club, 1157 Euclid Ave NE, Atlanta, GA 30307",
+    "price": "~$50/person (Couple's Package: $90 + credit)",
+    "description": "Comedian and The Breakfast Club co-host Jess Hilarious hits the stage for an unforgettable night of laughs! The Couple's Package includes premium seats and a $45 food/beverage credit per person. Perfect for a memorable date night.",
+    "category": "comedy"
   },
   {
-    "title": "AFRO BEAT & Caribbean Vibes – Tago Life Center",
-    "date": "2026-06-05",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "Tago Life Center, Atlanta",
-    "price": "Varies",
-    "description": "Tropical Vibes Night brings the best of Afrobeat and Caribbean music together. Indoor venue with a great dance floor, food, and drinks. Perfect for couples who love rhythm.",
-    "category": "Afrobeat/reggae"
+    "title": "Lines of Play – Soccer-Inspired Group Art Exhibition",
+    "date": "2026-06-06",
+    "time": "6:00 PM - 10:00 PM",
+    "location": "ABV Gallery, 1206 Metropolitan Ave SE, Atlanta, GA 30316",
+    "price": "Free",
+    "description": "30+ local and international artists explore soccer's energy, movement, and cultural impact in a stunning historic church venue in East Atlanta Village. A sophisticated yet fun free date idea — walk through, grab a drink, and discover amazing art together.",
+    "category": "art"
   },
   {
-    "title": "Friday Jazz – High Museum of Art",
-    "date": "2026-06-19",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta",
-    "price": "Members $40 / Not-Yet-Members $55",
-    "description": "Live jazz at the High Museum every third Friday — art, music, and cocktails in one of Atlanta's most beautiful venues. VIP option includes exclusive access to the Amy Sherald exhibition. Very civilized date night.",
-    "category": "live music"
+    "title": "Smooth Jazz Nights with Milkshake Mayfield",
+    "date": "2026-06-02",
+    "time": "6:30 PM - 9:30 PM",
+    "location": "Louisiana Bistreaux Buckhead, 3312 Piedmont Rd NE, Atlanta, GA 30305",
+    "price": "No cover (food/drinks separate)",
+    "description": "World-renowned trumpeter Milkshake Mayfield and The Milkshake Quintet bring smooth jazz to Buckhead every Tuesday. Sultry, soulful, and sophisticated — this is date night done right. Reserve a table for a cozy evening of live music and elevated dining.",
+    "category": "live-music"
   },
   {
-    "title": "Salsa Social – Callanwolde Fine Arts Center",
-    "date": "2026-06-12",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "Callanwolde Fine Arts Center, Atlanta",
-    "price": "Varies",
-    "description": "A night of Cuban music and dancing at the historic Callanwolde mansion. One of Atlanta's most romantic dance venues. Beginner-friendly atmosphere with a welcoming crowd.",
-    "category": "dancing"
-  },
-  {
-    "title": "Roots + Remix – Juneteenth Experience",
-    "date": "2026-06-19",
-    "time": "6:00 PM – 11:00 PM",
-    "location": "253 Peters St SW, Atlanta",
-    "price": "Varies",
-    "description": "A Juneteenth celebration of design, identity, and sound presented by Spread Love and African Ancestry. Live music, art, culture, and community — a meaningful and vibrant date experience.",
-    "category": "live music"
-  },
-  {
-    "title": "Afropiano Kingdom – Underground Atlanta",
-    "date": "2026-06-20",
-    "time": "2:00 PM – 10:00 PM",
-    "location": "Underground Atlanta",
-    "price": "Varies",
-    "description": "Two-day Afropiano experience in the heart of Underground Atlanta. Dance to the rhythms of amapiano, Afrobeat, and more. Great energy, outdoor setting, and perfect summer vibes.",
-    "category": "Afrobeat/reggae"
-  },
-  {
-    "title": "Reggae on the Rooftop Festival – Juneteenth Weekend",
-    "date": "2026-06-20",
-    "time": "3:00 PM – 9:00 PM",
-    "location": "TBA, Atlanta",
-    "price": "Varies",
-    "description": "Rooftop reggae festival for Juneteenth weekend. Kick back with good vibes, tropical drinks, and reggae music under the Atlanta sky. A unique and memorable date experience.",
-    "category": "Afrobeat/reggae"
-  },
-  {
-    "title": "Steph Tolev – Helium Comedy Club",
+    "title": "Steph Tolev Live Comedy",
     "date": "2026-06-12",
     "time": "7:00 PM",
-    "location": "Helium Comedy Club, Atlanta",
-    "price": "$20–$35",
-    "description": "Steph Tolev brings her sharp, fun energy to Helium. Friday night show at one of Atlanta's best comedy venues. Great drinks, good food, and a solid laugh — reliable date night pick.",
-    "category": "comedy shows"
+    "location": "Helium Comedy Club, 1157 Euclid Ave NE, Atlanta, GA 30307",
+    "price": "~$35-45",
+    "description": "Award-winning comedian Steph Tolev brings her unique energy to Atlanta for a must-see show. Known from The D-List and Netflix specials. Another great comedy date night option at one of the city's best comedy venues.",
+    "category": "comedy"
   },
   {
-    "title": "Amy Sherald: American Sublime – High Museum of Art",
-    "date": "2026-05-26",
-    "time": "10:00 AM – 5:00 PM",
-    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta",
-    "price": "Members free / General Admission $28.50",
-    "description": "The most comprehensive exhibition to date for Georgia native Amy Sherald, now at the High Museum of Art for its final stop on a national tour. Stunning portraits that explore identity and American life. Perfect cultured date afternoon.",
-    "category": "art galleries"
+    "title": "KOKOROKO Live at Buckhead Theatre",
+    "date": "2026-06-11",
+    "time": "8:00 PM",
+    "location": "Buckhead Theatre, 3110 Roswell Rd NE, Atlanta, GA 30305",
+    "price": "Tickets from ~$40",
+    "description": "London's Afrobeat sensation KOKOROKO brings their global sound to Atlanta! Gritty, soulful, and powerful — their music blends West African highlife, jazz, and funk. A phenomenal live music date night experience for couples who appreciate real musicianship.",
+    "category": "afrobeat"
+  },
+  {
+    "title": "Hawt Sauce! Queer Dance Party",
+    "date": "2026-06-26",
+    "time": "9:00 PM - 3:00 AM",
+    "location": "Aisle 5, 1123 Euclid Ave NE, Atlanta, GA 30307",
+    "price": "TBA",
+    "description": "Atlanta's legendary queer dance party returns! High-energy dance floor, incredible DJs, and one of the most inclusive and fun party scenes in the city. A great couples' night out if you want something bold, vibrant, and outside the box.",
+    "category": "dancing"
   }
 ]
