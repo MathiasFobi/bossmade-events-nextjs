@@ -2,31 +2,31 @@
   {
     "emoji": "🎵",
     "category": "live music",
-    "title": "Raury & Tray Wellington — Live at Eddie's Attic",
-    "description": "Genre-blending indie soul/folk at Eddie's Attic, Decatur. Raury is a Grammy-nominated Atlanta artist known for blending hip-hop, soul, and folk influences. Tray Wellington brings jazz andexperimental fire. Great lineup for a date — intimate room, serious artists, and Decatur's walkable brewery scene nearby for before/after. Saturday May 23, show starts 8 PM.",
-    "budget": "$25–$35 per person",
-    "location": "Eddie's Attic, 515-B E Howard Ave, Decatur, GA",
-    "vibe": "Intimate, soulful, creative — perfect for music lovers who want a real performance",
-    "validUntil": "2026-05-24"
+    "title": "Mary J. Blige & Lauryn Hill Tribute — The Betty Atlanta",
+    "description": "Atlanta pays tribute to two R&B icons. Doors at 7 PM, show at 8 PM Sunday May 31. Three-hour live music experience featuring performances celebrating Mary J. Blige and Lauryn Hill's greatest hits. Dress to impress — The Betty is a stylish Buckhead venue.",
+    "budget": "$25–$45 per person",
+    "location": "The Betty, 374 East Paces Ferry Rd NE, Atlanta, GA 30305",
+    "vibe": "Soulful, energetic, nostalgic — perfect for R&B lovers who want to dance and sing along",
+    "validUntil": "2026-06-01"
+  },
+  {
+    "emoji": "🌙",
+    "category": "dancing",
+    "title": "Full Moon Rooftop Party — St. Julep, Atlanta",
+    "description": "Dance under the May 31st full moon at St. Julep's rooftop bar in Atlanta. The event runs 7–11 PM with live DJs, craft cocktails, and skyline views. Outdoor space makes it ideal for warmer nights. Goes until midnight — a great Sunday night date to end the weekend.",
+    "budget": "$15–$30 per person (drinks extra)",
+    "location": "St. Julep, 1411 E Broadway Ave, Atlanta, GA 30306",
+    "vibe": "Chill, romantic rooftop vibes — great for couples who love dancing and open-air settings",
+    "validUntil": "2026-06-01"
   },
   {
     "emoji": "🎨",
     "category": "art",
     "title": "Amy Sherald: American Sublime — High Museum of Art",
-    "description": "Amy Sherald's largest exhibition ever — the Baltimore-born, Atlanta-based painter known for her luminous portraits of everyday Black life. 'American Sublime' features 50+ works spanning her entire career. Dress code: casual cool. Walk the exhibit together, grab coffee at the museum café, then wander the Peckitt Corner galleries nearby. Runs through August so it's flexible, but this weekend is prime.",
-    "budget": "$18–$25 per person (museum admission)",
-    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta",
-    "vibe": "Sophisticated, thought-provoking, conversation-starting — great for first dates or regular date nights",
-    "validUntil": "2026-05-24"
-  },
-  {
-    "emoji": "🌿",
-    "category": "vegetarian food",
-    "title": "Life Bistro Vegan Brunch — Best Plant-Based in ATL",
-    "description": "Atlanta's top-rated vegan brunch spot. Their Chick'n & Waffles (spelt waffle + fried portobello) and the brunch bowls are legendary. Weekend hours 11 AM–3 PM. Go Saturday or Sunday around noon — the vibe is relaxed, the food is consistently great, and the portions are shareable. Lots of outdoor seating options nearby if you want to make a whole afternoon of it.",
-    "budget": "$25–$40 per person",
-    "location": "Life Bistro, 5496 Bullsboro Dr #10, Atlanta (Powers Ferry area)",
-    "vibe": "Fresh, relaxed, health-conscious — for couples who love good food without the meat默认",
-    "validUntil": "2026-05-24"
+    "description": "The largest exhibition ever from the Baltimore-born, Atlanta-based painter known for her luminous portraits of everyday Black life. 50+ works spanning her entire career. Runs through August so this weekend is the moment. Dress casual cool, walk the Peckitt Corner galleries after, grab coffee at the museum café.",
+    "budget": "$18–$25 per person",
+    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta, GA 30309",
+    "vibe": "Sophisticated, thought-provoking, conversation-starting — ideal for a daytime Saturday date",
+    "validUntil": "2026-06-01"
   }
 ]
