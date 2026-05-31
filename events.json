@@ -1,12 +1,12 @@
 [
   {
-    "title": "Rahsaan Patterson at City Winery Atlanta",
-    "date": "2026-05-30",
+    "title": "The Veggie Tales Drag Cabaret",
+    "date": "2026-06-02",
     "time": "7:00 PM",
-    "location": "City Winery Atlanta, 987 City Parkside Dr NE",
-    "price": "$$",
-    "description": "Neo-soul singer Rahsaan Patterson brings smooth vocals and romantic energy to City Winery. Perfect for couples who love intimate R&B vibes. Wine pairings available. Doors open early for pre-show drinks.",
-    "category": "live-music"
+    "location": "Lore, 466B Edgewood Ave SE, Atlanta, GA 30312",
+    "price": "$",
+    "description": "A playful drag cabaret night where vegetables meet performance art. Expect creative outfits, bold numbers, and a fun-loving crowd. Fun, eclectic date idea for couples who enjoy quirky entertainment and vibrant atmosphere.",
+    "category": "vegetarian-food"
   },
   {
     "title": "Latin Vibes at Tago Life Center",
@@ -95,7 +95,7 @@
     "time": "6:00 PM - 9:00 PM",
     "location": "Marcia Wood Gallery, Atlanta",
     "price": "Free",
-    "description": "Exclusive gallery opening featuring the work of Susan Ker-Seymer. Elegant, intimate atmosphere perfect for art-loving couples. Wine served, great conversation-starter. One of Atlanta's premier contemporary galleries.",
+    "description": "Exclusive gallery opening featuring the work of Susan Ker-Seymer. Elegant, intimate atmosphere perfect for art-loving couples. Wine served, great conversation-starter.",
     "category": "art-gallery"
   },
   {
@@ -108,7 +108,7 @@
     "category": "comedy"
   },
   {
-    "title": "Amplify Decatur Festival - Sunday",
+    "title": "Amplify Decatur Festival - Final Day",
     "date": "2026-06-07",
     "time": "Various",
     "location": "Decatur Square, Atlanta",
@@ -117,21 +117,39 @@
     "category": "live-music"
   },
   {
+    "title": "Love and Music - Atlanta!",
+    "date": "2026-06-13",
+    "time": "7:30 PM - 9:30 PM",
+    "location": "Rehearse Live, LLC, Atlanta",
+    "price": "$$",
+    "description": "Romantic piano concert immersion following a VIP cocktail hour. Perfect date night for couples — intimate setting, beautiful live music, and sophisticated atmosphere. Door opens at 7:30pm for the VIP cocktail hour.",
+    "category": "live-music"
+  },
+  {
+    "title": "Artful ATL",
+    "date": "2026-06-13",
+    "time": "6:00 PM - 10:00 PM",
+    "location": "Atlanta Contemporary, Atlanta",
+    "price": "Free",
+    "description": "Creating and curating space and community for emerging artists, emerging collectors, and art enthusiasts. Great cultural date night — explore incredible art, enjoy the gallery atmosphere, and support Atlanta's creative community.",
+    "category": "art-gallery"
+  },
+  {
     "title": "Queer Games: A Videogame Exhibition",
-    "date": "2026-06-12",
+    "date": "2026-06-13",
     "time": "6:00 PM - 10:00 PM",
     "location": "638 N Highland Ave NE, Atlanta",
     "price": "Free",
-    "description": "A unique exhibition showcasing videogames as art — interactive, creative, and thought-provoking. Perfect playful date idea for couples who love gaming, design, or pop culture. Runs through June 14.",
+    "description": "A unique exhibition showcasing videogames as art — interactive, creative, and thought-provoking. Perfect playful date idea for couples who love gaming, design, or pop culture.",
     "category": "art-gallery"
   },
   {
     "title": "Steph Tolev at Helium Comedy Club",
-    "date": "2026-06-12",
+    "date": "2026-06-13",
     "time": "7:00 PM",
     "location": "Helium Comedy Club, 1157 Powers Ferry Rd SE, Marietta",
     "price": "$$",
-    "description": "Award-winning comedian Steph Tolev brings her bold, high-energy standup to Atlanta. Great couples' night out — drink, laugh, and enjoy the intimate club atmosphere. Shows through June 13.",
+    "description": "Award-winning comedian Steph Tolev brings her bold, high-energy standup to Atlanta. Great couples' night out — drink, laugh, and enjoy the intimate club atmosphere.",
     "category": "comedy"
   }
 ]
