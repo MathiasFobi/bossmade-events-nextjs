@@ -1,12 +1,21 @@
 [
   {
-    "title": "The Veggie Tales Drag Cabaret",
+    "title": "Jazz on the Rooftop",
     "date": "2026-06-02",
-    "time": "7:00 PM",
-    "location": "Lore, 466B Edgewood Ave SE, Atlanta, GA 30312",
-    "price": "$",
-    "description": "A playful drag cabaret night where vegetables meet performance art. Expect creative outfits, bold numbers, and a fun-loving crowd. Fun, eclectic date idea for couples who enjoy quirky entertainment and vibrant atmosphere.",
-    "category": "vegetarian-food"
+    "time": "7:00 PM - 10:00 PM",
+    "location": "Virtue Rooftop, 5Church Midtown, Atlanta",
+    "price": "$$",
+    "description": "Weekly Tuesday night jazz overlooking Midtown's skyline. Perfect for sophisticated date night — sip cocktails, enjoy live music, and take in stunning views. Great atmosphere for conversation.",
+    "category": "live-music"
+  },
+  {
+    "title": "Is This Going To Cause An Argument - Marcus & Angel",
+    "date": "2026-06-03",
+    "time": "8:00 PM",
+    "location": "City Winery Atlanta, 650 North Ave NE",
+    "price": "$$$",
+    "description": "Comedy duo Marcus and Angel bring hilarious relational comedy to City Winery's intimate venue. Perfect for couples — you'll laugh, relate, and maybe settle a few arguments together. Wine and food available.",
+    "category": "comedy"
   },
   {
     "title": "Latin Vibes at Tago Life Center",
@@ -18,24 +27,6 @@
     "category": "dancing"
   },
   {
-    "title": "Mark Paul at Helium Comedy Club",
-    "date": "2026-06-04",
-    "time": "7:00 PM",
-    "location": "Helium Comedy Club, 1157 Powers Ferry Rd SE, Marietta",
-    "price": "$$",
-    "description": "Renowned comedian and social media personality Mark Paul brings his sharp wit. Hilarious, high-energy standup perfect for couples who laugh together. Full bar, great date night vibes.",
-    "category": "comedy"
-  },
-  {
-    "title": "Resurgence: The Rise of Atlanta on the Global Stage",
-    "date": "2026-06-04",
-    "time": "5:30 PM - 8:30 PM",
-    "location": "Atlanta Tech Village - Sylvan",
-    "price": "Free",
-    "description": "An exhibit celebrating Atlanta's emergence as a global hub — tech, culture, and creativity. Great cultural date idea. Wine and bites provided. Conversation-starting art and installations.",
-    "category": "art-gallery"
-  },
-  {
     "title": "Amplify Decatur Festival",
     "date": "2026-06-04",
     "time": "Various",
@@ -43,6 +34,15 @@
     "price": "Free",
     "description": "4-day festival debuting a new concert stage. Live music, local vendors, and community vibes. Perfect for a daytime date with evening concerts. Pet-friendly, great food trucks on site.",
     "category": "live-music"
+  },
+  {
+    "title": "Morgan Jay: The Goofy Guy Tour at Fox Theatre",
+    "date": "2026-06-05",
+    "time": "7:00 PM",
+    "location": "Fox Theatre, 660 Peachtree St NE, Atlanta",
+    "price": "$$$",
+    "description": "Musician-comedian Morgan Jay brings his unique blend of humor and soulful performance to Atlanta's iconic Fox Theatre. Great date night for couples who love music and comedy. Historic venue, full bar.",
+    "category": "comedy"
   },
   {
     "title": "AFRO BEAT & CARIBBEAN VIBES at Tago Life Center",
@@ -72,6 +72,33 @@
     "category": "comedy"
   },
   {
+    "title": "Best of Atlanta Comedy Showcase",
+    "date": "2026-06-06",
+    "time": "8:00 PM",
+    "location": "Laughing Skull Lounge, 855 8th St NW, Atlanta",
+    "price": "$$",
+    "description": "Atlanta's top comedians in one showcase! Great low-key date night — intimate venue, cold drinks, non-stop laughs. Must be 21+. Doors at 7:30pm.",
+    "category": "comedy"
+  },
+  {
+    "title": "Marcia Wood Gallery Openings - Susan Ker-Seymer & George Long",
+    "date": "2026-06-06",
+    "time": "6:00 PM - 9:00 PM",
+    "location": "Marcia Wood Gallery, Atlanta",
+    "price": "Free",
+    "description": "Exclusive gallery opening featuring two artists. Elegant, intimate atmosphere perfect for art-loving couples. Wine served, great conversation-starter. Explore cutting-edge contemporary art together.",
+    "category": "art-gallery"
+  },
+  {
+    "title": "LINES OF PLAY - Group Art Exhibition (30+ Artists)",
+    "date": "2026-06-06",
+    "time": "6:00 PM - 10:00 PM",
+    "location": "ABV Gallery, Atlanta",
+    "price": "Free",
+    "description": "Group art exhibition in celebration of the World Cup featuring 30+ artists. Great cultural date night — explore incredible art, sip drinks, and meet local creatives. Vibrant opening night energy.",
+    "category": "art-gallery"
+  },
+  {
     "title": "Farmer's mARTket",
     "date": "2026-06-06",
     "time": "10:00 AM - 6:00 PM",
@@ -79,24 +106,6 @@
     "price": "Free",
     "description": "Weekly outdoor marketplace featuring local farmers and artisans. Great for couples who love exploring local food and handmade goods. Farm-fresh produce, artisan crafts, live music, and great people-watching.",
     "category": "vegetarian-food"
-  },
-  {
-    "title": "ABV Gallery Opening: LINES OF PLAY",
-    "date": "2026-06-06",
-    "time": "6:00 PM - 10:00 PM",
-    "location": "ABV Gallery, Atlanta",
-    "price": "Free",
-    "description": "Group art exhibition featuring 30+ artists in celebration of the World Cup. Great cultural date night — explore incredible art, sip drinks, and meet local creatives. Vibrant opening night energy.",
-    "category": "art-gallery"
-  },
-  {
-    "title": "Marcia Wood Gallery Opening: Susan Ker-Seymer",
-    "date": "2026-06-06",
-    "time": "6:00 PM - 9:00 PM",
-    "location": "Marcia Wood Gallery, Atlanta",
-    "price": "Free",
-    "description": "Exclusive gallery opening featuring the work of Susan Ker-Seymer. Elegant, intimate atmosphere perfect for art-loving couples. Wine served, great conversation-starter.",
-    "category": "art-gallery"
   },
   {
     "title": "Jess Hilarious at Helium Comedy Club (Late Show)",
@@ -115,6 +124,15 @@
     "price": "Free",
     "description": "Final day of the 4-day Amplify Decatur Festival. Live music, food trucks, local vendors. Great casual Sunday date — grab food, find a spot on the grass, and enjoy local bands.",
     "category": "live-music"
+  },
+  {
+    "title": "2026 Atlanta Summer Farmers Market",
+    "date": "2026-06-12",
+    "time": "10:00 AM - 5:30 PM",
+    "location": "Grant Park, Atlanta",
+    "price": "Free",
+    "description": "Three-day farmers market in Grant Park featuring local produce, artisan goods, and food vendors. Great for couples who love fresh, local ingredients. Perfect for a Saturday morning stroll and picnic prep.",
+    "category": "vegetarian-food"
   },
   {
     "title": "Love and Music - Atlanta!",
@@ -151,5 +169,14 @@
     "price": "$$",
     "description": "Award-winning comedian Steph Tolev brings her bold, high-energy standup to Atlanta. Great couples' night out — drink, laugh, and enjoy the intimate club atmosphere.",
     "category": "comedy"
+  },
+  {
+    "title": "Farmers Market at The Battery Atlanta",
+    "date": "2026-06-14",
+    "time": "1:00 PM - 4:00 PM",
+    "location": "The Battery Atlanta, 755 Battery Ave SE",
+    "price": "Free",
+    "description": "Sunday farmers market at The Battery Atlanta. Grab fresh produce, artisan goods, and support local vendors. Great add-on to a date at The Battery — grab food, stroll, people-watch.",
+    "category": "vegetarian-food"
   }
 ]
