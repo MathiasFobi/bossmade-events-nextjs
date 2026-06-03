@@ -1,110 +1,137 @@
 [
   {
-    "title": "Veggie Tales Drag Cabaret",
-    "date": "2026-06-02",
-    "time": "7:00 PM",
-    "location": "Lore, 466B Edgewood Ave, Atlanta, GA 30312",
-    "price": "Varies",
-    "description": "A playful drag cabaret where vegetables meet performance art. Creative costumes, hilarious routines, and a unique atmosphere perfect for couples who appreciate quirky entertainment. Great energy and very date-night friendly.",
-    "category": "comedy"
-  },
-  {
-    "title": "Open Mic Night",
-    "date": "2026-06-02",
-    "time": "8:00 PM",
-    "location": "Laughing Skull Lounge, Atlanta, GA",
-    "price": "$",
-    "description": "Atlanta's premier open mic comedy night. New talent mixed with seasoned performers. Casual, fun atmosphere with drinks — ideal for couples who love to laugh together. Must be 21+.",
-    "category": "comedy"
-  },
-  {
-    "title": "808 Laughs: Summer Fun",
-    "date": "2026-06-02",
-    "time": "8:00 PM",
-    "location": "Atlanta, GA",
-    "price": "Varies",
-    "description": "808 Laughs brings summer vibes and solid comedy to ATL. A great way to kick off date night with good laughs in a relaxed setting.",
-    "category": "comedy"
-  },
-  {
-    "title": "Afro Beat & Caribbean Vibes",
+    "title": "Afrobeat & Caribbean Vibes Night",
     "date": "2026-06-05",
     "time": "6:00 PM - 10:00 PM",
-    "location": "Tago Life Center, Atlanta, GA",
-    "price": "Varies",
-    "description": "Feel the heat with tropical vibes and the best of Afrobeat and Caribbean music. Perfect for couples who love to dance and groove together. Great energy, good crowd, and awesome music — ideal date night material.",
-    "category": "Afrobeat/Reggae"
-  },
-  {
-    "title": "The Reminisce ATL",
-    "date": "2026-06-06",
-    "time": "9:00 PM - 11:50 PM",
-    "location": "African Soulfood, Marietta, GA",
-    "price": "Varies",
-    "description": "Timeless sounds, immersive vibes, and a curated crowd. This event brings a sophisticated yet relaxed atmosphere with great African-inspired food and drinks. Perfect for couples who appreciate good music and good eats.",
-    "category": "live music"
-  },
-  {
-    "title": "Hot Mess: A Dance Pop Party",
-    "date": "2026-06-06",
-    "time": "11:00 PM - 3:00 AM",
-    "location": "404.exe, Atlanta, GA",
-    "price": "Varies",
-    "description": "Atlanta's dance pop party at the iconic 404.EXE (former MJQ location). High energy, great DJs, and a crowd that's there to have a good time. Late-night dancing for couples who want to let loose and have fun.",
-    "category": "dancing"
-  },
-  {
-    "title": "Marcia Wood Gallery Openings: Susan Ker-Seymer & George Long",
-    "date": "2026-06-06",
-    "time": "6:00 PM - 9:00 PM",
-    "location": "Marcia Wood Gallery, Atlanta, GA",
-    "price": "Free",
-    "description": "Dual opening reception featuring Susan Ker-Seymer and George Long. Wine, art, and good company in one of Atlanta's best contemporary galleries. Sophisticated and free — perfect low-key date idea for art-loving couples.",
-    "category": "art gallery"
+    "location": "Tago Life Center, Atlanta",
+    "price": "Free - $20",
+    "description": "Feel the heat of tropical vibes! This night brings the best of Afrobeat and Caribbean music together. Great energy, great dancing, perfect for couples who love rhythm.",
+    "category": "afrobeat"
   },
   {
     "title": "Lines of Play Opening Reception",
     "date": "2026-06-06",
     "time": "6:00 PM - 10:00 PM",
-    "location": "ABV Gallery, Atlanta, GA",
+    "location": "ABV Gallery at Mato, Atlanta",
     "price": "Free",
-    "description": "Group exhibition celebrating the World Cup with over 30 local artists. Art, drinks, and great vibes. A cultured and relaxed atmosphere — great for couples who like sports and art together.",
-    "category": "art gallery"
+    "description": "World Cup-themed group exhibition featuring 30+ local artists. Great conversation starter, free wine, and an excuse to wander through art with your date.",
+    "category": "art"
   },
   {
-    "title": "Where Being Takes Root: Opening Reception",
+    "title": "Poetry For Lovers: Custom Typewriter Poetry",
+    "date": "2026-06-05",
+    "time": "6:00 PM - 9:30 PM",
+    "location": "700 Lake Ave NE, Atlanta",
+    "price": "$35 per couple",
+    "description": "Intimate typewriter poetry experience. Create custom poems together and leave with a keepsake. Romantic, unique, and way more memorable than a typical date.",
+    "category": "date-idea"
+  },
+  {
+    "title": "Glow Nights After Hours at Georgia Aquarium",
+    "date": "2026-06-05",
+    "time": "7:00 PM - 11:00 PM",
+    "location": "Georgia Aquarium, Atlanta",
+    "price": "$45 - $60",
+    "description": "Adults-only glow party inside the aquarium. Dance, drink, and explore exhibits with neon vibes. Ultra-cool date night that beats the typical dinner reservation.",
+    "category": "dancing"
+  },
+  {
+    "title": "Young the Giant + Cold War Kids",
+    "date": "2026-06-06",
+    "time": "7:00 PM",
+    "location": "Synovus Bank Amphitheater at Chastain Park",
+    "price": "$45+",
+    "description": "Indie rock concert under the stars. Pack a picnic, bring a blanket, and enjoy great music in Atlanta's beautiful outdoor venue. Classic summer date.",
+    "category": "live-music"
+  },
+  {
+    "title": "Cocktails in the Garden",
     "date": "2026-06-04",
-    "time": "6:00 PM - 8:00 PM",
-    "location": "GSU Welch School Galleries, Atlanta, GA",
-    "price": "Free",
-    "description": "Opening reception featuring thought-provoking contemporary art. Free admission in a university gallery setting. Quiet, intellectual atmosphere — great for couples who enjoy meaningful conversations over art.",
-    "category": "art gallery"
+    "time": "5:00 PM - 9:00 PM",
+    "location": "Atlanta Botanical Garden",
+    "price": "Included with garden admission",
+    "description": "Weekly event: drinks, live music, and gorgeous garden views. Stroll through flowers, sip cocktails, and enjoy the romantic atmosphere outdoors.",
+    "category": "date-idea"
   },
   {
-    "title": "Rosebud Baker at The Punchline",
-    "date": "2026-06-12",
-    "time": "7:30 PM",
-    "location": "The Punchline Comedy Club, Atlanta, GA",
-    "price": "Varies",
-    "description": "Rosebud Baker brings her sharp, observational comedy to Atlanta's legendary Punchline Comedy Club. One of the best date night activities — laughs, drinks, and a memorable evening out.",
+    "title": "Atlanta Comedy Experience",
+    "date": "2026-06-07",
+    "time": "7:00 PM - 11:00 PM",
+    "location": "Atlanta Virtual Studios",
+    "price": "$20",
+    "description": "Standup comedy show with local and touring comedians. Laughter is the best medicine and perfect for a fun, low-pressure date night.",
     "category": "comedy"
   },
   {
-    "title": "Art of the Game Open Reception",
-    "date": "2026-06-13",
-    "time": "7:30 PM - 9:30 PM",
-    "location": "Gallery Chimera, Atlanta, GA",
-    "price": "Varies",
-    "description": "Opening reception at Gallery Chimera exploring art through the lens of games. Creative, playful, and engaging — a unique date experience for couples who want something different from the typical.",
-    "category": "art gallery"
+    "title": "Helium Comedy Club: Jess Hilarious",
+    "date": "2026-06-05",
+    "time": "7:00 PM & 9:15 PM",
+    "location": "Helium Comedy Club, Atlanta",
+    "price": "$25 - $35",
+    "description": "Jess Hilarious brings her hilarious act to Atlanta. Great burgers, cold drinks, and belly laughs. Perfect for couples who don't take themselves too seriously.",
+    "category": "comedy"
   },
   {
-    "title": "Artful ATL",
-    "date": "2026-06-13",
-    "time": "6:00 PM - 10:00 PM",
-    "location": "Atlanta Contemporary, Atlanta, GA",
+    "title": "Morgan Jay: The Goofy Guy Tour",
+    "date": "2026-06-05",
+    "time": "7:00 PM",
+    "location": "Fox Theatre, Atlanta",
     "price": "Varies",
-    "description": "A premier event creating space and community for emerging artists, collectors, and art enthusiasts. Great music, great art, and a stylish crowd. Perfect for couples who appreciate creativity and culture.",
-    "category": "art gallery"
+    "description": "Musician-comedian Morgan Jay performs at the iconic Fox Theatre. Unique blend of comedy and live music in one of Atlanta's most beautiful venues.",
+    "category": "comedy"
+  },
+  {
+    "title": "Salsa Bachata Havana Nights @ La Industria",
+    "date": "2026-06-14",
+    "time": "4:30 PM - 12:00 AM",
+    "location": "La Industria, Atlanta",
+    "price": "$15 - $25",
+    "description": "Sunday salsa and bachata dancing. Includes class, dinner, and social dancing. Learn together, laugh at mistakes, and end the night holding each other on the dance floor.",
+    "category": "dancing"
+  },
+  {
+    "title": "Candela: Monthly Latin Fusion Party",
+    "date": "2026-06-13",
+    "time": "10:00 PM",
+    "location": "District Atlanta",
+    "price": "$15 - $25",
+    "description": "Atlanta's hottest Latin fusion party with DJ EU, Lemnxx, and Aveza. High energy, great cocktails, and a dance floor that stays packed till 3AM.",
+    "category": "dancing"
+  },
+  {
+    "title": "Vegan Takeover at Kamayan Filipino Restaurant",
+    "date": "2026-06-14",
+    "time": "1:00 PM",
+    "location": "5150 Buford Hwy NE, Doraville",
+    "price": "$30 - $50",
+    "description": "Special vegan Filipino feast. Unique food experience for adventurous couples. Bold flavors, beautiful presentation, and something different from typical date night fare.",
+    "category": "vegetarian"
+  },
+  {
+    "title": "Love and Music - Atlanta!",
+    "date": "2026-06-13",
+    "time": "7:30 PM - 9:30 PM",
+    "location": "Rehearse Live, LLC, Atlanta",
+    "price": "$30 couple",
+    "description": "Romantic piano concert immersion. VIP cocktail hour followed by a candlelit piano performance. Perfect for couples looking for a classy, intimate evening.",
+    "category": "live-music"
+  },
+  {
+    "title": "Moms Unhinged Standup Comedy",
+    "date": "2026-06-08",
+    "time": "7:00 PM - 9:00 PM",
+    "location": "Wild Heaven Beer: West End Brewery & Gardens",
+    "price": "$20",
+    "description": "Outdoor comedy show at Atlanta's best brewery. Craft beers, food trucks, and standup comedy under the stars. Casual, fun, and great for laid-back couples.",
+    "category": "comedy"
+  },
+  {
+    "title": "Where Being Takes Root Opening Reception",
+    "date": "2026-06-04",
+    "time": "6:00 PM - 8:00 PM",
+    "location": "GSU Welch School Galleries",
+    "price": "Free",
+    "description": "Art exhibition opening at Georgia State University. Free, sophisticated, and a great way to spend a Thursday evening exploring art with your partner.",
+    "category": "art"
   }
 ]
