@@ -1,101 +1,227 @@
 [
   {
-    "title": "Afrobeat & Caribbean Vibes Night",
+    "title": "Afrobeat & Caribbean Vibes",
     "date": "2026-06-05",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "Tago Life Center, 892 Jefferson St NW, Atlanta, GA 30318",
-    "price": "$10",
-    "description": "Dance to infectious Afrobeat and Caribbean rhythms. Perfect date night energy with island vibes, great music, and a lively atmosphere. Occurs every Friday in June.",
-    "category": "live music"
+    "time": "6:00 PM - 10:00 PM",
+    "location": "Tago Life Center, Atlanta",
+    "price": "Varies",
+    "description": "Tropical vibes night bringing the best of Afrobeat and Caribbean music. Perfect for couples who love to move to the rhythm.",
+    "category": "Afrobeat/Reggae"
+  },
+  {
+    "title": "Jess Hilarious Comedy Show",
+    "date": "2026-06-05",
+    "time": "7:00 PM - 9:15 PM",
+    "location": "Helium Comedy Club, Atlanta",
+    "price": "$$",
+    "description": "Hilarious standup from Jess Hilarious. Great date night — laughter is the best aphrodisiac. Must be 21+.",
+    "category": "Comedy"
+  },
+  {
+    "title": "Young the Giant: Victory Garden Tour",
+    "date": "2026-06-06",
+    "time": "6:30 PM",
+    "location": "Synovus Bank Amphitheater at Chastain Park",
+    "price": "$$",
+    "description": "Indie rock under the stars at beautiful Chastain Park. Bring a blanket, grab wine, and enjoy live music with your person.",
+    "category": "Live Music"
   },
   {
     "title": "LINES OF PLAY | Group Art Exhibition (30+ Artists)",
     "date": "2026-06-06",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "ABV Gallery, Atlanta, GA",
+    "time": "6:00 PM - 10:00 PM",
+    "location": "ABV Gallery, Atlanta",
     "price": "Free",
-    "description": "Celebration of World Cup art with 30+ artists. Great way to spark conversation while exploring diverse artistic expressions. Casual, creative atmosphere perfect for couples.",
-    "category": "art"
+    "description": "30+ artists exhibition celebrating the World Cup coming to Atlanta. Great cultural date night with free entry.",
+    "category": "Art Gallery"
   },
   {
-    "title": "Saturday Night Live Comedy: GEMINI TAKEOVER",
+    "title": "Marcia Wood Gallery Openings",
     "date": "2026-06-06",
-    "time": "8:30 PM – 10:30 PM",
-    "location": "4730 Frontage Rd, Forest Park, GA 30297",
-    "price": "Varies",
-    "description": "Hosted by WeightBall with headliner Ambrose Jones. 2 hours of laughs at Atlanta's Original Uptown Comedy Corner. Doors at 7:45 PM. Great for couples who love to laugh together.",
-    "category": "comedy"
+    "time": "6:00 PM - 9:00 PM",
+    "location": "Marcia Wood Gallery, Atlanta",
+    "price": "Free",
+    "description": "Dual openings featuring Susan Ker-Seymer and George Long. Sophisticated, intimate art experience for couples.",
+    "category": "Art Gallery"
   },
   {
-    "title": "Sun Havana Nights: Salsa Bachata & Latin Dancing",
+    "title": "Best of Atlanta Comedy Showcase",
+    "date": "2026-06-06",
+    "time": "8:00 PM (doors 7:30 PM)",
+    "location": "Laughing Skull Lounge, Atlanta",
+    "price": "$$",
+    "description": "Top Atlanta comedians in one show. 21+ venue. Perfect for a fun, low-pressure date with guaranteed laughs.",
+    "category": "Comedy"
+  },
+  {
+    "title": "Salsa Bachata Havana Nights",
     "date": "2026-06-07",
-    "time": "4:30 PM – 12:00 AM",
+    "time": "4:30 PM - 12:00 AM",
     "location": "La Industria, Atlanta",
     "price": "Varies",
-    "description": "Every Sunday salsa ATL brings Havana Nights with salsa, bachata, and Latin dancing. Perfect for couples who want to learn together or show off their moves. Great energy, food, and vibes.",
-    "category": "dancing"
+    "description": "Sunday salsa and bachata session with class + social dancing. Great way to learn together and get close on the dance floor.",
+    "category": "Dancing"
   },
   {
-    "title": "Atlanta Comedy Experience",
-    "date": "2026-06-07",
-    "time": "7:00 PM – 11:00 PM",
-    "location": "Atlanta Virtual Studios",
-    "price": "Varies",
-    "description": "Sunday night comedy show. Good for a relaxed date with laughs. Virtual studio setting ensures a quality experience.",
-    "category": "comedy"
+    "title": "Moms Unhinged Standup Comedy",
+    "date": "2026-06-08",
+    "time": "7:00 PM - 9:00 PM",
+    "location": "Wild Heaven Beer: West End Brewery & Gardens",
+    "price": "$$",
+    "description": "Standup comedy + craft beer at one of Atlanta's best breweries. Casual, fun, no pressure — just good vibes.",
+    "category": "Comedy"
   },
   {
-    "title": "Jazz on the Rooftop – Tuesday Nights",
-    "date": "2026-06-09",
-    "time": "7:00 PM – 10:00 PM",
-    "location": "Virtue Rooftop, Atlanta",
+    "title": "Vegan Takeover at Kamayan",
+    "date": "2026-06-14",
+    "time": "1:00 PM",
+    "location": "Kamayan Filipino Restaurant, Doraville",
+    "price": "$$",
+    "description": "Vegan Filipino food takeover at one of the best Asian spots in Atlanta. Creative plant-based twists on Filipino classics. Great for adventurous foodie couples.",
+    "category": "Vegetarian Food"
+  },
+  {
+    "title": "Steph Tolev at Helium Comedy Club",
+    "date": "2026-06-12",
+    "time": "7:00 PM / 9:15 PM",
+    "location": "Helium Comedy Club, Atlanta",
+    "price": "$$",
+    "description": "Special event comedy with Steph Tolev. Two showtimes available. A polished, fun date night option.",
+    "category": "Comedy"
+  },
+  {
+    "title": "Salsa Social at Callanwolde",
+    "date": "2026-06-12",
+    "time": "6:00 PM - 10:00 PM",
+    "location": "Callanwolde Fine Arts Center, Atlanta",
     "price": "Varies",
-    "description": "Weekly rooftop jazz with Atlanta's skyline as your backdrop. Perfect for a sophisticated date night. Midweek escape with live music and good vibes. Also June 16.",
-    "category": "live music"
+    "description": "Cuban music and dancing at the historic Callanwolde Mansion. Romantic setting, great music, perfect for dancing couples.",
+    "category": "Dancing"
   },
   {
     "title": "Tropical Latin Night Atlanta",
     "date": "2026-06-12",
-    "time": "8:30 PM – 2:00 AM",
+    "time": "8:30 PM - 2:00 AM",
     "location": "Sanctuary Night Club, Atlanta",
     "price": "Varies",
-    "description": "Weekend kickoff with tropical Latin vibes. Dance the night away with bachata, salsa, and merengue. Great for couples who love to move. Also June 19.",
-    "category": "dancing"
+    "description": "Salsa, bachata, merengue — the whole Latin dance experience. Great energy for couples who want a night out.",
+    "category": "Dancing"
   },
   {
-    "title": "Queer Games: Videogame Exhibition",
+    "title": "Summer Walker: Still Finally Over It Tour",
     "date": "2026-06-12",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "638 N Highland Ave NE, Atlanta",
-    "price": "Varies",
-    "description": "Videogame exhibition celebrating queer gaming culture. Interactive and conversation-starting. Runs through June 14. Great for couples who game together or want to try something different.",
-    "category": "art"
+    "time": "7:30 PM (doors 6:30 PM)",
+    "location": "State Farm Arena, Atlanta",
+    "price": "$$$",
+    "description": "R&B star Summer Walker live in Atlanta. Smooth vibes, amazing vocals — perfect for couples who love neo-soul and R&B.",
+    "category": "Live Music"
   },
   {
-    "title": "Art of the Game: Open Reception",
+    "title": "Art of the Game Open Reception",
     "date": "2026-06-13",
-    "time": "7:30 PM – 9:30 PM",
+    "time": "7:30 PM - 9:30 PM",
     "location": "Gallery Chimera, Atlanta",
     "price": "Varies",
-    "description": "Opening reception exploring art of gaming. Sophisticated gallery setting perfect for cultured couples. Wine, conversation, and creative inspiration.",
-    "category": "art"
+    "description": "Opening reception combining art and gaming culture. Unique, conversation-starting exhibit — ideal for couples into creative stuff.",
+    "category": "Art Gallery"
   },
   {
-    "title": "Live Jazz Fridays: Spring Sessions",
-    "date": "2026-06-12",
-    "time": "6:00 PM – 9:00 PM",
-    "location": "High Museum of Art",
-    "price": "Varies",
-    "description": "Juneteenth Friday Jazz at the High Museum. Combines live music with world-class art viewing. Perfect cultural date experience. Also June 19 & 26.",
-    "category": "live music"
+    "title": "Artful ATL",
+    "date": "2026-06-13",
+    "time": "6:00 PM - 10:00 PM",
+    "location": "Atlanta Contemporary",
+    "price": "Free",
+    "description": "Annual celebration of Atlanta's contemporary art scene. Free admission, 50+ artists, wine — sophisticated date night.",
+    "category": "Art Gallery"
   },
   {
-    "title": "Salsa Dancing Class & Taco Dinner",
+    "title": "YUNGBLUD: IDOLS World Tour",
+    "date": "2026-06-13",
+    "time": "8:00 PM",
+    "location": "Synovus Bank Amphitheater at Chastain Park",
+    "price": "$$",
+    "description": "Electric alt-pop performance under the open sky. For couples who like edgy, energetic music and a festival vibe.",
+    "category": "Live Music"
+  },
+  {
+    "title": "DJ Maphorisa G.O.A.T Experience",
     "date": "2026-06-18",
-    "time": "6:30 PM – 8:30 PM",
-    "location": "Chicheria Mexican Kitchen, Atlanta",
+    "time": "10:00 PM - 6:00 AM",
+    "location": "Insomnia Nightclub, Atlanta",
     "price": "Varies",
-    "description": "Learn salsa basics then enjoy tacos. Low-pressure way to learn together as a couple. Interactive, fun, and ends with dinner. Perfect for date night.",
-    "category": "dancing"
+    "description": "South African amapiano headlining an afterparty. Late-night energy, premium Afrobeat and dance music. Night owls only!",
+    "category": "Afrobeat/Reggae"
+  },
+  {
+    "title": "Culture Fest Day Party - Juneteenth",
+    "date": "2026-06-19",
+    "time": "3:00 PM - 9:00 PM",
+    "location": "Cafe Circa Restaurant & Lounge, Atlanta",
+    "price": "Varies",
+    "description": "Juneteenth celebration with great food, vibes, and community. Day party energy — perfect for couples who love good times.",
+    "category": "Afrobeat/Reggae"
+  },
+  {
+    "title": "Happy People Atlanta",
+    "date": "2026-06-20",
+    "time": "2:00 PM - 10:00 PM",
+    "location": "Underground Atlanta",
+    "price": "Varies",
+    "description": "Culture, energy, and pure vibes at Underground Atlanta. Great for couples wanting a daytime-to-evening Juneteenth experience.",
+    "category": "Afrobeat/Reggae"
+  },
+  {
+    "title": "Reggae on the Rooftop Festival",
+    "date": "2026-06-20",
+    "time": "3:00 PM - 9:00 PM",
+    "location": "AIR Rooftop (formerly Suite Lounge), Atlanta",
+    "price": "Varies",
+    "description": "Juneteenth weekend rooftop reggae festival with amazing city views. Sun, reggae, good vibes — ultimate date setting.",
+    "category": "Afrobeat/Reggae"
+  },
+  {
+    "title": "Vegan Soul Sunday - Fathers Day Edition",
+    "date": "2026-06-21",
+    "time": "12:00 PM - 4:00 PM",
+    "location": "New Life Presbyterian Church, Atlanta",
+    "price": "Free/Donation",
+    "description": "Community vegan food event celebrating fathers with plant-based soul food. Great for couples who love food and community.",
+    "category": "Vegetarian Food"
+  },
+  {
+    "title": "Tropical Latin Night Atlanta",
+    "date": "2026-06-19",
+    "time": "8:30 PM - 2:00 AM",
+    "location": "Sanctuary Night Club, Atlanta",
+    "price": "Varies",
+    "description": "Another Friday Latin night — salsa, bachata, and more. Great way to end the week dancing with your partner.",
+    "category": "Dancing"
+  },
+  {
+    "title": "5 Seconds of Summer: Everyone's A Star Tour",
+    "date": "2026-06-16",
+    "time": "8:00 PM",
+    "location": "State Farm Arena, Atlanta",
+    "price": "$$",
+    "description": "Pop-punk favorites live in concert. Fun, energetic show — if your partner loves 5SOS or pop-rock, it's a great date.",
+    "category": "Live Music"
+  },
+  {
+    "title": "Lyle Lovett: Songs & Stories",
+    "date": "2026-06-24",
+    "time": "8:00 PM",
+    "location": "City Winery Atlanta, 650 North Ave NE",
+    "price": "$$$",
+    "description": "Intimate acoustic performance by Lyle Lovett at City Winery. Wine, storytelling, incredible musicianship — romantic date par excellence.",
+    "category": "Live Music"
+  },
+  {
+    "title": "Plant To The Future: Food, Freedom & Black Futures Conference",
+    "date": "2026-06-24",
+    "time": "10:00 AM - 8:00 PM",
+    "location": "Pittsburgh Yards | The Food Studio, Atlanta",
+    "price": "Varies",
+    "description": "Food, community, and Black future-focused conference. Plant-based eats, panels, networking. For couples into food justice and community.",
+    "category": "Vegetarian Food"
   }
 ]
