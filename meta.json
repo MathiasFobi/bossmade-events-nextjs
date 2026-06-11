@@ -1,9 +1,9 @@
 {
   "title": "BossMade Events - Atlanta Couples Events",
   "description": "Curated Atlanta events perfect for couples - live music, art, food, dancing, comedy, and date ideas",
-  "generated": "2026-06-10T18:53:00-07:00",
+  "generated": "2026-06-11T07:52:00-07:00",
   "generator": "BossMade AI",
-  "categories": ["music", "art", "food", "dancing", "comedy"],
+  "categories": ["music", "art", "food", "dancing", "comedy", "festival", "date-idea"],
   "source": "Atlanta Events Finder cron job",
-  "window": "2026-06-10 to 2026-06-24"
+  "window": "2026-06-11 to 2026-06-25"
 }

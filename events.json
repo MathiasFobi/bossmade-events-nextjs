@@ -5,7 +5,7 @@
     "time": "7:00 PM - 9:15 PM",
     "location": "Helium Comedy Club, Atlanta, GA",
     "price": "$$",
-    "description": "Sharp, unapologetic standup from Steph Tolev. A perfect midweek date night - grab dinner first in Midtown, then split laughs together. Cozy club with table service keeps the date-night vibe dialed up.",
+    "description": "Sharp, unapologetic standup from Steph Tolev (Netflix 'Filth Queen'). Midweek date night done right - dinner in Midtown first, then split laughs. Cozy club with table service keeps the date-night vibe dialed up.",
     "category": "comedy"
   },
   {
@@ -27,6 +27,15 @@
     "category": "dancing"
   },
   {
+    "title": "Like a Star: Celebrating 20 Years of Corinne Bailey Rae",
+    "date": "2026-06-12",
+    "time": "8:00 PM",
+    "location": "Buckhead Theatre, Atlanta, GA",
+    "price": "$$",
+    "description": "Soulful, romantic R&B from Corinne Bailey Rae celebrating 20 years of her debut. Warm vocals, lush arrangements, and one of the most date-night-coded venues in the city. Splurge on balcony seats if you can.",
+    "category": "music"
+  },
+  {
     "title": "Friday Night Traffic Jam & Jokes: Young Gunnas of Comedy",
     "date": "2026-06-12",
     "time": "8:00 PM",
@@ -34,6 +43,33 @@
     "price": "$$",
     "description": "Rising Black comedy talent bringing fresh perspectives. Off-the-beaten-path Forest Park venue makes it feel like an inside-baseball date for couples who love supporting the next wave of comedians.",
     "category": "comedy"
+  },
+  {
+    "title": "Blooms Market at Ponce",
+    "date": "2026-06-13",
+    "time": "10:00 AM - 3:00 PM",
+    "location": "The Shed at Ponce City Market, Atlanta, GA",
+    "price": "Free",
+    "description": "Monthly BeltLine-adjacent market with local artists, makers, and food. Wander hand-in-hand, browse, then grab a drink on the PCM roof. A relaxed Saturday morning date that turns into a full afternoon.",
+    "category": "art"
+  },
+  {
+    "title": "King of Pops Yoga on the BeltLine",
+    "date": "2026-06-13",
+    "time": "9:00 AM - 10:00 AM",
+    "location": "Historic Fourth Ward Park - Greenspace D, Atlanta, GA",
+    "price": "Free",
+    "description": "Free outdoor yoga on the BeltLine, then popsicles from King of Pops. Active couples who want a low-pressure morning date - move together, then reward yourselves. Pair with a BeltLine brunch crawl.",
+    "category": "date-idea"
+  },
+  {
+    "title": "Tropical Elegance Saturday Latin Night Atlanta",
+    "date": "2026-06-13",
+    "time": "8:00 PM - 1:00 AM",
+    "location": "Brimstone Restaurant & Tavern, Alpharetta, GA",
+    "price": "$15",
+    "description": "Saturday salsa + bachata lesson, then open dance floor. Beginner-friendly, no partner required, and the suburban Alpharetta location is a change of pace from the usual ATL clubs. Worth the drive for couples who want a fuller night.",
+    "category": "dancing"
   },
   {
     "title": "Art of the Game Opening Reception",
@@ -153,6 +189,24 @@
     "category": "art"
   },
   {
+    "title": "Tropical Latin Night Atlanta",
+    "date": "2026-06-19",
+    "time": "8:30 PM - 2:00 AM",
+    "location": "Sanctuary Night Club, Atlanta, GA",
+    "price": "$$",
+    "description": "Juneteenth-weekend edition of ATL's most reliable Latin party. Reggaeton, salsa, bachata, and a packed dance floor. Couples who want to celebrate the holiday weekend with movement - this is the move.",
+    "category": "dancing"
+  },
+  {
+    "title": "Happy People Atlanta",
+    "date": "2026-06-20",
+    "time": "2:00 PM - 10:00 PM",
+    "location": "Underground Atlanta, Atlanta, GA",
+    "price": "$$",
+    "description": "Culture-meets-party: 8 hours of music, food, and pure Juneteenth-weekend vibes in Underground Atlanta. Couples who like their dates long, lively, and rooted in Black culture will love this. Arrive early, stay late.",
+    "category": "music"
+  },
+  {
     "title": "Soul, Jazz & Funk Pre-Father's Day Concert",
     "date": "2026-06-20",
     "time": "6:30 PM - 11:00 PM",
@@ -169,6 +223,15 @@
     "price": "$$",
     "description": "Six hours of reggae on a rooftop, paired with food and Juneteenth weekend energy. Couples who love outdoor festivals, island vibes, and dancing - this is the weekend's top pick.",
     "category": "music"
+  },
+  {
+    "title": "Atlanta BeltLine Fest at Pittsburgh Yards",
+    "date": "2026-06-20",
+    "time": "10:00 AM - 9:00 PM (Sat & Sun)",
+    "location": "Pittsburgh Yards, 352 University Ave SW, Atlanta, GA",
+    "price": "Free",
+    "description": "Free two-day festival on the new Southside Trail - live World Cup match screenings, music, DJs, food vendors, art. Spend the day outside together without spending a dime. Bring a blanket and a sense of adventure.",
+    "category": "festival"
   },
   {
     "title": "Sip & Savor: Wine & Charcuterie Tasting",
@@ -196,5 +259,14 @@
     "price": "Free",
     "description": "Sunday afternoon salsa + bachata social surrounded by food hall options. Free to dance, easy to grab a drink or bite, and the energy is welcoming for newbies. Date-night gold in the middle of Midtown.",
     "category": "dancing"
+  },
+  {
+    "title": "Plant to the Future: Food, Freedom & Black Futures Conference",
+    "date": "2026-06-24",
+    "time": "10:00 AM - 8:00 PM",
+    "location": "Pittsburgh Yards - The Food Studio, Atlanta, GA",
+    "price": "$$",
+    "description": "Day-long conference on plant-based food, Black futures, and food justice. Panels, vendors, cooking demos. For the veg-curious couple who also likes a brainy, values-driven day together.",
+    "category": "food"
   }
 ]
