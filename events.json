@@ -1,272 +1,119 @@
 [
   {
-    "title": "Steph Tolev at Helium Comedy Club",
-    "date": "2026-06-11",
-    "time": "7:00 PM - 9:15 PM",
-    "location": "Helium Comedy Club, Atlanta, GA",
-    "price": "$$",
-    "description": "Sharp, unapologetic standup from Steph Tolev (Netflix 'Filth Queen'). Midweek date night done right - dinner in Midtown first, then split laughs. Cozy club with table service keeps the date-night vibe dialed up.",
+    "title": "Best of Atlanta Comedy Showcase",
+    "date": "2026-06-12",
+    "time": "8:00 PM (doors 7:30 PM)",
+    "location": "Laughing Skull Lounge, 878 Peachtree St NE, Atlanta, GA",
+    "price": "Varies by show (21+)",
+    "description": "Weekly showcase featuring the city's top stand-up talent rotating through. Intimate 80-seat room with a full bar — perfect for couples who like quick laughs and craft cocktails. Friday night date-night classic.",
     "category": "comedy"
   },
   {
-    "title": "A FINE LINE - Four-Artist Show at Spalding Nix Fine Art",
-    "date": "2026-06-11",
-    "time": "6:00 PM - 8:00 PM",
-    "location": "Spalding Nix Fine Art, Atlanta, GA",
-    "price": "Free",
-    "description": "Four artists (Kate Hooray Osmond, Nancy Talero, Shannon Davis, Laura Dargan) come together for this intimate group show. Free, conversation-friendly, and a great excuse to slow down together midweek.",
+    "title": "From Afrique, With Love: A Photography Exhibition (Opening Night)",
+    "date": "2026-06-12",
+    "time": "5:00 PM - 11:00 PM (opening 7:00 PM)",
+    "location": "Old Rabbit Art Gallery, 309A Peters St SW, Atlanta, GA",
+    "price": "Free (free parking)",
+    "description": "Opening night of a month-long photo exhibition by two photographers who traveled through West Africa during the Year of Return. Gallery, gift shop, music, and rotating food vendors. A moody, romantic, culturally rich date.",
     "category": "art"
   },
   {
-    "title": "Tropical Latin Night Atlanta",
-    "date": "2026-06-12",
-    "time": "8:30 PM - 2:00 AM",
-    "location": "Sanctuary Night Club, Atlanta, GA",
-    "price": "$$",
-    "description": "Friday-night kickoff with tropical Latin rhythms, reggaeton, and high-energy dancing. Couples who love a club scene will thrive here - dress up, grab a cocktail, and dance until 2am.",
-    "category": "dancing"
-  },
-  {
-    "title": "Like a Star: Celebrating 20 Years of Corinne Bailey Rae",
-    "date": "2026-06-12",
+    "title": "Harland Williams at Center Stage",
+    "date": "2026-06-13",
     "time": "8:00 PM",
-    "location": "Buckhead Theatre, Atlanta, GA",
-    "price": "$$",
-    "description": "Soulful, romantic R&B from Corinne Bailey Rae celebrating 20 years of her debut. Warm vocals, lush arrangements, and one of the most date-night-coded venues in the city. Splurge on balcony seats if you can.",
-    "category": "music"
-  },
-  {
-    "title": "Friday Night Traffic Jam & Jokes: Young Gunnas of Comedy",
-    "date": "2026-06-12",
-    "time": "8:00 PM",
-    "location": "4730 Frontage Rd, Forest Park, GA",
-    "price": "$$",
-    "description": "Rising Black comedy talent bringing fresh perspectives. Off-the-beaten-path Forest Park venue makes it feel like an inside-baseball date for couples who love supporting the next wave of comedians.",
+    "location": "Center Stage Theater, 1374 W Peachtree St NW, Atlanta, GA",
+    "price": "Ticketed (Live Nation) — check site for current price",
+    "description": "Off-the-wall Canadian comedian (Dumb & Dumber, Half Baked) brings his absurd, physical comedy to Midtown. Great low-key date with a beer-and-laughs vibe.",
     "category": "comedy"
   },
   {
-    "title": "Blooms Market at Ponce",
-    "date": "2026-06-13",
-    "time": "10:00 AM - 3:00 PM",
-    "location": "The Shed at Ponce City Market, Atlanta, GA",
-    "price": "Free",
-    "description": "Monthly BeltLine-adjacent market with local artists, makers, and food. Wander hand-in-hand, browse, then grab a drink on the PCM roof. A relaxed Saturday morning date that turns into a full afternoon.",
-    "category": "art"
-  },
-  {
-    "title": "King of Pops Yoga on the BeltLine",
-    "date": "2026-06-13",
-    "time": "9:00 AM - 10:00 AM",
-    "location": "Historic Fourth Ward Park - Greenspace D, Atlanta, GA",
-    "price": "Free",
-    "description": "Free outdoor yoga on the BeltLine, then popsicles from King of Pops. Active couples who want a low-pressure morning date - move together, then reward yourselves. Pair with a BeltLine brunch crawl.",
-    "category": "date-idea"
-  },
-  {
-    "title": "Tropical Elegance Saturday Latin Night Atlanta",
-    "date": "2026-06-13",
-    "time": "8:00 PM - 1:00 AM",
-    "location": "Brimstone Restaurant & Tavern, Alpharetta, GA",
-    "price": "$15",
-    "description": "Saturday salsa + bachata lesson, then open dance floor. Beginner-friendly, no partner required, and the suburban Alpharetta location is a change of pace from the usual ATL clubs. Worth the drive for couples who want a fuller night.",
-    "category": "dancing"
-  },
-  {
-    "title": "Art of the Game Opening Reception",
+    "title": "Art of the Game — Opening Reception",
     "date": "2026-06-13",
     "time": "7:30 PM - 9:30 PM",
-    "location": "Gallery Chimera, 624 N Highland Ave NE, Atlanta",
-    "price": "Free",
-    "description": "World Cup-inspired group exhibition featuring international artists exploring soccer, culture, and unity. Opening reception = wine, artists, and great conversation. Runs June 11 - July 11 if you can't make opening night.",
+    "location": "Gallery Chimera, 624 N Highland Ave NE, Atlanta, GA",
+    "price": "Free (registration via Eventbrite)",
+    "description": "Group exhibition timed to the FIFA World Cup featuring international artists exploring soccer, culture, and connection. Meet the artists, browse mixed-media works, and enjoy an intimate opening-night reception in Poncey-Highland.",
     "category": "art"
   },
   {
-    "title": "Love and Music - Atlanta! Romantic Piano Concert",
+    "title": "Tropical Elegance Latin Night — Salsa & Bachata Lesson + Dancing",
     "date": "2026-06-13",
-    "time": "7:30 PM - 9:30 PM (VIP cocktail hour 7:30 PM, concert 8:30 PM)",
-    "location": "Rehearse Live, LLC, Atlanta, GA",
-    "price": "$$$",
-    "description": "VIP cocktail hour followed by a romantic piano concert immersion. Literally built for couples - this is the most date-night-coded event of the week. Splurge-worthy for an anniversary or special occasion.",
-    "category": "music"
-  },
-  {
-    "title": "Love Lust Language Live Music & Poetry Show",
-    "date": "2026-06-13",
-    "time": "8:30 PM - 12:30 AM",
-    "location": "393 Marietta St NW, Atlanta, GA",
-    "price": "$$",
-    "description": "Intimate music + poetry night exploring love and desire. Late-night vibes, raw performances, and the kind of show that sparks real conversation on the walk home. Bring your partner who loves words.",
-    "category": "music"
-  },
-  {
-    "title": "La Placita Latin Sundays ATL - Dunwoody",
-    "date": "2026-06-14",
-    "time": "6:00 PM - 10:00 PM",
-    "location": "Spruill Center for the Arts, Dunwoody, GA",
-    "price": "Free",
-    "description": "Recurring Sunday Latin social with dancing, food, and community. Family-friendly vibe makes it a great first-date option - low pressure, lively music, no cover. Free to attend!",
+    "time": "8:00 PM - 2:00 AM (lesson 8-10 PM, party 10 PM-2 AM)",
+    "location": "Brimstone Restaurant & Tavern, 10595 Old Alabama Rd Connector, Alpharetta, GA",
+    "price": "$15 cover (includes class + party)",
+    "description": "Beginner-friendly salsa and bachata lesson followed by a full Latin dance social. Salsa, bachata, merengue, reggaeton. No experience needed — perfect excuse to hold each other close and learn a new skill together. Runs every Saturday.",
     "category": "dancing"
   },
   {
-    "title": "Salsa Bachata Havana Nights",
+    "title": "Vegan Takeover at Kamayan Filipino Restaurant",
     "date": "2026-06-14",
-    "time": "4:30 PM - 12:00 AM",
-    "location": "La Industria, Atlanta, GA",
-    "price": "$15-20",
-    "description": "Atlanta's premier Sunday Latin party - lessons early, then open dance floor all night. Beginner-friendly, no partner required, and the energy is unmatched. Couples who take a class together stay together.",
-    "category": "dancing"
-  },
-  {
-    "title": "STAMPED: AYA x Friends - Amapiano & Afrobeats",
-    "date": "2026-06-14",
-    "time": "4:00 PM - 11:00 PM",
-    "location": "Block & Drum, Chamblee, GA",
-    "price": "$$",
-    "description": "One of Atlanta's hottest Amapiano and Afrobeats parties. Afrobeats lovers, this is the move. Outdoor-adjacent venue, food, and a young crowd ready to dance. Sunday Funday at its finest.",
-    "category": "music"
-  },
-  {
-    "title": "Pyramid Plant Based Veg Fest",
-    "date": "2026-06-14",
-    "time": "11:00 AM - 5:00 PM",
-    "location": "2655 Nuckolls Rd, Cumming, GA",
-    "price": "$",
-    "description": "Veg-forward festival with vendors, food, and plant-based living demos. Worth the drive to Cumming for any plant-curious couple. Browse, taste, and stock up on new staples together.",
+    "time": "1:00 PM",
+    "location": "Kamayan ATL, 5150 Buford Hwy NE A230, Doraville, GA",
+    "price": "Pay-as-you-order (food)",
+    "description": "Pop-up vegan takeover at a Filipino restaurant on Buford Hwy. Great for adventurous foodie couples — explore plant-based Filipino flavors (kare-kare, lumpia, pancit) in a group hut setting.",
     "category": "food"
   },
   {
-    "title": "Waiting to Exhale Dinner Series Volume 1",
-    "date": "2026-06-15",
-    "time": "6:00 PM - 8:30 PM",
-    "location": "Star Metals District, Atlanta, GA",
-    "price": "$$$",
-    "description": "Curated multi-course dinner experience. Perfect for couples who appreciate intentional dining, conversation, and a step above your usual restaurant night. Reserve early - these intimate series fill fast.",
-    "category": "food"
-  },
-  {
-    "title": "Delvon Lamarr Organ Trio at Terminal West",
-    "date": "2026-06-15",
-    "time": "8:00 PM",
-    "location": "Terminal West, West Midtown, Atlanta, GA",
-    "price": "$$",
-    "description": "Soul-soaked jazz-funk trio serving up B-3 grooves all night. Intimate West Midtown venue, perfect sound, easy to grab a cocktail beforehand. A 'wow, how did we not know about this band?' date night.",
-    "category": "music"
-  },
-  {
-    "title": "Spyro Gyra Live at City Winery",
-    "date": "2026-06-17",
-    "time": "8:00 PM",
-    "location": "City Winery Atlanta, 650 North Ave NE, Atlanta, GA",
-    "price": "$$$",
-    "description": "Legendary jazz fusion group at one of Atlanta's most romantic venues. Wine, dinner, and a band with 40+ years of catalog. Couples who dig sophisticated music - this is the move. Reserve a table for 2.",
-    "category": "music"
-  },
-  {
-    "title": "Rhys Darby at Helium Comedy Club",
-    "date": "2026-06-18",
-    "time": "7:00 PM - 9:15 PM",
-    "location": "Helium Comedy Club, Atlanta, GA",
-    "price": "$$",
-    "description": "The Flight of the Conchords star brings his surreal, story-driven comedy. Quirky, smart, and surprisingly romantic-adjacent - perfect for the couple whose humor runs more 'absurd' than 'blue'.",
+    "title": "Steph Tolev at Helium Comedy Club",
+    "date": "2026-06-12",
+    "time": "7:00 PM & 9:15 PM",
+    "location": "Helium Comedy Club, 3073 Donald Lee Hollowell Pkwy NW, Atlanta, GA",
+    "price": "Ticketed — check Helium site",
+    "description": "Sharp, unapologetic stand-up from the Canadian comic on a national tour. Multiple showtimes make it easy to build a full date night around — dinner at Westside Provisions, then laughs.",
     "category": "comedy"
   },
   {
-    "title": "Juneteenth Atlanta Parade and Music Festival",
+    "title": "Juneteenth Friday Jazz at the High Museum",
     "date": "2026-06-19",
-    "time": "All Day (parade 10 AM, festival all day)",
-    "location": "Piedmont Park, Atlanta, GA",
-    "price": "Free",
-    "description": "14th Annual celebration - one of the Southeast's biggest cultural events. Parade, multiple music stages, food vendors (veg-friendly options!), and community energy. Free, outdoors, and a true Atlanta experience.",
-    "category": "music"
+    "time": "5:00 PM - 9:00 PM",
+    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta, GA",
+    "price": "VIP $40 members / $55 non-members (includes Amy Sherald exhibit access)",
+    "description": "Special Juneteenth edition of the High's signature Friday Jazz series. Live music, art viewing, cocktails, and the city mingling on a long summer night. Quintessentially Atlanta date — art, jazz, and city views.",
+    "category": "live music"
   },
   {
-    "title": "ROOTS + REMIX: Art, Design, Identity & Sound",
-    "date": "2026-06-19",
-    "time": "6:00 PM - 11:00 PM",
-    "location": "House of Belli, Hapeville, GA",
-    "price": "$$",
-    "description": "Multidisciplinary night blending art, design, and live sound. Creative couples who like their dates concept-driven will love this. Hapeville is the under-the-radar part of the night - get there early.",
-    "category": "art"
-  },
-  {
-    "title": "Tropical Latin Night Atlanta",
-    "date": "2026-06-19",
-    "time": "8:30 PM - 2:00 AM",
-    "location": "Sanctuary Night Club, Atlanta, GA",
-    "price": "$$",
-    "description": "Juneteenth-weekend edition of ATL's most reliable Latin party. Reggaeton, salsa, bachata, and a packed dance floor. Couples who want to celebrate the holiday weekend with movement - this is the move.",
-    "category": "dancing"
-  },
-  {
-    "title": "Happy People Atlanta",
-    "date": "2026-06-20",
-    "time": "2:00 PM - 10:00 PM",
-    "location": "Underground Atlanta, Atlanta, GA",
-    "price": "$$",
-    "description": "Culture-meets-party: 8 hours of music, food, and pure Juneteenth-weekend vibes in Underground Atlanta. Couples who like their dates long, lively, and rooted in Black culture will love this. Arrive early, stay late.",
-    "category": "music"
-  },
-  {
-    "title": "Soul, Jazz & Funk Pre-Father's Day Concert",
-    "date": "2026-06-20",
-    "time": "6:30 PM - 11:00 PM",
-    "location": "Mable House Barnes Amphitheatre, Mableton, GA",
-    "price": "$$",
-    "description": "Open-air amphitheater, picnic-style seating, and a soul-jazz-funk lineup. Bring a blanket, wine, and your favorite person. One of the most romantic outdoor concert setups in metro Atlanta.",
-    "category": "music"
-  },
-  {
-    "title": "Reggae on the Rooftop Festival - Juneteenth Weekend",
+    "title": "Reggae on the Rooftop Festival — Juneteenth Weekend",
     "date": "2026-06-20",
     "time": "3:00 PM - 9:00 PM",
-    "location": "AIR ROOFROP (formerly Suite Lounge), Atlanta, GA",
-    "price": "$$",
-    "description": "Six hours of reggae on a rooftop, paired with food and Juneteenth weekend energy. Couples who love outdoor festivals, island vibes, and dancing - this is the weekend's top pick.",
-    "category": "music"
+    "location": "Air Roofrop (formerly Suite Lounge), 75 Luckie St NW, Atlanta, GA",
+    "price": "Ticketed via Eventbrite (21+)",
+    "description": "Second annual rooftop reggae/dancehall/soca/Afrobeats festival with skyline views, complimentary jerk chicken and rum punch (while supplies last), DJs, indoor + outdoor two-level setup. 6 hours of Caribbean vibes — peak date energy.",
+    "category": "live music"
   },
   {
-    "title": "Atlanta BeltLine Fest at Pittsburgh Yards",
-    "date": "2026-06-20",
-    "time": "10:00 AM - 9:00 PM (Sat & Sun)",
-    "location": "Pittsburgh Yards, 352 University Ave SW, Atlanta, GA",
-    "price": "Free",
-    "description": "Free two-day festival on the new Southside Trail - live World Cup match screenings, music, DJs, food vendors, art. Spend the day outside together without spending a dime. Bring a blanket and a sense of adventure.",
-    "category": "festival"
-  },
-  {
-    "title": "Sip & Savor: Wine & Charcuterie Tasting",
-    "date": "2026-06-20",
-    "time": "4:00 PM - 7:00 PM",
-    "location": "Koncept House Capitol View, Atlanta, GA",
-    "price": "$$",
-    "description": "Guided wine + charcuterie pairing experience. Perfect for the foodie couple who wants something more interactive than a regular dinner. Great icebreaker energy and you leave with new wine picks.",
-    "category": "food"
-  },
-  {
-    "title": "Vegan Soul Sunday - Father's Day Edition",
+    "title": "Vegan Soul Sunday — Real Men Cook Vegan (Father's Day Edition)",
     "date": "2026-06-21",
     "time": "12:00 PM - 4:00 PM",
     "location": "New Life Presbyterian Church, Atlanta, GA",
-    "price": "Free",
-    "description": "Plant-based community cookout with vendors, soul-food classics, and good vibes. Free entry makes it a no-brainer Sunday outing for veg-curious couples or anyone who wants to support local food makers.",
+    "price": "Pay-as-you-order (food)",
+    "description": "Father's Day edition of the beloved Vegan Soul Sunday cookout. Plant-based soul food, community, and good energy. Casual, foodie, family-friendly date — easy win for a relaxed Sunday afternoon.",
     "category": "food"
   },
   {
-    "title": "Salsa at Politan Row at Colony Square",
-    "date": "2026-06-21",
-    "time": "3:00 PM - 7:00 PM",
-    "location": "Politan Row, Colony Square, Midtown Atlanta",
-    "price": "Free",
-    "description": "Sunday afternoon salsa + bachata social surrounded by food hall options. Free to dance, easy to grab a drink or bite, and the energy is welcoming for newbies. Date-night gold in the middle of Midtown.",
+    "title": "Sabor Fino Latin Dance Social at Politan Row",
+    "date": "2026-06-20",
+    "time": "10:00 PM - 2:30 AM",
+    "location": "Politan Row at Colony Square, 1197 Peachtree St NE, Atlanta, GA",
+    "price": "Ticketed via stayhappening",
+    "description": "Late-night Latin dance social at Midtown's food hall. Bring your appetite, stay for the dancing. Couples who already know their salsa or want to learn — great vibe, food-and-drink options right there.",
     "category": "dancing"
   },
   {
     "title": "Plant to the Future: Food, Freedom & Black Futures Conference",
     "date": "2026-06-24",
     "time": "10:00 AM - 8:00 PM",
-    "location": "Pittsburgh Yards - The Food Studio, Atlanta, GA",
-    "price": "$$",
-    "description": "Day-long conference on plant-based food, Black futures, and food justice. Panels, vendors, cooking demos. For the veg-curious couple who also likes a brainy, values-driven day together.",
+    "location": "Pittsburgh Yards | The Food Studio, Atlanta, GA",
+    "price": "Ticketed — check organizers",
+    "description": "Day-long plant-based food conference with chefs, panels, tastings, and a community dinner. Inspiring, educational, and full of good food — ideal for a couple that geeks out on plant-forward culture and Black foodways.",
     "category": "food"
+  },
+  {
+    "title": "Vinyl Sessions: June Edition",
+    "date": "2026-06-28",
+    "time": "7:00 PM - 9:00 PM",
+    "location": "Marcus Bar & Grille, Atlanta, GA",
+    "price": "Ticketed — check stayhappening",
+    "description": "Curated vinyl-only listening night — the 12th installment. Intimate, music-nerd-romantic vibe: bring a date who likes talking about albums over drinks. A quieter, more thoughtful date alternative to loud clubs.",
+    "category": "live music"
   }
 ]
