@@ -9,7 +9,7 @@
     "serve": "npx --yes serve out -l 3000",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test": "node --test test/*.test.mjs"
+    "test": "node --test test/*.test.mjs lib/__tests__/*.test.ts"
   },
   "dependencies": {
     "next": "16.2.9",
