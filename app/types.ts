@@ -15,6 +15,8 @@ export type BossEvent = {
   price?: string;
   description: string;
   category: EventCategory;
+  /** Optional external link for tickets, info, or RSVP */
+  url?: string;
 };
 
 /** Map a category to its accent color and label used throughout the UI. */
