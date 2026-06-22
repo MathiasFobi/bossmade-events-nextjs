@@ -2,34 +2,49 @@
 
 /* ============================================================
    Boss Made Events — Gen-Z Glassmorphic Design System
-   Tailwind v4 theme tokens (CSS custom properties for @theme)
+   LIGHT THEME — premium white with soft tinted glass + neon accents
+   Tailwind v4 theme tokens
    ============================================================ */
 
 :root {
-  --bg-base: #050505;
-  --bg-glass: rgba(255, 255, 255, 0.04);
-  --bg-glass-hover: rgba(255, 255, 255, 0.07);
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-glass-strong: rgba(255, 255, 255, 0.14);
+  /* Base surfaces — soft off-white with subtle warm tint */
+  --bg-base: #f7f6f3;
+  --bg-elevated: #ffffff;
+  --bg-glass: rgba(255, 255, 255, 0.55);
+  --bg-glass-hover: rgba(255, 255, 255, 0.75);
+  --bg-glass-strong: rgba(255, 255, 255, 0.85);
+  --border-glass: rgba(15, 23, 42, 0.08);
+  --border-glass-strong: rgba(15, 23, 42, 0.14);
 
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
-  --text-tertiary: #94a3b8;
-  --text-muted: #64748b;
+  /* Typography — dark ink on light */
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-tertiary: #64748b;
+  --text-muted: #94a3b8;
 
-  /* Neon palette */
-  --neon-cyan: #06b6d4;
-  --neon-purple: #a855f7;
-  --neon-pink: #ec4899;
-  --neon-gold: #fbbf24;
-  --neon-emerald: #10b981;
-  --neon-rose: #fb7185;
+  /* Neon palette (slightly punchier for contrast on light) */
+  --neon-cyan: #0891b2;
+  --neon-purple: #9333ea;
+  --neon-pink: #db2777;
+  --neon-gold: #d97706;
+  --neon-emerald: #059669;
+  --neon-rose: #e11d48;
+
+  /* Soft tinted-glass backgrounds for cards (light theme) */
+  --tint-cyan: rgba(8, 145, 178, 0.06);
+  --tint-purple: rgba(147, 51, 234, 0.06);
+  --tint-pink: rgba(219, 39, 119, 0.06);
+  --tint-gold: rgba(217, 119, 6, 0.07);
+  --tint-emerald: rgba(5, 150, 105, 0.06);
+  --tint-rose: rgba(225, 29, 72, 0.06);
 }
 
 @theme inline {
   --color-bg-base: var(--bg-base);
+  --color-bg-elevated: var(--bg-elevated);
   --color-bg-glass: var(--bg-glass);
   --color-bg-glass-hover: var(--bg-glass-hover);
+  --color-bg-glass-strong: var(--bg-glass-strong);
   --color-border-glass: var(--border-glass);
   --color-border-glass-strong: var(--border-glass-strong);
   --color-text-primary: var(--text-primary);
@@ -59,7 +74,7 @@ body {
 }
 
 /* ============================================================
-   Ambient blobs (background gradient orbs)
+   Ambient blobs (lighter, more diffuse for white bg)
    ============================================================ */
 
 .bg-blobs {
@@ -73,15 +88,15 @@ body {
 .bg-blob {
   position: absolute;
   border-radius: 9999px;
-  filter: blur(80px);
-  opacity: 0.55;
+  filter: blur(100px);
+  opacity: 0.45;
   animation: float 22s infinite ease-in-out alternate;
 }
 
 .bg-blob-1 {
   width: 520px;
   height: 520px;
-  background: radial-gradient(circle, rgba(168, 85, 247, 0.45) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(147, 51, 234, 0.28) 0%, transparent 70%);
   top: -10%;
   left: -8%;
 }
@@ -89,7 +104,7 @@ body {
 .bg-blob-2 {
   width: 620px;
   height: 620px;
-  background: radial-gradient(circle, rgba(6, 182, 212, 0.35) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(8, 145, 178, 0.22) 0%, transparent 70%);
   bottom: -18%;
   right: -10%;
   animation-delay: -7s;
@@ -98,7 +113,7 @@ body {
 .bg-blob-3 {
   width: 420px;
   height: 420px;
-  background: radial-gradient(circle, rgba(236, 72, 153, 0.28) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(219, 39, 119, 0.18) 0%, transparent 70%);
   top: 38%;
   left: 42%;
   animation-duration: 26s;
@@ -106,7 +121,7 @@ body {
 }
 
 /* ============================================================
-   Noise overlay (subtle premium grain)
+   Noise overlay (still subtle, lighter)
    ============================================================ */
 
 .noise-bg {
@@ -114,12 +129,12 @@ body {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  opacity: 0.04;
+  opacity: 0.025;
   background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
 }
 
 /* ============================================================
-   Glass components
+   Glass components (light theme)
    ============================================================ */
 
 .glass-panel {
@@ -128,6 +143,9 @@ body {
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border: 1px solid var(--border-glass);
   border-radius: 1rem;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 8px 32px -8px rgba(15, 23, 42, 0.06);
 }
 
 .glass-card {
@@ -136,24 +154,33 @@ body {
   -webkit-backdrop-filter: blur(16px) saturate(160%);
   border: 1px solid var(--border-glass);
   border-radius: 2rem;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 4px 20px -6px rgba(15, 23, 42, 0.06);
   transition:
     background 0.4s ease,
     border-color 0.4s ease,
-    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.4s ease;
 }
 
 .glass-card:hover {
   background: var(--bg-glass-hover);
   border-color: var(--border-glass-strong);
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 12px 40px -8px rgba(15, 23, 42, 0.12);
 }
 
 .glass-input {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border-glass);
   color: var(--text-primary);
   transition: all 0.3s ease;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
 }
 
 .glass-input::placeholder {
@@ -162,22 +189,25 @@ body {
 
 .glass-input:focus {
   outline: none;
-  background: rgba(255, 255, 255, 0.07);
-  border-color: rgba(6, 182, 212, 0.5);
-  box-shadow: 0 0 0 4px rgba(6, 182, 212, 0.1);
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(8, 145, 178, 0.5);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 0 0 4px rgba(8, 145, 178, 0.12);
 }
 
 .pill {
-  background: var(--bg-glass);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(8px);
   border: 1px solid var(--border-glass);
   border-radius: 0.75rem;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   white-space: nowrap;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
 }
 
 .pill:hover {
-  background: var(--bg-glass-hover);
+  background: rgba(255, 255, 255, 0.95);
   border-color: var(--border-glass-strong);
   transform: translateY(-1px);
 }
@@ -185,11 +215,14 @@ body {
 .pill-active {
   background: linear-gradient(
     135deg,
-    rgba(6, 182, 212, 0.2) 0%,
-    rgba(168, 85, 247, 0.2) 100%
+    rgba(8, 145, 178, 0.12) 0%,
+    rgba(147, 51, 234, 0.12) 100%
   );
-  border-color: rgba(6, 182, 212, 0.5);
+  border-color: rgba(8, 145, 178, 0.4);
   color: var(--neon-cyan);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 0 0 3px rgba(8, 145, 178, 0.12);
 }
 
 /* ============================================================
@@ -261,7 +294,7 @@ body {
   position: fixed;
   inset: 0;
   z-index: 100;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(15, 23, 42, 0.45);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   display: flex;
@@ -271,7 +304,7 @@ body {
 }
 
 .modal-panel {
-  background: rgba(15, 15, 20, 0.9);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(40px) saturate(180%);
   -webkit-backdrop-filter: blur(40px) saturate(180%);
   border: 1px solid var(--border-glass-strong);
@@ -280,10 +313,13 @@ body {
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 24px 80px -20px rgba(15, 23, 42, 0.25);
 }
 
 /* ============================================================
-   Calendar widget (minimal, static)
+   Calendar widget
    ============================================================ */
 
 .calendar-day {
@@ -297,22 +333,26 @@ body {
   font-weight: 500;
   color: var(--text-secondary);
   transition: all 0.2s ease;
+  background: transparent;
+  border: 1px solid transparent;
 }
 
 .calendar-day:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.7);
+  border-color: var(--border-glass);
   color: var(--text-primary);
 }
 
 .calendar-day-today {
   background: linear-gradient(
     135deg,
-    rgba(6, 182, 212, 0.25) 0%,
-    rgba(168, 85, 247, 0.25) 100%
+    rgba(8, 145, 178, 0.15) 0%,
+    rgba(147, 51, 234, 0.15) 100%
   );
-  color: var(--text-primary);
+  color: var(--neon-cyan);
   font-weight: 700;
-  box-shadow: 0 0 24px rgba(6, 182, 212, 0.25);
+  border-color: rgba(8, 145, 178, 0.3);
+  box-shadow: 0 0 20px rgba(8, 145, 178, 0.15);
 }
 
 .calendar-day-has-event {
@@ -333,7 +373,7 @@ body {
 }
 
 /* ============================================================
-   Scrollbar styling
+   Scrollbar
    ============================================================ */
 
 ::-webkit-scrollbar {
@@ -346,10 +386,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(15, 23, 42, 0.12);
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(15, 23, 42, 0.2);
 }

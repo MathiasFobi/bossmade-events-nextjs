@@ -76,7 +76,7 @@ export default function EventModal({ event, onClose }: Props) {
         <div
           className="relative h-44 sm:h-56 overflow-hidden rounded-t-2xl"
           style={{
-            background: `linear-gradient(135deg, ${style.glow.replace("0.35", "0.25")} 0%, rgba(5,5,5,0.6) 60%, rgba(5,5,5,0.9) 100%)`,
+            background: `linear-gradient(135deg, ${style.glow} 0%, rgba(255,255,255,0.4) 60%, rgba(247,246,243,0.95) 100%)`,
           }}
         >
           {/* Decorative pattern */}
