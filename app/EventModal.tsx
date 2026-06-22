@@ -116,10 +116,12 @@ export default function EventModal({ event, onClose }: Props) {
 
   const handleAddToCalendar = () => {
     const ics = buildIcs(event);
-    const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
-    const url = URL.createObjectURL(blob);
+    // iOS Safari blocks downloads from blob: URLs in some contexts, so
+    // we use a data: URL which is universally accepted.
+    const dataUrl =
+      "data:text/calendar;charset=utf-8," + encodeURIComponent(ics);
     const a = document.createElement("a");
-    a.href = url;
+    a.href = dataUrl;
     // Filename: title slug + date
     const safeTitle = event.title
       .toLowerCase()
@@ -128,10 +130,13 @@ export default function EventModal({ event, onClose }: Props) {
       .slice(0, 50);
     const datePart = /^\d{4}-\d{2}-\d{2}$/.test(event.date) ? event.date : "event";
     a.download = `${safeTitle || "event"}-${datePart}.ics`;
+    a.rel = "noopener";
+    // Some iOS Safari builds ignore the `download` attribute on data: URLs
+    // and just open the file in a new tab — the .ics will trigger the
+    // native calendar import flow. That's fine: the user's intent is met.
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
     setIcsCopied(true);
     setTimeout(() => setIcsCopied(false), 2400);
   };
