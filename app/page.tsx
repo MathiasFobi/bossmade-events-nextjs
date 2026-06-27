@@ -94,6 +94,12 @@ export default function Home() {
           <span className="px-2.5 py-1 rounded-md border border-border-glass bg-bg-glass">
             Updated weekly
           </span>
+          <a
+            href="/briefs"
+            className="px-2.5 py-1 rounded-md border border-border-glass bg-bg-glass hover:bg-bg-glass-hover transition"
+          >
+            📈 Stock Briefs
+          </a>
           <span className="px-2.5 py-1 rounded-md border border-border-glass bg-bg-glass">
             {TODAY}
           </span>

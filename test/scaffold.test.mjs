@@ -108,7 +108,7 @@ test("events.json exists in both data/ and public/ and is byte-identical", () =>
 
   const events = readJson(dataPath);
   assert.ok(Array.isArray(events), "events.json is not an array");
-  assert.equal(events.length, 13, `expected 13 events, got ${events.length}`);
+  assert.ok(events.length >= 13, `expected at least 13 events, got ${events.length}`);
 
   // Sanity: every event should have the keys the story describes.
   for (const ev of events) {

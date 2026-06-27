@@ -110,3 +110,71 @@ export type EventCategoryCount = {
   category: EventCategory;
   count: number;
 };
+
+// =============================================================
+// Stock Briefs (consolidated daily brief: markets + news + options)
+// =============================================================
+
+export type MarketTicker = {
+  symbol: string; // "S&P 500", "BTC", "10Y", etc.
+  label?: string; // optional short tag like "Futures"
+  value: string; // "5,432.10"
+  change: string; // "+0.42%" or "-12 bps"
+  direction: "up" | "down" | "flat";
+};
+
+export type NewsItem = {
+  headline: string;
+  context: string; // one-line "why it matters"
+  url?: string;
+  tag?: string; // "Fed", "Earnings", "Macro", etc.
+};
+
+export type OptionsPick = {
+  symbol: string; // QQQ, SPY, TSLA, NVDA…
+  thesis: string; // 1–2 sentences
+  signal: string; // "Unusual call activity", "IV crush setup", etc.
+};
+
+export type StockBrief = {
+  /** ISO date (YYYY-MM-DD) for the trading day this brief covers */
+  date: string;
+  /** Pre-market or close summary, e.g. "Pre-market — Tue, Jun 24" */
+  asOf: string;
+  /** Overall market tone in one line */
+  headline: string;
+  /** Market snapshot section */
+  market: MarketTicker[];
+  /** News flow section */
+  news: NewsItem[];
+  /** Options watch section */
+  options: OptionsPick[];
+  /** Optional bottom-line takeaway */
+  takeaway?: string;
+  /** Generated timestamp (ISO) for cache busting */
+  generatedAt: string;
+};
+
+/** Visual accent for brief sections */
+export const SECTION_STYLES = {
+  market: {
+    accent: "border-neon-cyan/40",
+    softBg: "bg-neon-cyan/10",
+    text: "text-neon-cyan",
+    emoji: "🌍",
+  },
+  news: {
+    accent: "border-neon-purple/40",
+    softBg: "bg-neon-purple/10",
+    text: "text-neon-purple",
+    emoji: "📰",
+  },
+  options: {
+    accent: "border-neon-gold/40",
+    softBg: "bg-neon-gold/10",
+    text: "text-neon-gold",
+    emoji: "🎯",
+  },
+} as const;
+
+export type BriefSection = keyof typeof SECTION_STYLES;
