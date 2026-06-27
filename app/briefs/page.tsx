@@ -61,11 +61,12 @@ export default function BriefsPage() {
         className="mb-8 animate-fade-up"
         style={{ animationDelay: "60ms" }}
       >
-        <div className="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-hide">
+        <div className="relative -mx-4 sm:mx-0">
+          <div className="flex gap-2 overflow-x-auto pb-2 px-4 sm:px-0 scrollbar-hide snap-x snap-mandatory">
           <button
             type="button"
             onClick={() => setSelectedDate(null)}
-            className={`pill px-5 py-2.5 text-xs font-semibold ${
+            className={`pill px-5 py-2.5 text-xs font-semibold whitespace-nowrap snap-start ${
               selectedDate === null ? "pill-active" : "text-text-secondary"
             }`}
           >
@@ -78,7 +79,7 @@ export default function BriefsPage() {
                 key={b.date}
                 type="button"
                 onClick={() => setSelectedDate(b.date)}
-                className={`pill px-5 py-2.5 text-xs font-semibold ${
+                className={`pill px-5 py-2.5 text-xs font-semibold whitespace-nowrap snap-start ${
                   isActive ? "pill-active" : "text-text-secondary"
                 }`}
               >
@@ -86,6 +87,7 @@ export default function BriefsPage() {
               </button>
             );
           })}
+          </div>
         </div>
       </section>
 
@@ -165,7 +167,7 @@ function BriefSectionCard({
 
   return (
     <section
-      className={`glass-card p-5 sm:p-6 lg:col-span-4 border ${style.accent} animate-fade-up`}
+      className={`glass-card p-5 sm:p-6 lg:col-span-4 border ${style.accent} animate-fade-up min-w-0 overflow-hidden`}
       style={{ animationDelay: "180ms" }}
     >
       <div className="flex items-center gap-2 mb-4">
@@ -181,29 +183,29 @@ function BriefSectionCard({
         </h3>
       </div>
 
-      {section === "market" && (
-        <ul className="space-y-2">
+            {section === "market" && (
+        <ul className="space-y-1">
           {brief.market.map((t) => (
             <li
               key={t.symbol}
-              className="flex items-center justify-between gap-3 py-2 border-b border-border-glass last:border-0"
+              className="flex flex-col gap-1 py-2.5 border-b border-border-glass last:border-0 sm:flex-row sm:items-center sm:justify-between sm:gap-3"
             >
-              <div className="flex items-baseline gap-2">
+              <div className="flex items-baseline gap-2 min-w-0 shrink">
                 <span className="font-mono font-bold text-sm text-text-primary">
                   {t.symbol}
                 </span>
                 {t.label && (
-                  <span className="text-[10px] uppercase tracking-wider text-text-muted">
+                  <span className="text-[10px] uppercase tracking-wider text-text-muted truncate">
                     {t.label}
                   </span>
                 )}
               </div>
-              <div className="flex items-baseline gap-3 text-right">
-                <span className="font-mono text-sm text-text-secondary">
+              <div className="flex items-baseline justify-between gap-3 sm:justify-end shrink-0">
+                <span className="font-mono text-sm text-text-secondary tabular-nums">
                   {t.value}
                 </span>
                 <span
-                  className={`font-mono text-xs font-bold min-w-[4.5rem] text-right ${
+                  className={`font-mono text-xs font-bold tabular-nums min-w-[5rem] text-right ${
                     t.direction === "up"
                       ? "text-neon-emerald"
                       : t.direction === "down"
