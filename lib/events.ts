@@ -17,7 +17,9 @@ export type EventCategory =
   | "art"
   | "food"
   | "dancing"
-  | "live music";
+  | "live music"
+  | "Afrobeats"
+  | "reggae";
 
 /**
  * Shape of a single event row from `data/events.json`.

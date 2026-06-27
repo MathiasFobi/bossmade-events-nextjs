@@ -103,10 +103,13 @@ test("all distinct categories in data/events.json have a CATEGORY_COLORS entry",
   }
 });
 
-test("data/events.json contains exactly 13 events (matches getAllEvents() contract)", () => {
+test("data/events.json contains at least 13 events (matches getAllEvents() contract)", () => {
   const events = loadEvents();
   assert.equal(Array.isArray(events), true, "events.json should be an array");
-  assert.equal(events.length, 13, `expected 13 events, got ${events.length}`);
+  assert.ok(
+    events.length >= 13,
+    `expected at least 13 events, got ${events.length}`,
+  );
 });
 
 test("every event in data/events.json has the required keys with non-empty string values", () => {

@@ -77,6 +77,22 @@ export const CATEGORY_COLORS: Record<EventCategory, CategoryColor> = {
     twBorder: "border-emerald-500/20",
     label: "Dancing",
   },
+  Afrobeats: {
+    // Afrobeats events — same gold family as food, signals "festival/energy"
+    hex: "#f59e0b",
+    twText: "text-amber-300",
+    twBg: "bg-amber-500/20",
+    twBorder: "border-amber-500/20",
+    label: "Afrobeats",
+  },
+  reggae: {
+    // Reggae events — emerald-green family
+    hex: "#10b981",
+    twText: "text-emerald-300",
+    twBg: "bg-emerald-500/20",
+    twBorder: "border-emerald-500/20",
+    label: "Reggae",
+  },
 };
 
 /** Safe fallback for unknown / malformed categories. */

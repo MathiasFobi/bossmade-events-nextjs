@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# cron tooling specs (local-only, may contain env references)
+/cron/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
