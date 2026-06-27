@@ -136,6 +136,25 @@ export type OptionsPick = {
   signal: string; // "Unusual call activity", "IV crush setup", etc.
 };
 
+export type SentimentTone = "bullish" | "bearish" | "neutral" | "mixed";
+
+export type EquityMover = {
+  symbol: string; // "AAPL", "NVDA"
+  change: string; // "-6.20%"
+  direction: "up" | "down";
+  reason: string; // one-line catalyst
+};
+
+export type SectorTick = {
+  /** SPDR sector ETF ticker: XLK, XLF, XLE, XLV, XLY, XLP, XLI, XLU, XLB, XLRE, XLC */
+  symbol: string;
+  /** Human label, e.g. "Tech", "Energy" */
+  label: string;
+  /** Formatted % change: "+0.82%" or "-1.15%" */
+  change: string;
+  direction: "up" | "down" | "flat";
+};
+
 export type StockBrief = {
   /** ISO date (YYYY-MM-DD) for the trading day this brief covers */
   date: string;
@@ -143,12 +162,24 @@ export type StockBrief = {
   asOf: string;
   /** Overall market tone in one line */
   headline: string;
+  /** One-word tape tone — drives the big chip at the top */
+  sentiment: {
+    tone: SentimentTone;
+    /** Optional score from -1 (max bearish) to +1 (max bullish), 2 decimals */
+    score?: number;
+    /** Optional one-line reason for the tone */
+    reason?: string;
+  };
   /** Market snapshot section */
   market: MarketTicker[];
   /** News flow section */
   news: NewsItem[];
   /** Options watch section */
   options: OptionsPick[];
+  /** Top 3 single-name equity movers that day (the actionable bit) */
+  movers: EquityMover[];
+  /** 11 SPDR sectors with % change — scannable heat row */
+  sectorHeat: SectorTick[];
   /** Optional bottom-line takeaway */
   takeaway?: string;
   /** Generated timestamp (ISO) for cache busting */
@@ -175,6 +206,49 @@ export const SECTION_STYLES = {
     text: "text-neon-gold",
     emoji: "🎯",
   },
+  movers: {
+    accent: "border-neon-pink/40",
+    softBg: "bg-neon-pink/10",
+    text: "text-neon-pink",
+    emoji: "🚀",
+  },
+  sectors: {
+    accent: "border-neon-emerald/40",
+    softBg: "bg-neon-emerald/10",
+    text: "text-neon-emerald",
+    emoji: "🔥",
+  },
 } as const;
 
 export type BriefSection = keyof typeof SECTION_STYLES;
+
+/** Sentiment chip styling */
+export const SENTIMENT_STYLES: Record<
+  SentimentTone,
+  { label: string; emoji: string; chip: string; ring: string }
+> = {
+  bullish: {
+    label: "Bullish",
+    emoji: "🐂",
+    chip: "bg-neon-emerald/15 text-neon-emerald border-neon-emerald/40",
+    ring: "ring-neon-emerald/30",
+  },
+  bearish: {
+    label: "Bearish",
+    emoji: "🐻",
+    chip: "bg-neon-rose/15 text-neon-rose border-neon-rose/40",
+    ring: "ring-neon-rose/30",
+  },
+  neutral: {
+    label: "Neutral",
+    emoji: "⚖️",
+    chip: "bg-neon-cyan/15 text-neon-cyan border-neon-cyan/40",
+    ring: "ring-neon-cyan/30",
+  },
+  mixed: {
+    label: "Mixed",
+    emoji: "🔀",
+    chip: "bg-neon-gold/15 text-neon-gold border-neon-gold/40",
+    ring: "ring-neon-gold/30",
+  },
+};

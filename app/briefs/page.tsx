@@ -2,8 +2,13 @@
 
 import { useMemo, useState } from "react";
 import briefs from "@/data/briefs.json";
-import type { BriefSection, StockBrief } from "../types";
-import { SECTION_STYLES } from "../types";
+import type {
+  BriefSection,
+  SectorTick,
+  SentimentTone,
+  StockBrief,
+} from "../types";
+import { SENTIMENT_STYLES, SECTION_STYLES } from "../types";
 
 const allBriefs = briefs as unknown as StockBrief[];
 
@@ -111,27 +116,40 @@ function BriefView({ brief }: { brief: StockBrief }) {
     <div className="animate-fade-up" style={{ animationDelay: "120ms" }}>
       {/* Brief meta */}
       <div className="glass-panel p-5 sm:p-6 mb-6">
-        <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <div>
-            <h2 className="font-display font-bold text-xl sm:text-2xl text-text-primary">
-              {brief.headline}
-            </h2>
-            <p className="text-text-muted text-xs font-mono mt-1">
-              {brief.asOf} · generated{" "}
-              {new Date(brief.generatedAt).toLocaleString("en-US", {
-                hour: "numeric",
-                minute: "2-digit",
-                timeZoneName: "short",
-              })}
-            </p>
-          </div>
+        <div className="flex flex-wrap items-start justify-between gap-3 mb-2">
+          <h2 className="font-display font-bold text-xl sm:text-2xl text-text-primary min-w-0 flex-1">
+            {brief.headline}
+          </h2>
+          <SentimentChip
+            tone={brief.sentiment.tone}
+            score={brief.sentiment.score}
+            reason={brief.sentiment.reason}
+          />
         </div>
+        <p className="text-text-muted text-xs font-mono">
+          {brief.asOf} · generated{" "}
+          {new Date(brief.generatedAt).toLocaleString("en-US", {
+            hour: "numeric",
+            minute: "2-digit",
+            timeZoneName: "short",
+          })}
+        </p>
+        {brief.sentiment.reason && (
+          <p className="text-text-secondary text-sm mt-2 italic">
+            {brief.sentiment.reason}
+          </p>
+        )}
       </div>
 
-      <div className="grid lg:grid-cols-12 gap-6">
+      <div className="grid lg:grid-cols-2 gap-6">
         <BriefSectionCard section="market" brief={brief} />
+        <BriefSectionCard section="movers" brief={brief} />
         <BriefSectionCard section="news" brief={brief} />
         <BriefSectionCard section="options" brief={brief} />
+      </div>
+
+      <div className="mt-6">
+        <BriefSectionCard section="sectors" brief={brief} />
       </div>
 
       {brief.takeaway && (
@@ -179,7 +197,11 @@ function BriefSectionCard({
             ? "Market Snapshot"
             : section === "news"
               ? "News Flow"
-              : "Options Watch"}
+              : section === "options"
+                ? "Options Watch"
+                : section === "movers"
+                  ? "Top Movers"
+                  : "Sector Heat"}
         </h3>
       </div>
 
@@ -281,6 +303,103 @@ function BriefSectionCard({
           ))}
         </ul>
       )}
+
+      {section === "movers" && (
+        <ul className="space-y-3">
+          {brief.movers.map((m) => (
+            <li
+              key={m.symbol}
+              className="pb-3 border-b border-border-glass last:border-0"
+            >
+              <div className="flex items-center justify-between gap-3 mb-1">
+                <span className="font-mono font-bold text-base text-text-primary">
+                  {m.symbol}
+                </span>
+                <span
+                  className={`font-mono text-sm font-bold tabular-nums ${
+                    m.direction === "up"
+                      ? "text-neon-emerald"
+                      : "text-neon-rose"
+                  }`}
+                >
+                  {m.direction === "up" ? "▲ " : "▼ "}
+                  {m.change}
+                </span>
+              </div>
+              <p className="text-xs text-text-secondary leading-relaxed">
+                {m.reason}
+              </p>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {section === "sectors" && <SectorHeatGrid sectors={brief.sectorHeat} />}
     </section>
+  );
+}
+
+function SectorHeatGrid({ sectors }: { sectors: SectorTick[] }) {
+  return (
+    <div className="grid grid-cols-3 sm:grid-cols-4 gap-1.5">
+      {sectors.map((s) => (
+        <div
+          key={s.symbol}
+          className={`flex flex-col items-center justify-center px-2 py-2 rounded-lg border text-center ${
+            s.direction === "up"
+              ? "border-neon-emerald/30 bg-neon-emerald/8"
+              : s.direction === "down"
+                ? "border-neon-rose/30 bg-neon-rose/8"
+                : "border-border-glass bg-bg-glass"
+          }`}
+        >
+          <span className="text-[9px] uppercase tracking-wider text-text-muted font-mono leading-none">
+            {s.symbol}
+          </span>
+          <span className="text-[10px] text-text-secondary font-medium mt-0.5 truncate max-w-full">
+            {s.label}
+          </span>
+          <span
+            className={`font-mono text-[11px] font-bold tabular-nums mt-1 ${
+              s.direction === "up"
+                ? "text-neon-emerald"
+                : s.direction === "down"
+                  ? "text-neon-rose"
+                  : "text-text-muted"
+            }`}
+          >
+            {s.direction === "up" ? "▲" : s.direction === "down" ? "▼" : "—"} {s.change}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function SentimentChip({
+  tone,
+  score,
+  reason,
+}: {
+  tone: SentimentTone;
+  score?: number;
+  reason?: string;
+}) {
+  const s = SENTIMENT_STYLES[tone];
+  return (
+    <div
+      className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full border ${s.chip} ring-1 ${s.ring}`}
+    >
+      <span className="text-base leading-none">{s.emoji}</span>
+      <span className="font-display font-bold text-sm uppercase tracking-wider">
+        {s.label}
+      </span>
+      {typeof score === "number" && (
+        <span className="font-mono text-xs tabular-nums opacity-80">
+          {score > 0 ? "+" : ""}
+          {score.toFixed(2)}
+        </span>
+      )}
+    </div>
   );
 }

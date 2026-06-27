@@ -34,13 +34,36 @@ interface OptionsPick {
   signal: string;
 }
 
+interface SentimentTone {
+  tone: "bullish" | "bearish" | "neutral" | "mixed";
+  score?: number;
+  reason?: string;
+}
+
+interface EquityMover {
+  symbol: string;
+  change: string;
+  direction: "up" | "down";
+  reason: string;
+}
+
+interface SectorTick {
+  symbol: string;
+  label: string;
+  change: string;
+  direction: "up" | "down" | "flat";
+}
+
 interface StockBrief {
   date: string;
   asOf: string;
   headline: string;
+  sentiment: SentimentTone;
   market: MarketTicker[];
   news: NewsItem[];
   options: OptionsPick[];
+  movers: EquityMover[];
+  sectorHeat: SectorTick[];
   takeaway?: string;
   generatedAt: string;
 }
@@ -77,21 +100,81 @@ test("every brief has required top-level keys with non-empty string values", () 
     "date",
     "asOf",
     "headline",
+    "sentiment",
+    "market",
+    "news",
+    "options",
+    "movers",
+    "sectorHeat",
     "generatedAt",
   ];
   for (const b of briefs) {
     for (const k of required) {
-      assert.equal(typeof b[k], "string", `brief ${b.date}: ${k} not a string`);
-      assert.ok(
-        (b[k] as string).length > 0,
-        `brief ${b.date}: ${k} is empty`,
-      );
+      assert.ok(b[k] !== undefined, `brief ${b.date}: ${k} missing`);
     }
+    assert.equal(typeof b.date, "string");
+    assert.equal(typeof b.asOf, "string");
     assert.ok(b.date.match(/^\d{4}-\d{2}-\d{2}$/), `bad date format: ${b.date}`);
     assert.ok(
       b.generatedAt.match(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?Z?$/),
       `bad generatedAt format: ${b.generatedAt}`,
     );
+  }
+});
+
+test("every brief sentiment has a valid tone and optional score in [-1, 1]", () => {
+  const briefs = readJson<StockBrief[]>(join(root, "data", "briefs.json"));
+  for (const b of briefs) {
+    assert.ok(
+      ["bullish", "bearish", "neutral", "mixed"].includes(b.sentiment.tone),
+      `brief ${b.date}: invalid sentiment tone ${b.sentiment.tone}`,
+    );
+    if (b.sentiment.score !== undefined) {
+      assert.equal(typeof b.sentiment.score, "number");
+      assert.ok(
+        b.sentiment.score >= -1 && b.sentiment.score <= 1,
+        `brief ${b.date}: sentiment score ${b.sentiment.score} out of [-1, 1]`,
+      );
+    }
+  }
+});
+
+test("every brief has 1-3 movers with valid shape", () => {
+  const briefs = readJson<StockBrief[]>(join(root, "data", "briefs.json"));
+  for (const b of briefs) {
+    assert.ok(b.movers.length >= 1, `brief ${b.date}: movers empty`);
+    assert.ok(b.movers.length <= 5, `brief ${b.date}: too many movers (${b.movers.length})`);
+    for (const m of b.movers) {
+      assert.equal(typeof m.symbol, "string");
+      assert.ok(m.symbol.length > 0);
+      assert.equal(typeof m.change, "string");
+      assert.ok(["up", "down"].includes(m.direction), `bad mover direction ${m.direction}`);
+      assert.equal(typeof m.reason, "string");
+      assert.ok(m.reason.length > 0);
+    }
+  }
+});
+
+test("every brief has sectorHeat with 11 SPDR sectors", () => {
+  const briefs = readJson<StockBrief[]>(join(root, "data", "briefs.json"));
+  const REQUIRED_SECTORS = [
+    "XLK", "XLF", "XLE", "XLV", "XLY", "XLP", "XLI", "XLU", "XLB", "XLRE", "XLC",
+  ];
+  for (const b of briefs) {
+    assert.equal(b.sectorHeat.length, 11, `brief ${b.date}: expected 11 sectors, got ${b.sectorHeat.length}`);
+    const symbols = b.sectorHeat.map((s) => s.symbol).sort();
+    const expected = [...REQUIRED_SECTORS].sort();
+    assert.deepEqual(
+      symbols,
+      expected,
+      `brief ${b.date}: sector symbols mismatch`,
+    );
+    for (const s of b.sectorHeat) {
+      assert.equal(typeof s.label, "string");
+      assert.ok(s.label.length > 0);
+      assert.equal(typeof s.change, "string");
+      assert.ok(["up", "down", "flat"].includes(s.direction));
+    }
   }
 });
 
