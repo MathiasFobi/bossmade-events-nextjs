@@ -1,17 +1,179 @@
 [
   {
     "date": "2026-06-26",
+    "asOf": "Close — Fri, Jun 26",
+    "headline": "Risk-off into the close: Apple drops 6% on OpenAI IPO delay, semis drag Nasdaq, oil bid on Oman incident.",
+    "market": [
+      {
+        "symbol": "ES",
+        "label": "S&P Fut",
+        "value": "7,330",
+        "change": "-0.35%",
+        "direction": "down"
+      },
+      {
+        "symbol": "NQ",
+        "label": "Nasdaq Fut",
+        "value": "29,281",
+        "change": "-1.49%",
+        "direction": "down"
+      },
+      {
+        "symbol": "YM",
+        "label": "Dow Fut",
+        "value": "52,270",
+        "change": "-0.13%",
+        "direction": "down"
+      },
+      {
+        "symbol": "GC",
+        "label": "Gold",
+        "value": "3,985",
+        "change": "-0.45%",
+        "direction": "down"
+      },
+      {
+        "symbol": "CL",
+        "label": "WTI Oil",
+        "value": "71.50",
+        "change": "+1.20%",
+        "direction": "up"
+      },
+      {
+        "symbol": "BTC",
+        "label": "Bitcoin",
+        "value": "60,302",
+        "change": "-2.68%",
+        "direction": "down"
+      },
+      {
+        "symbol": "VIX",
+        "label": "Volatility",
+        "value": "16.4",
+        "change": "+1.8",
+        "direction": "up"
+      },
+      {
+        "symbol": "10Y",
+        "label": "UST 10Y",
+        "value": "4.38%",
+        "change": "-0.05",
+        "direction": "down"
+      }
+    ],
+    "news": [
+      {
+        "headline": "Apple drops 6% as OpenAI IPO delay triggers AI complex unwind",
+        "context": "AAPL is the largest SPX weight by market cap — a 6% drag alone explains the Nasdaq's 1.5% slide.",
+        "tag": "Equities"
+      },
+      {
+        "headline": "Post-FOMC rhetoric tilts hawkish — MNI flags fresh hike framing",
+        "context": "Sticks to the 'higher for longer' script; front-end repricing risk into July CPI.",
+        "tag": "Fed"
+      },
+      {
+        "headline": "Nvidia slide signals S&P 500 risks as AI chip run slows",
+        "context": "Semis lead the beta unwind; NVDA weakness = broader AI complex pressure into next week.",
+        "tag": "Semis"
+      },
+      {
+        "headline": "WTI holds gains near $71.50 after cargo vessel incident near Oman",
+        "context": "Geopolitical risk premium back in the barrel — energy the only green sector on the tape.",
+        "tag": "Energy"
+      },
+      {
+        "headline": "Gold slips under $4,000 — fourth weekly loss on hawkish Fed, strong dollar",
+        "context": "Haven demand fading as real yields push higher; watch $3,950 as next support.",
+        "tag": "Macro"
+      }
+    ],
+    "options": [
+      {
+        "symbol": "QQQ",
+        "thesis": "$124M delta-hedged QQQ block crossed print — desks harvesting vol on semis/software.",
+        "signal": "Premium-selling day: $280M notional sold, skew flattens, watch for dealer gamma flip."
+      },
+      {
+        "symbol": "SPY",
+        "thesis": "VIX up 12% on the day with SPY IV lagging — dispersion trade set up.",
+        "signal": "Long VIX / long SPY put spread into next week's jobs print."
+      },
+      {
+        "symbol": "TSLA",
+        "thesis": "Unusual call flow re-emerges on delivery chatter; July $260 strikes bid.",
+        "signal": "Sweep activity into Friday close — narrative-trade, not flow-confirmed yet."
+      },
+      {
+        "symbol": "NVDA",
+        "thesis": "IV crushed into AI-complex selloff — vol is cheap relative to realized.",
+        "signal": "Long straddle into next print; vol is being gifted here."
+      }
+    ],
+    "takeaway": "Tape ends H1 on a sour note — AAPL-led AI unwind + hawkish Fed reframe = defensive rotation into the long weekend. Size down, watch $7,300 ES as Friday closing support.",
+    "generatedAt": "2026-06-27T04:00:00.000Z"
+  },
+  {
+    "date": "2026-06-26",
     "asOf": "Pre-market — Fri, Jun 26",
     "headline": "Futures flat into long-weekend tape, gold bid, BTC heavy.",
     "market": [
-      { "symbol": "ES", "label": "S&P Fut", "value": "5,432", "change": "+0.04%", "direction": "up" },
-      { "symbol": "NQ", "label": "Nasdaq Fut", "value": "19,108", "change": "-0.08%", "direction": "down" },
-      { "symbol": "YM", "label": "Dow Fut", "value": "39,420", "change": "+0.02%", "direction": "flat" },
-      { "symbol": "GC", "label": "Gold", "value": "2,341", "change": "+0.6%", "direction": "up" },
-      { "symbol": "CL", "label": "WTI Oil", "value": "82.4", "change": "-1.2%", "direction": "down" },
-      { "symbol": "BTC", "label": "Bitcoin", "value": "62,180", "change": "-1.8%", "direction": "down" },
-      { "symbol": "VIX", "label": "Volatility", "value": "13.2", "change": "+0.4", "direction": "flat" },
-      { "symbol": "10Y", "label": "UST 10Y", "value": "4.28%", "change": "-3 bps", "direction": "down" }
+      {
+        "symbol": "ES",
+        "label": "S&P Fut",
+        "value": "5,432",
+        "change": "+0.04%",
+        "direction": "up"
+      },
+      {
+        "symbol": "NQ",
+        "label": "Nasdaq Fut",
+        "value": "19,108",
+        "change": "-0.08%",
+        "direction": "down"
+      },
+      {
+        "symbol": "YM",
+        "label": "Dow Fut",
+        "value": "39,420",
+        "change": "+0.02%",
+        "direction": "flat"
+      },
+      {
+        "symbol": "GC",
+        "label": "Gold",
+        "value": "2,341",
+        "change": "+0.6%",
+        "direction": "up"
+      },
+      {
+        "symbol": "CL",
+        "label": "WTI Oil",
+        "value": "82.4",
+        "change": "-1.2%",
+        "direction": "down"
+      },
+      {
+        "symbol": "BTC",
+        "label": "Bitcoin",
+        "value": "62,180",
+        "change": "-1.8%",
+        "direction": "down"
+      },
+      {
+        "symbol": "VIX",
+        "label": "Volatility",
+        "value": "13.2",
+        "change": "+0.4",
+        "direction": "flat"
+      },
+      {
+        "symbol": "10Y",
+        "label": "UST 10Y",
+        "value": "4.28%",
+        "change": "-3 bps",
+        "direction": "down"
+      }
     ],
     "news": [
       {
@@ -65,11 +227,41 @@
     "asOf": "Pre-market — Thu, Jun 25",
     "headline": "Futures green on cooling CPI, rates rally, beta bid.",
     "market": [
-      { "symbol": "ES", "label": "S&P Fut", "value": "5,418", "change": "+0.28%", "direction": "up" },
-      { "symbol": "NQ", "label": "Nasdaq Fut", "value": "19,090", "change": "+0.42%", "direction": "up" },
-      { "symbol": "GC", "label": "Gold", "value": "2,328", "change": "+0.3%", "direction": "up" },
-      { "symbol": "BTC", "label": "Bitcoin", "value": "63,300", "change": "+1.1%", "direction": "up" },
-      { "symbol": "10Y", "label": "UST 10Y", "value": "4.31%", "change": "-5 bps", "direction": "down" }
+      {
+        "symbol": "ES",
+        "label": "S&P Fut",
+        "value": "5,418",
+        "change": "+0.28%",
+        "direction": "up"
+      },
+      {
+        "symbol": "NQ",
+        "label": "Nasdaq Fut",
+        "value": "19,090",
+        "change": "+0.42%",
+        "direction": "up"
+      },
+      {
+        "symbol": "GC",
+        "label": "Gold",
+        "value": "2,328",
+        "change": "+0.3%",
+        "direction": "up"
+      },
+      {
+        "symbol": "BTC",
+        "label": "Bitcoin",
+        "value": "63,300",
+        "change": "+1.1%",
+        "direction": "up"
+      },
+      {
+        "symbol": "10Y",
+        "label": "UST 10Y",
+        "value": "4.31%",
+        "change": "-5 bps",
+        "direction": "down"
+      }
     ],
     "news": [
       {
