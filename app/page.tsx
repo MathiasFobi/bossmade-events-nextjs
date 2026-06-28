@@ -2,14 +2,17 @@
 
 import { useMemo, useState } from "react";
 import events from "@/data/events.json";
-import type { BossEvent, EventCategory } from "./types";
+import briefs from "@/data/briefs.json";
+import type { BossEvent, EventCategory, StockBrief } from "./types";
 import { CATEGORY_LABEL, CATEGORY_ORDER, CATEGORY_STYLES } from "./types";
 import EventCard from "./EventCard";
 import EventModal from "./EventModal";
 import CalendarSidebar from "./CalendarSidebar";
+import { SectorHeatGrid } from "./components/SectorHeatGrid";
 
 // Cast imported JSON to our typed array
 const allEvents = events as unknown as BossEvent[];
+const allBriefs = briefs as unknown as StockBrief[];
 
 const TODAY = new Date().toISOString().slice(0, 10);
 
@@ -176,6 +179,51 @@ export default function Home() {
           })}
         </div>
       </section>
+
+      {/* ──────────────────── Sector heat strip ──────────────────── */}
+      {allBriefs[0]?.sectorHeat && (
+        <section
+          className="mb-6 sm:mb-8 animate-fade-up"
+          style={{ animationDelay: "140ms" }}
+        >
+          <div className="glass-panel p-4 sm:p-5">
+            <div className="flex items-center justify-between gap-3 mb-3">
+              <div className="flex items-center gap-2 min-w-0">
+                <span className="text-lg">🔥</span>
+                <h2 className="font-display font-bold text-sm sm:text-base uppercase tracking-wider text-text-primary truncate">
+                  Today's tape
+                </h2>
+                {allBriefs[0].sentiment && (
+                  <span
+                    className={`pill px-2 py-0.5 text-[10px] font-bold ${
+                      allBriefs[0].sentiment.tone === "bullish"
+                        ? "bg-neon-emerald/15 text-neon-emerald border-neon-emerald/40"
+                        : allBriefs[0].sentiment.tone === "bearish"
+                          ? "bg-neon-rose/15 text-neon-rose border-neon-rose/40"
+                          : allBriefs[0].sentiment.tone === "mixed"
+                            ? "bg-neon-gold/15 text-neon-gold border-neon-gold/40"
+                            : "bg-neon-cyan/15 text-neon-cyan border-neon-cyan/40"
+                    }`}
+                  >
+                    {allBriefs[0].sentiment.tone.toUpperCase()}
+                  </span>
+                )}
+              </div>
+              <a
+                href="/briefs"
+                className="text-[11px] font-mono uppercase tracking-wider text-text-muted hover:text-neon-cyan transition whitespace-nowrap"
+              >
+                Full brief →
+              </a>
+            </div>
+            <SectorHeatGrid
+              sectors={allBriefs[0].sectorHeat}
+              cols="grid-cols-4 sm:grid-cols-6 lg:grid-cols-11"
+              compact
+            />
+          </div>
+        </section>
+      )}
 
       {/* ──────────────────── Main grid ──────────────────── */}
       <div

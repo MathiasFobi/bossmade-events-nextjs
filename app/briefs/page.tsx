@@ -4,11 +4,11 @@ import { useMemo, useState } from "react";
 import briefs from "@/data/briefs.json";
 import type {
   BriefSection,
-  SectorTick,
   SentimentTone,
   StockBrief,
 } from "../types";
 import { SENTIMENT_STYLES, SECTION_STYLES } from "../types";
+import { SectorHeatGrid } from "../components/SectorHeatGrid";
 
 const allBriefs = briefs as unknown as StockBrief[];
 
@@ -334,45 +334,13 @@ function BriefSectionCard({
         </ul>
       )}
 
-      {section === "sectors" && <SectorHeatGrid sectors={brief.sectorHeat} />}
+      {section === "sectors" && (
+        <SectorHeatGrid
+          sectors={brief.sectorHeat}
+          cols="grid-cols-3 sm:grid-cols-4"
+        />
+      )}
     </section>
-  );
-}
-
-function SectorHeatGrid({ sectors }: { sectors: SectorTick[] }) {
-  return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 gap-1.5">
-      {sectors.map((s) => (
-        <div
-          key={s.symbol}
-          className={`flex flex-col items-center justify-center px-2 py-2 rounded-lg border text-center ${
-            s.direction === "up"
-              ? "border-neon-emerald/30 bg-neon-emerald/8"
-              : s.direction === "down"
-                ? "border-neon-rose/30 bg-neon-rose/8"
-                : "border-border-glass bg-bg-glass"
-          }`}
-        >
-          <span className="text-[9px] uppercase tracking-wider text-text-muted font-mono leading-none">
-            {s.symbol}
-          </span>
-          <span className="text-[10px] text-text-secondary font-medium mt-0.5 truncate max-w-full">
-            {s.label}
-          </span>
-          <span
-            className={`font-mono text-[11px] font-bold tabular-nums mt-1 ${
-              s.direction === "up"
-                ? "text-neon-emerald"
-                : s.direction === "down"
-                  ? "text-neon-rose"
-                  : "text-text-muted"
-            }`}
-          >
-            {s.direction === "up" ? "▲" : s.direction === "down" ? "▼" : "—"} {s.change}
-          </span>
-        </div>
-      ))}
-    </div>
   );
 }
 
