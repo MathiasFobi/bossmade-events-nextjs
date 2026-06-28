@@ -2,783 +2,205 @@
   {
     "date": "2026-06-27",
     "asOf": "Weekend wrap \u2014 Sat, Jun 27 (Fri Jun 26 close)",
-    "headline": "AI trade splits: Micron rips +15.7% on earnings, Apple -6.1% on memory cost shock; Asia tech rout, VIX pushed to 20.",
+    "headline": "H1 closes on a split tape: Micron +15.7% wins the AI trade, Apple -6.1% loses it; Nasdaq -4.5% on the week, BTC first sub-$60K close since Q3'24.",
     "sentiment": {
       "tone": "mixed",
-      "score": -0.18,
-      "reason": "Index barely moved but single-stock dispersion exploded \u2014 Micron/Apple diverged 22 points in one session and KOSPI -6%, classic late-cycle AI tape."
+      "score": -0.22,
+      "reason": "Index barely budged Friday but single-name dispersion was historic \u2014 Micron and Apple diverged ~22 points in one session, KOSPI tripped a circuit breaker, and BTC printed its first sub-$60K close since Q3'24."
     },
     "market": [
-      {
-        "symbol": "ES",
-        "label": "S&P Fut",
-        "value": "7,397",
-        "change": "+0.15%",
-        "direction": "up"
-      },
-      {
-        "symbol": "NQ",
-        "label": "Nasdaq Fut",
-        "value": "25,420",
-        "change": "-0.35%",
-        "direction": "down"
-      },
-      {
-        "symbol": "YM",
-        "label": "Dow Fut",
-        "value": "52,050",
-        "change": "+0.34%",
-        "direction": "up"
-      },
-      {
-        "symbol": "GC",
-        "label": "Gold",
-        "value": "3,978",
-        "change": "-0.45%",
-        "direction": "down"
-      },
-      {
-        "symbol": "CL",
-        "label": "WTI Oil",
-        "value": "70.54",
-        "change": "+2.19%",
-        "direction": "up"
-      },
-      {
-        "symbol": "BTC",
-        "label": "Bitcoin",
-        "value": "59,800",
-        "change": "-1.10%",
-        "direction": "down"
-      },
-      {
-        "symbol": "VIX",
-        "label": "Volatility",
-        "value": "20.3",
-        "change": "+1.4",
-        "direction": "up"
-      },
-      {
-        "symbol": "10Y",
-        "label": "UST 10Y",
-        "value": "4.38%",
-        "change": "-0.02",
-        "direction": "down"
-      }
+      {"symbol": "ES", "label": "S&P Fut", "value": "7,397", "change": "+0.15%", "direction": "up"},
+      {"symbol": "NQ", "label": "Nasdaq Fut", "value": "25,420", "change": "-0.35%", "direction": "down"},
+      {"symbol": "YM", "label": "Dow Fut", "value": "52,050", "change": "+0.34%", "direction": "up"},
+      {"symbol": "GC", "label": "Gold", "value": "3,978", "change": "-0.45%", "direction": "down"},
+      {"symbol": "CL", "label": "WTI Oil", "value": "70.54", "change": "+2.19%", "direction": "up"},
+      {"symbol": "BTC", "label": "Bitcoin", "value": "59,800", "change": "-1.10%", "direction": "down"},
+      {"symbol": "VIX", "label": "Volatility", "value": "20.3", "change": "+1.4", "direction": "up"},
+      {"symbol": "10Y", "label": "UST 10Y", "value": "4.38%", "change": "-0.02", "direction": "down"}
     ],
     "movers": [
-      {
-        "symbol": "MU",
-        "change": "+15.70%",
-        "direction": "up",
-        "reason": "FQ3 beat & raise on HBM3E demand \u2014 memory side of AI capex wins"
-      },
-      {
-        "symbol": "AAPL",
-        "change": "-6.10%",
-        "direction": "down",
-        "reason": "Mid-cycle price hike on Macs/iPads flagged memory cost pressure"
-      },
-      {
-        "symbol": "MSFT",
-        "change": "-3.50%",
-        "direction": "down",
-        "reason": "Xbox/Hardware repricing as AI memory costs flow through to device margins"
-      }
+      {"symbol": "MU", "change": "+15.70%", "direction": "up", "reason": "FQ3 beat & raise on HBM3E demand \u2014 memory side of AI capex wins the day"},
+      {"symbol": "AAPL", "change": "-6.10%", "direction": "down", "reason": "Mid-cycle Mac/iPad price hike flags memory cost pressure flowing through to device margins"},
+      {"symbol": "MSFT", "change": "-3.50%", "direction": "down", "reason": "Xbox/hardware repricing as AI memory costs drag consumer hardware peers"}
     ],
     "sectorHeat": [
-      {
-        "symbol": "XLK",
-        "label": "Tech",
-        "change": "-0.80%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLF",
-        "label": "Financials",
-        "change": "+0.45%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLE",
-        "label": "Energy",
-        "change": "+1.30%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLV",
-        "label": "Health",
-        "change": "+0.60%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLY",
-        "label": "Cons Disc",
-        "change": "-0.55%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLP",
-        "label": "Staples",
-        "change": "+0.20%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLI",
-        "label": "Industrials",
-        "change": "+0.75%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLU",
-        "label": "Utilities",
-        "change": "+0.40%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLB",
-        "label": "Materials",
-        "change": "+0.15%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLRE",
-        "label": "Real Estate",
-        "change": "-0.10%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLC",
-        "label": "Comm Svc",
-        "change": "-0.30%",
-        "direction": "down"
-      }
+      {"symbol": "XLK", "label": "Tech", "change": "-0.80%", "direction": "down"},
+      {"symbol": "XLF", "label": "Financials", "change": "+0.45%", "direction": "up"},
+      {"symbol": "XLE", "label": "Energy", "change": "+1.30%", "direction": "up"},
+      {"symbol": "XLV", "label": "Health", "change": "+0.60%", "direction": "up"},
+      {"symbol": "XLY", "label": "Cons Disc", "change": "-0.55%", "direction": "down"},
+      {"symbol": "XLP", "label": "Staples", "change": "+0.20%", "direction": "up"},
+      {"symbol": "XLI", "label": "Industrials", "change": "+0.75%", "direction": "up"},
+      {"symbol": "XLU", "label": "Utilities", "change": "+0.40%", "direction": "up"},
+      {"symbol": "XLB", "label": "Materials", "change": "+0.15%", "direction": "up"},
+      {"symbol": "XLRE", "label": "Real Estate", "change": "-0.10%", "direction": "down"},
+      {"symbol": "XLC", "label": "Comm Svc", "change": "-0.30%", "direction": "down"}
     ],
     "news": [
-      {
-        "headline": "Micron +15.7%, Apple -6.1% in same session as AI cost chain splits",
-        "context": "Memory winners vs. device losers \u2014 dispersion theme, not index direction. COR3M at 9.90 confirms decoupling.",
-        "tag": "Semis"
-      },
-      {
-        "headline": "KOSPI -6%, Nikkei -5% as Asia tech catches down on Apple repricing",
-        "context": "Overnight tape smeared into US: SK Hynix -8%, Samsung -5%, TSMC -2% \u2014 global tech correction, not US-only.",
-        "tag": "Equities"
-      },
-      {
-        "headline": "WTI rebounds to $70.54 (+2.2%) on Oman cargo vessel incident",
-        "context": "Hormuz transit improving but single-event risk still alive \u2014 counter-trend bid into soft tape.",
-        "tag": "Energy"
-      },
-      {
-        "headline": "VIX pushes to 20.30 intraday as Asian reversal hits US morning",
-        "context": "VIX9D 17.92 vs VIX3M 20.33 \u2014 front-month in mild backwardation, term structure pricing more pain later.",
-        "tag": "Macro"
-      },
-      {
-        "headline": "CME FedWatch prices ~47% September rate hike after cooler PCE",
-        "context": "May Core PCE 0.45% m/m (vs 0.50% est.) \u2014 disinflation, but market reading Fed as data-dependent hawk.",
-        "tag": "Fed"
-      }
+      {"headline": "Micron +15.7%, Apple -6.1% in same session \u2014 AI cost chain splits", "context": "Memory winners vs device losers \u2014 dispersion theme, not index direction. COR3M near cycle low at 9.90 confirms decoupling.", "tag": "Semis"},
+      {"headline": "KOSPI -6%, Nikkei -5% as Asia tech catches down on Apple repricing", "context": "Overnight tape smeared into US: SK Hynix -8%, Samsung -5%, TSMC -2% \u2014 global tech correction, not US-only.", "tag": "Equities"},
+      {"headline": "WTI rebounds to $70.54 (+2.2%) on Oman cargo vessel incident", "context": "Hormuz transit improving but single-event risk still live \u2014 counter-trend bid into a soft tape.", "tag": "Energy"},
+      {"headline": "VIX pushes to 20.30 as Asian reversal hits US morning", "context": "VIX9D 17.92 vs VIX3M 20.33 \u2014 front-month in mild backwardation, term structure pricing more pain later.", "tag": "Macro"},
+      {"headline": "CME FedWatch prices ~47% September rate hike after cooler PCE", "context": "May Core PCE 0.45% m/m vs 0.50% est \u2014 disinflation printed, but market reads Fed as data-dependent hawk.", "tag": "Fed"}
     ],
     "options": [
-      {
-        "symbol": "QQQ",
-        "thesis": "$124M delta-hedged block crossed print while spot fell 1.5% \u2014 desks harvesting fat vol into weekend",
-        "signal": "Sell weekly QQQ put spreads, buy VIX3M call calendars into July CPI"
-      },
-      {
-        "symbol": "SPY",
-        "thesis": "COR3M at 9.90 near cycle low \u2014 single-stock dispersion means index puts under-hedge concentrated risk",
-        "signal": "Long SPY put spread + long single-stock puts on MSFT/AAPL into July 11 expiry"
-      },
-      {
-        "symbol": "TSLA",
-        "thesis": "Skew flattening with stock near 240 \u2014 call premium cheap relative to realized vol, Robotaxi narrative still alive",
-        "signal": "Sell ATM straddle, keep OTM call upside into Aug earnings"
-      },
-      {
-        "symbol": "NVDA",
-        "thesis": "IV at 48% with stock at 195 \u2014 elevated skew into TSMC/Qualcomm prints; dealer gamma negative below 190",
-        "signal": "Bear put spread NVDA 195/170 July 18, defined risk into semi capex scrutiny"
-      },
-      {
-        "symbol": "MU",
-        "thesis": "IV crush expected after +15% rip \u2014 30-day IV 92% vs HV 65%, dealer flow turning two-way post-earnings",
-        "signal": "Sell MU weekly call spreads against long stock, fade IV into July"
-      }
+      {"symbol": "QQQ", "thesis": "$124M delta-hedged block crossed print while spot fell 1.5% \u2014 desks harvesting fat vol into the long weekend.", "signal": "Sell weekly QQQ put spreads, buy VIX3M call calendars into July CPI"},
+      {"symbol": "SPY", "thesis": "COR3M at 9.90 near cycle low \u2014 single-stock dispersion means index puts under-hedge concentrated risk.", "signal": "Long SPY put spread + long single-stock puts on MSFT/AAPL into July 11 expiry"},
+      {"symbol": "TSLA", "thesis": "Skew flattening with stock near 240 \u2014 call premium cheap relative to realized, Robotaxi narrative still alive.", "signal": "Sell ATM straddle, keep OTM call upside into Aug earnings"},
+      {"symbol": "NVDA", "thesis": "IV at 48% with stock at 195 \u2014 elevated skew into TSMC/Qualcomm prints; dealer gamma negative below 190.", "signal": "Bear put spread NVDA 195/170 July 18, defined risk into semi capex scrutiny"},
+      {"symbol": "MU", "thesis": "IV crush expected after +15% rip \u2014 30-day IV 92% vs HV 65%, dealer flow turning two-way post-earnings.", "signal": "Sell MU weekly call spreads against long stock, fade IV into July"}
     ],
-    "takeaway": "Index levels lie. The real tape is inside the AI complex \u2014 Micron won Friday, Apple lost it, and Asia paid the bill overnight. Dispersion trade is the only trade until COR3M normalizes.",
-    "generatedAt": "2026-06-27T21:47:02Z"
+    "takeaway": "Index levels lie. The real tape is inside the AI complex \u2014 Micron won Friday, Apple lost it, and Asia paid the bill overnight. Dispersion is the only trade until COR3M normalizes.",
+    "generatedAt": "2026-06-28T00:36:00Z"
   },
   {
     "date": "2026-06-26",
     "asOf": "Close \u2014 Fri, Jun 26",
     "headline": "Risk-off into the close: Apple drops 6% on OpenAI IPO delay, semis drag Nasdaq, oil bid on Oman incident.",
-    "market": [
-      {
-        "symbol": "ES",
-        "label": "S&P Fut",
-        "value": "7,330",
-        "change": "-0.35%",
-        "direction": "down"
-      },
-      {
-        "symbol": "NQ",
-        "label": "Nasdaq Fut",
-        "value": "29,281",
-        "change": "-1.49%",
-        "direction": "down"
-      },
-      {
-        "symbol": "YM",
-        "label": "Dow Fut",
-        "value": "52,270",
-        "change": "-0.13%",
-        "direction": "down"
-      },
-      {
-        "symbol": "GC",
-        "label": "Gold",
-        "value": "3,985",
-        "change": "-0.45%",
-        "direction": "down"
-      },
-      {
-        "symbol": "CL",
-        "label": "WTI Oil",
-        "value": "71.50",
-        "change": "+1.20%",
-        "direction": "up"
-      },
-      {
-        "symbol": "BTC",
-        "label": "Bitcoin",
-        "value": "60,302",
-        "change": "-2.68%",
-        "direction": "down"
-      },
-      {
-        "symbol": "VIX",
-        "label": "Volatility",
-        "value": "16.4",
-        "change": "+1.8",
-        "direction": "up"
-      },
-      {
-        "symbol": "10Y",
-        "label": "UST 10Y",
-        "value": "4.38%",
-        "change": "-0.05",
-        "direction": "down"
-      }
-    ],
-    "news": [
-      {
-        "headline": "Apple drops 6% as OpenAI IPO delay triggers AI complex unwind",
-        "context": "AAPL is the largest SPX weight by market cap \u2014 a 6% drag alone explains the Nasdaq's 1.5% slide.",
-        "tag": "Equities"
-      },
-      {
-        "headline": "Post-FOMC rhetoric tilts hawkish \u2014 MNI flags fresh hike framing",
-        "context": "Sticks to the 'higher for longer' script; front-end repricing risk into July CPI.",
-        "tag": "Fed"
-      },
-      {
-        "headline": "Nvidia slide signals S&P 500 risks as AI chip run slows",
-        "context": "Semis lead the beta unwind; NVDA weakness = broader AI complex pressure into next week.",
-        "tag": "Semis"
-      },
-      {
-        "headline": "WTI holds gains near $71.50 after cargo vessel incident near Oman",
-        "context": "Geopolitical risk premium back in the barrel \u2014 energy the only green sector on the tape.",
-        "tag": "Energy"
-      },
-      {
-        "headline": "Gold slips under $4,000 \u2014 fourth weekly loss on hawkish Fed, strong dollar",
-        "context": "Haven demand fading as real yields push higher; watch $3,950 as next support.",
-        "tag": "Macro"
-      }
-    ],
-    "options": [
-      {
-        "symbol": "QQQ",
-        "thesis": "$124M delta-hedged QQQ block crossed print \u2014 desks harvesting vol on semis/software.",
-        "signal": "Premium-selling day: $280M notional sold, skew flattens, watch for dealer gamma flip."
-      },
-      {
-        "symbol": "SPY",
-        "thesis": "VIX up 12% on the day with SPY IV lagging \u2014 dispersion trade set up.",
-        "signal": "Long VIX / long SPY put spread into next week's jobs print."
-      },
-      {
-        "symbol": "TSLA",
-        "thesis": "Unusual call flow re-emerges on delivery chatter; July $260 strikes bid.",
-        "signal": "Sweep activity into Friday close \u2014 narrative-trade, not flow-confirmed yet."
-      },
-      {
-        "symbol": "NVDA",
-        "thesis": "IV crushed into AI-complex selloff \u2014 vol is cheap relative to realized.",
-        "signal": "Long straddle into next print; vol is being gifted here."
-      }
-    ],
-    "takeaway": "Tape ends H1 on a sour note \u2014 AAPL-led AI unwind + hawkish Fed reframe = defensive rotation into the long weekend. Size down, watch $7,300 ES as Friday closing support.",
-    "generatedAt": "2026-06-27T04:00:00.000Z",
     "sentiment": {
       "tone": "mixed",
       "score": -0.2,
       "reason": "Risk-off into the close on AI-complex fatigue, offset by Dow bid and gold strength."
     },
+    "market": [
+      {"symbol": "ES", "label": "S&P Fut", "value": "7,330", "change": "-0.35%", "direction": "down"},
+      {"symbol": "NQ", "label": "Nasdaq Fut", "value": "29,281", "change": "-1.49%", "direction": "down"},
+      {"symbol": "YM", "label": "Dow Fut", "value": "52,270", "change": "-0.13%", "direction": "down"},
+      {"symbol": "GC", "label": "Gold", "value": "3,985", "change": "-0.45%", "direction": "down"},
+      {"symbol": "CL", "label": "WTI Oil", "value": "71.50", "change": "+1.20%", "direction": "up"},
+      {"symbol": "BTC", "label": "Bitcoin", "value": "60,302", "change": "-2.68%", "direction": "down"},
+      {"symbol": "VIX", "label": "Volatility", "value": "16.4", "change": "+1.8", "direction": "up"},
+      {"symbol": "10Y", "label": "UST 10Y", "value": "4.38%", "change": "-0.05", "direction": "down"}
+    ],
     "movers": [
-      {
-        "symbol": "AAPL",
-        "change": "-6.20%",
-        "direction": "down",
-        "reason": "AI capex jitters spill from NVDA"
-      },
-      {
-        "symbol": "NVDA",
-        "change": "-4.80%",
-        "direction": "down",
-        "reason": "Asia supplier warning drags semis"
-      },
-      {
-        "symbol": "XOM",
-        "change": "+2.10%",
-        "direction": "up",
-        "reason": "OPEC+ unwind priced in, energy bid"
-      }
+      {"symbol": "AAPL", "change": "-6.20%", "direction": "down", "reason": "AI capex jitters spill from NVDA"},
+      {"symbol": "NVDA", "change": "-4.80%", "direction": "down", "reason": "Asia supplier warning drags semis"},
+      {"symbol": "XOM", "change": "+2.10%", "direction": "up", "reason": "OPEC+ unwind priced in, energy bid"}
     ],
     "sectorHeat": [
-      {
-        "symbol": "XLE",
-        "label": "Energy",
-        "change": "+1.20%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLF",
-        "label": "Financials",
-        "change": "+0.45%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLV",
-        "label": "Health",
-        "change": "+0.10%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLP",
-        "label": "Staples",
-        "change": "-0.05%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLU",
-        "label": "Utilities",
-        "change": "-0.20%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLY",
-        "label": "Cons Disc",
-        "change": "-0.80%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLI",
-        "label": "Industrials",
-        "change": "-0.45%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLB",
-        "label": "Materials",
-        "change": "-0.30%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLRE",
-        "label": "Real Estate",
-        "change": "+0.05%",
-        "direction": "flat"
-      },
-      {
-        "symbol": "XLC",
-        "label": "Comm Svc",
-        "change": "-1.10%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLK",
-        "label": "Tech",
-        "change": "-1.65%",
-        "direction": "down"
-      }
-    ]
+      {"symbol": "XLK", "label": "Tech", "change": "-1.65%", "direction": "down"},
+      {"symbol": "XLF", "label": "Financials", "change": "+0.45%", "direction": "up"},
+      {"symbol": "XLE", "label": "Energy", "change": "+1.20%", "direction": "up"},
+      {"symbol": "XLV", "label": "Health", "change": "+0.10%", "direction": "up"},
+      {"symbol": "XLY", "label": "Cons Disc", "change": "-0.80%", "direction": "down"},
+      {"symbol": "XLP", "label": "Staples", "change": "-0.05%", "direction": "down"},
+      {"symbol": "XLI", "label": "Industrials", "change": "-0.45%", "direction": "down"},
+      {"symbol": "XLU", "label": "Utilities", "change": "-0.20%", "direction": "down"},
+      {"symbol": "XLB", "label": "Materials", "change": "-0.30%", "direction": "down"},
+      {"symbol": "XLRE", "label": "Real Estate", "change": "+0.05%", "direction": "flat"},
+      {"symbol": "XLC", "label": "Comm Svc", "change": "-1.10%", "direction": "down"}
+    ],
+    "news": [
+      {"headline": "Apple drops 6% as OpenAI IPO delay triggers AI complex unwind", "context": "AAPL is the largest SPX weight by market cap \u2014 a 6% drag alone explains the Nasdaq's 1.5% slide.", "tag": "Equities"},
+      {"headline": "Post-FOMC rhetoric tilts hawkish \u2014 MNI flags fresh hike framing", "context": "Sticks to the 'higher for longer' script; front-end repricing risk into July CPI.", "tag": "Fed"},
+      {"headline": "Nvidia slide signals S&P 500 risks as AI chip run slows", "context": "Semis lead the beta unwind; NVDA weakness = broader AI complex pressure into next week.", "tag": "Semis"},
+      {"headline": "WTI holds gains near $71.50 after cargo vessel incident near Oman", "context": "Geopolitical risk premium back in the barrel \u2014 energy the only green sector on the tape.", "tag": "Energy"},
+      {"headline": "Gold slips under $4,000 \u2014 fourth weekly loss on hawkish Fed, strong dollar", "context": "Haven demand fading as real yields push higher; watch $3,950 as next support.", "tag": "Macro"}
+    ],
+    "options": [
+      {"symbol": "QQQ", "thesis": "$124M delta-hedged QQQ block crossed print \u2014 desks harvesting vol on semis/software.", "signal": "Premium-selling day: $280M notional sold, skew flattens, watch for dealer gamma flip."},
+      {"symbol": "SPY", "thesis": "VIX up 12% on the day with SPY IV lagging \u2014 dispersion trade set up.", "signal": "Long VIX / long SPY put spread into next week's jobs print."},
+      {"symbol": "TSLA", "thesis": "Unusual call flow re-emerges on delivery chatter; July $260 strikes bid.", "signal": "Sweep activity into Friday close \u2014 narrative-trade, not flow-confirmed yet."},
+      {"symbol": "NVDA", "thesis": "IV crushed into AI-complex selloff \u2014 vol is cheap relative to realized.", "signal": "Long straddle into next print; vol is being gifted here."}
+    ],
+    "takeaway": "Tape ends H1 on a sour note \u2014 AAPL-led AI unwind + hawkish Fed reframe = defensive rotation into the long weekend. Size down, watch $7,300 ES as Friday closing support.",
+    "generatedAt": "2026-06-27T04:00:00.000Z"
   },
   {
     "date": "2026-06-26",
     "asOf": "Pre-market \u2014 Fri, Jun 26",
     "headline": "Futures flat into long-weekend tape, gold bid, BTC heavy.",
-    "market": [
-      {
-        "symbol": "ES",
-        "label": "S&P Fut",
-        "value": "5,432",
-        "change": "+0.04%",
-        "direction": "up"
-      },
-      {
-        "symbol": "NQ",
-        "label": "Nasdaq Fut",
-        "value": "19,108",
-        "change": "-0.08%",
-        "direction": "down"
-      },
-      {
-        "symbol": "YM",
-        "label": "Dow Fut",
-        "value": "39,420",
-        "change": "+0.02%",
-        "direction": "flat"
-      },
-      {
-        "symbol": "GC",
-        "label": "Gold",
-        "value": "2,341",
-        "change": "+0.6%",
-        "direction": "up"
-      },
-      {
-        "symbol": "CL",
-        "label": "WTI Oil",
-        "value": "82.4",
-        "change": "-1.2%",
-        "direction": "down"
-      },
-      {
-        "symbol": "BTC",
-        "label": "Bitcoin",
-        "value": "62,180",
-        "change": "-1.8%",
-        "direction": "down"
-      },
-      {
-        "symbol": "VIX",
-        "label": "Volatility",
-        "value": "13.2",
-        "change": "+0.4",
-        "direction": "flat"
-      },
-      {
-        "symbol": "10Y",
-        "label": "UST 10Y",
-        "value": "4.28%",
-        "change": "-3 bps",
-        "direction": "down"
-      }
-    ],
-    "news": [
-      {
-        "headline": "Fed minutes signal 'patient' stance; markets price 60% Sept hold",
-        "context": "Dot-plot chatter settles back to data-dependent. Keeps duration bid early.",
-        "tag": "Fed"
-      },
-      {
-        "headline": "NVDA down 2% pre-market after Asia supplier warning",
-        "context": "Supply chain comment, not a guide cut \u2014 but the AI complex trades the headline.",
-        "tag": "Semis"
-      },
-      {
-        "headline": "Oil slides as OPEC+ flags earlier-than-expected unwind",
-        "context": "Energy drag on indices; E&P names trade softer into the bell.",
-        "tag": "Energy"
-      },
-      {
-        "headline": "BTC reclaims $62k but ETF flows stay muted",
-        "context": "Crypto traders watching $60k as the line in the sand for the weekend.",
-        "tag": "Crypto"
-      }
-    ],
-    "options": [
-      {
-        "symbol": "SPY",
-        "thesis": "Put/call ratio at 0.62 with weekly expiry pinned at $540 \u2014 dealers short gamma into Friday close.",
-        "signal": "Gamma squeeze risk if ES tags 5,450 into lunch."
-      },
-      {
-        "symbol": "QQQ",
-        "thesis": "Front-week IV at 11 vol \u2014 cheap for any post-CPI gap. Look at 480/490 strangles into next print.",
-        "signal": "IV rank 18%, below 30-day median."
-      },
-      {
-        "symbol": "TSLA",
-        "thesis": "Unusual call sweep on $260 Jul-5 expiry, ~$4.2M notional. Targeting delivery numbers next week.",
-        "signal": "Block trade on the tape, retail following."
-      },
-      {
-        "symbol": "GME",
-        "thesis": "Meme rotation probe \u2014 IV up 30% in 48h but OTM call flow thin. Avoid chasing, watch $25 as pivot.",
-        "signal": "Sentiment only, no flow confirmation."
-      }
-    ],
-    "takeaway": "Tape wants to chop higher into the long weekend. Stay nimble on Friday \u2014 gamma pin plus low volume is a setup for an end-of-day whipsaw.",
-    "generatedAt": "2026-06-26T13:05:00.000Z",
     "sentiment": {
       "tone": "mixed",
       "score": -0.2,
       "reason": "Risk-off into the close on AI-complex fatigue, offset by Dow bid and gold strength."
     },
+    "market": [
+      {"symbol": "ES", "label": "S&P Fut", "value": "5,432", "change": "+0.04%", "direction": "up"},
+      {"symbol": "NQ", "label": "Nasdaq Fut", "value": "19,108", "change": "-0.08%", "direction": "down"},
+      {"symbol": "YM", "label": "Dow Fut", "value": "39,420", "change": "+0.02%", "direction": "flat"},
+      {"symbol": "GC", "label": "Gold", "value": "2,341", "change": "+0.6%", "direction": "up"},
+      {"symbol": "CL", "label": "WTI Oil", "value": "82.4", "change": "-1.2%", "direction": "down"},
+      {"symbol": "BTC", "label": "Bitcoin", "value": "62,180", "change": "-1.8%", "direction": "down"},
+      {"symbol": "VIX", "label": "Volatility", "value": "13.2", "change": "+0.4", "direction": "flat"},
+      {"symbol": "10Y", "label": "UST 10Y", "value": "4.28%", "change": "-3 bps", "direction": "down"}
+    ],
     "movers": [
-      {
-        "symbol": "AAPL",
-        "change": "-6.20%",
-        "direction": "down",
-        "reason": "AI capex jitters spill from NVDA"
-      },
-      {
-        "symbol": "NVDA",
-        "change": "-4.80%",
-        "direction": "down",
-        "reason": "Asia supplier warning drags semis"
-      },
-      {
-        "symbol": "XOM",
-        "change": "+2.10%",
-        "direction": "up",
-        "reason": "OPEC+ unwind priced in, energy bid"
-      }
+      {"symbol": "AAPL", "change": "-6.20%", "direction": "down", "reason": "AI capex jitters spill from NVDA"},
+      {"symbol": "NVDA", "change": "-4.80%", "direction": "down", "reason": "Asia supplier warning drags semis"},
+      {"symbol": "XOM", "change": "+2.10%", "direction": "up", "reason": "OPEC+ unwind priced in, energy bid"}
     ],
     "sectorHeat": [
-      {
-        "symbol": "XLE",
-        "label": "Energy",
-        "change": "+1.20%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLF",
-        "label": "Financials",
-        "change": "+0.45%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLV",
-        "label": "Health",
-        "change": "+0.10%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLP",
-        "label": "Staples",
-        "change": "-0.05%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLU",
-        "label": "Utilities",
-        "change": "-0.20%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLY",
-        "label": "Cons Disc",
-        "change": "-0.80%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLI",
-        "label": "Industrials",
-        "change": "-0.45%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLB",
-        "label": "Materials",
-        "change": "-0.30%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLRE",
-        "label": "Real Estate",
-        "change": "+0.05%",
-        "direction": "flat"
-      },
-      {
-        "symbol": "XLC",
-        "label": "Comm Svc",
-        "change": "-1.10%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLK",
-        "label": "Tech",
-        "change": "-1.65%",
-        "direction": "down"
-      }
-    ]
+      {"symbol": "XLK", "label": "Tech", "change": "-1.65%", "direction": "down"},
+      {"symbol": "XLF", "label": "Financials", "change": "+0.45%", "direction": "up"},
+      {"symbol": "XLE", "label": "Energy", "change": "+1.20%", "direction": "up"},
+      {"symbol": "XLV", "label": "Health", "change": "+0.10%", "direction": "up"},
+      {"symbol": "XLY", "label": "Cons Disc", "change": "-0.80%", "direction": "down"},
+      {"symbol": "XLP", "label": "Staples", "change": "-0.05%", "direction": "down"},
+      {"symbol": "XLI", "label": "Industrials", "change": "-0.45%", "direction": "down"},
+      {"symbol": "XLU", "label": "Utilities", "change": "-0.20%", "direction": "down"},
+      {"symbol": "XLB", "label": "Materials", "change": "-0.30%", "direction": "down"},
+      {"symbol": "XLRE", "label": "Real Estate", "change": "+0.05%", "direction": "flat"},
+      {"symbol": "XLC", "label": "Comm Svc", "change": "-1.10%", "direction": "down"}
+    ],
+    "news": [
+      {"headline": "Fed minutes signal 'patient' stance; markets price 60% Sept hold", "context": "Dot-plot chatter settles back to data-dependent. Keeps duration bid early.", "tag": "Fed"},
+      {"headline": "NVDA down 2% pre-market after Asia supplier warning", "context": "Supply chain comment, not a guide cut \u2014 but the AI complex trades the headline.", "tag": "Semis"},
+      {"headline": "Oil slides as OPEC+ flags earlier-than-expected unwind", "context": "Energy drag on indices; E&P names trade softer into the bell.", "tag": "Energy"},
+      {"headline": "BTC reclaims $62k but ETF flows stay muted", "context": "Crypto traders watching $60k as the line in the sand for the weekend.", "tag": "Crypto"}
+    ],
+    "options": [
+      {"symbol": "SPY", "thesis": "Put/call ratio at 0.62 with weekly expiry pinned at $540 \u2014 dealers short gamma into Friday close.", "signal": "Gamma squeeze risk if ES tags 5,450 into lunch."},
+      {"symbol": "QQQ", "thesis": "Front-week IV at 11 vol \u2014 cheap for any post-CPI gap. Look at 480/490 strangles into next print.", "signal": "IV rank 18%, below 30-day median."},
+      {"symbol": "TSLA", "thesis": "Unusual call sweep on $260 Jul-5 expiry, ~$4.2M notional. Targeting delivery numbers next week.", "signal": "Block trade on the tape, retail following."},
+      {"symbol": "GME", "thesis": "Meme rotation probe \u2014 IV up 30% in 48h but OTM call flow thin. Avoid chasing, watch $25 as pivot.", "signal": "Sentiment only, no flow confirmation."}
+    ],
+    "takeaway": "Tape wants to chop higher into the long weekend. Stay nimble on Friday \u2014 gamma pin plus low volume is a setup for an end-of-day whipsaw.",
+    "generatedAt": "2026-06-26T13:05:00.000Z"
   },
   {
     "date": "2026-06-25",
     "asOf": "Pre-market \u2014 Thu, Jun 25",
     "headline": "Futures green on cooling CPI, rates rally, beta bid.",
-    "market": [
-      {
-        "symbol": "ES",
-        "label": "S&P Fut",
-        "value": "5,418",
-        "change": "+0.28%",
-        "direction": "up"
-      },
-      {
-        "symbol": "NQ",
-        "label": "Nasdaq Fut",
-        "value": "19,090",
-        "change": "+0.42%",
-        "direction": "up"
-      },
-      {
-        "symbol": "GC",
-        "label": "Gold",
-        "value": "2,328",
-        "change": "+0.3%",
-        "direction": "up"
-      },
-      {
-        "symbol": "BTC",
-        "label": "Bitcoin",
-        "value": "63,300",
-        "change": "+1.1%",
-        "direction": "up"
-      },
-      {
-        "symbol": "10Y",
-        "label": "UST 10Y",
-        "value": "4.31%",
-        "change": "-5 bps",
-        "direction": "down"
-      }
-    ],
-    "news": [
-      {
-        "headline": "Core CPI prints 3.1% YoY, in-line; services decelerates",
-        "context": "Bond market likes the drift. Front-end futures now price 1 cut by year-end.",
-        "tag": "Macro"
-      },
-      {
-        "headline": "Mega-cap tech leads, semis up 1.8% pre-market",
-        "context": "Risk-on rotation. Small caps lagging into the open.",
-        "tag": "Equities"
-      }
-    ],
-    "options": [
-      {
-        "symbol": "QQQ",
-        "thesis": "Call flow heavy on the 490/500 strikes for Jul expiry.",
-        "signal": "Dealers long gamma \u2014 supportive of trend days."
-      },
-      {
-        "symbol": "NVDA",
-        "thesis": "IV compressed into CPI; next move likely 3\u20134% on follow-through.",
-        "signal": "Long straddle into next print."
-      }
-    ],
-    "takeaway": "Soft CPI is the green light. Risk-on into close, but watch the Fed speakers at 2pm for any pushback.",
-    "generatedAt": "2026-06-25T13:00:00.000Z",
     "sentiment": {
       "tone": "mixed",
       "score": -0.2,
       "reason": "Risk-off into the close on AI-complex fatigue, offset by Dow bid and gold strength."
     },
+    "market": [
+      {"symbol": "ES", "label": "S&P Fut", "value": "5,418", "change": "+0.28%", "direction": "up"},
+      {"symbol": "NQ", "label": "Nasdaq Fut", "value": "19,090", "change": "+0.42%", "direction": "up"},
+      {"symbol": "GC", "label": "Gold", "value": "2,328", "change": "+0.3%", "direction": "up"},
+      {"symbol": "BTC", "label": "Bitcoin", "value": "63,300", "change": "+1.1%", "direction": "up"},
+      {"symbol": "10Y", "label": "UST 10Y", "value": "4.31%", "change": "-5 bps", "direction": "down"}
+    ],
     "movers": [
-      {
-        "symbol": "AAPL",
-        "change": "-6.20%",
-        "direction": "down",
-        "reason": "AI capex jitters spill from NVDA"
-      },
-      {
-        "symbol": "NVDA",
-        "change": "-4.80%",
-        "direction": "down",
-        "reason": "Asia supplier warning drags semis"
-      },
-      {
-        "symbol": "XOM",
-        "change": "+2.10%",
-        "direction": "up",
-        "reason": "OPEC+ unwind priced in, energy bid"
-      }
+      {"symbol": "AAPL", "change": "-6.20%", "direction": "down", "reason": "AI capex jitters spill from NVDA"},
+      {"symbol": "NVDA", "change": "-4.80%", "direction": "down", "reason": "Asia supplier warning drags semis"},
+      {"symbol": "XOM", "change": "+2.10%", "direction": "up", "reason": "OPEC+ unwind priced in, energy bid"}
     ],
     "sectorHeat": [
-      {
-        "symbol": "XLE",
-        "label": "Energy",
-        "change": "+1.20%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLF",
-        "label": "Financials",
-        "change": "+0.45%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLV",
-        "label": "Health",
-        "change": "+0.10%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLP",
-        "label": "Staples",
-        "change": "-0.05%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLU",
-        "label": "Utilities",
-        "change": "-0.20%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLY",
-        "label": "Cons Disc",
-        "change": "-0.80%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLI",
-        "label": "Industrials",
-        "change": "-0.45%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLB",
-        "label": "Materials",
-        "change": "-0.30%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLRE",
-        "label": "Real Estate",
-        "change": "+0.05%",
-        "direction": "flat"
-      },
-      {
-        "symbol": "XLC",
-        "label": "Comm Svc",
-        "change": "-1.10%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLK",
-        "label": "Tech",
-        "change": "-1.65%",
-        "direction": "down"
-      }
-    ]
+      {"symbol": "XLK", "label": "Tech", "change": "-1.65%", "direction": "down"},
+      {"symbol": "XLF", "label": "Financials", "change": "+0.45%", "direction": "up"},
+      {"symbol": "XLE", "label": "Energy", "change": "+1.20%", "direction": "up"},
+      {"symbol": "XLV", "label": "Health", "change": "+0.10%", "direction": "up"},
+      {"symbol": "XLY", "label": "Cons Disc", "change": "-0.80%", "direction": "down"},
+      {"symbol": "XLP", "label": "Staples", "change": "-0.05%", "direction": "down"},
+      {"symbol": "XLI", "label": "Industrials", "change": "-0.45%", "direction": "down"},
+      {"symbol": "XLU", "label": "Utilities", "change": "-0.20%", "direction": "down"},
+      {"symbol": "XLB", "label": "Materials", "change": "-0.30%", "direction": "down"},
+      {"symbol": "XLRE", "label": "Real Estate", "change": "+0.05%", "direction": "flat"},
+      {"symbol": "XLC", "label": "Comm Svc", "change": "-1.10%", "direction": "down"}
+    ],
+    "news": [
+      {"headline": "Core CPI prints 3.1% YoY, in-line; services decelerates", "context": "Bond market likes the drift. Front-end futures now price 1 cut by year-end.", "tag": "Macro"},
+      {"headline": "Mega-cap tech leads, semis up 1.8% pre-market", "context": "Risk-on rotation. Small caps lagging into the open.", "tag": "Equities"}
+    ],
+    "options": [
+      {"symbol": "QQQ", "thesis": "Call flow heavy on the 490/500 strikes for Jul expiry.", "signal": "Dealers long gamma \u2014 supportive of trend days."},
+      {"symbol": "NVDA", "thesis": "IV compressed into CPI; next move likely 3\u20134% on follow-through.", "signal": "Long straddle into next print."}
+    ],
+    "takeaway": "Soft CPI is the green light. Risk-on into close, but watch the Fed speakers at 2pm for any pushback.",
+    "generatedAt": "2026-06-25T13:00:00.000Z"
   }
 ]
