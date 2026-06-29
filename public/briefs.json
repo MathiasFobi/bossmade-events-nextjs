@@ -1,5 +1,217 @@
 [
   {
+    "date": "2026-06-29",
+    "asOf": "Pre-market — Mon, Jun 29",
+    "headline": "Futures bounce on US-Iran ceasefire hope; tech still fragile, vol elevated.",
+    "sentiment": {
+      "tone": "mixed",
+      "score": 0.18,
+      "reason": "Geopolitical relief lifts ES/NQ pre-mkt, but QQQ-SPX IV spread at 4-yr high signals defensive tech hedges; rotation out of AI persists."
+    },
+    "market": [
+      {
+        "symbol": "ES",
+        "label": "S&P Fut",
+        "value": "7,456",
+        "change": "+0.74%",
+        "direction": "up"
+      },
+      {
+        "symbol": "NQ",
+        "label": "Nasdaq Fut",
+        "value": "29,696",
+        "change": "+1.12%",
+        "direction": "up"
+      },
+      {
+        "symbol": "YM",
+        "label": "Dow Fut",
+        "value": "52,396",
+        "change": "+0.36%",
+        "direction": "up"
+      },
+      {
+        "symbol": "GC",
+        "label": "Gold",
+        "value": "4,076",
+        "change": "-0.85%",
+        "direction": "down"
+      },
+      {
+        "symbol": "CL",
+        "label": "WTI Oil",
+        "value": "70.20",
+        "change": "+1.45%",
+        "direction": "up"
+      },
+      {
+        "symbol": "BTC",
+        "label": "Bitcoin",
+        "value": "59,203",
+        "change": "+0.30%",
+        "direction": "up"
+      },
+      {
+        "symbol": "VIX",
+        "label": "VIX",
+        "value": "18.4",
+        "change": "-0.5%",
+        "direction": "down"
+      },
+      {
+        "symbol": "10Y",
+        "label": "UST 10Y",
+        "value": "4.38%",
+        "change": "+0.01",
+        "direction": "up"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "VRDN",
+        "change": "+12.70%",
+        "direction": "up",
+        "reason": "FDA clears Lumvoa for thyroid eye disease, first approved drug"
+      },
+      {
+        "symbol": "BE",
+        "change": "+6.00%",
+        "direction": "up",
+        "reason": "Premarket pop on Russell 1000/2000 megacap inclusion"
+      },
+      {
+        "symbol": "AAPL",
+        "change": "-2.40%",
+        "direction": "down",
+        "reason": "Lags Mag-7 premkt, lobbying for CXMT DRAM access amid AI fatigue"
+      }
+    ],
+    "sectorHeat": [
+      {
+        "symbol": "XLK",
+        "label": "Tech",
+        "change": "+0.45%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "change": "+0.30%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "change": "+1.05%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLV",
+        "label": "Health",
+        "change": "+0.85%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLY",
+        "label": "Cons Disc",
+        "change": "+0.55%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Staples",
+        "change": "+0.10%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLI",
+        "label": "Industrials",
+        "change": "+0.40%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLU",
+        "label": "Utilities",
+        "change": "-0.05%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLB",
+        "label": "Materials",
+        "change": "+0.15%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "change": "-0.20%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLC",
+        "label": "Comm Svc",
+        "change": "+0.50%",
+        "direction": "up"
+      }
+    ],
+    "news": [
+      {
+        "headline": "US and Iran agree to halt military action, talks set for Tuesday in Qatar",
+        "context": "De-escalation of Strait of Hormuz tensions lifts risk assets pre-mkt; Brent back above $72",
+        "tag": "Macro"
+      },
+      {
+        "headline": "VIX slips to 18.4 but QQQ-SPX IV spread hits 4-year high at 11%",
+        "context": "Traders still paying up to hedge tech despite calmer headline vol",
+        "tag": "Equities"
+      },
+      {
+        "headline": "Tech funds see ~$20B outflows week to June 24, bond funds +$7.33B",
+        "context": "Rotation continues out of AI winners into defensives/fixed income",
+        "tag": "Equities"
+      },
+      {
+        "headline": "SpaceX (SPCX) set to join Nasdaq-100 July 7, JPM sees $4.3B passive inflows",
+        "context": "New megacap addition reshapes index weightings",
+        "tag": "Equities"
+      },
+      {
+        "headline": "June NFP and ISM Manufacturing on tap later this week",
+        "context": "Last macro hurdle before July 4 holiday; 75%+ of economists expect Fed on hold",
+        "tag": "Fed"
+      }
+    ],
+    "options": [
+      {
+        "symbol": "QQQ",
+        "thesis": "Tech hedge demand stays elevated despite futures bounce",
+        "signal": "Skew favoring puts; QQQ-SPX IV spread at 4-yr high — sell-rich front-month QQQ puts"
+      },
+      {
+        "symbol": "SPY",
+        "thesis": "Index premium normalized post Iran de-escalation",
+        "signal": "Buy SPY weekly calls, fade VIX above 19"
+      },
+      {
+        "symbol": "TSLA",
+        "thesis": "Worst month in over a year; robotaxi fleet ~40 vehicles",
+        "signal": "Bear put spread into July on failed $600 PT defense"
+      },
+      {
+        "symbol": "VRDN",
+        "thesis": "FDA approval binary cleared, momentum chasing",
+        "signal": "Front-week call volume spiking; IV crush risk into Tuesday"
+      },
+      {
+        "symbol": "AAPL",
+        "thesis": "Mag-7 laggard, down 4.8% last week, still -2% premkt",
+        "signal": "Put calendar to harvest elevated IV into earnings cycle"
+      }
+    ],
+    "takeaway": "Risk-on open, but don't trust the gap — QQQ-SPX IV spread screams hedge demand. Cautious into Thursday's NFP.",
+    "generatedAt": "2026-06-29T13:03:03.675Z"
+  },
+  {
     "date": "2026-06-28",
     "asOf": "Weekend wrap — Sun, Jun 28 (Fri Jun 26 close)",
     "headline": "H1 closes on a split tape: Micron +15.7% wins the AI memory trade, Apple -6.6% loses the AI device bill; Nasdaq -4.5% on the week, BTC first sub-$60K close since Q3’24.",
