@@ -1,21 +1,17 @@
 {
-  "generatedAt": "2026-07-04T07:00:00-07:00",
-  "generatedAtHuman": "Saturday, July 4, 2026 — 7:00 AM PT",
+  "generatedAt": "2026-07-05T07:00:00-07:00",
+  "generatedAtHuman": "Sunday, July 5, 2026 — 7:00 AM PT",
   "source": "Atlanta Event Finder (cron)",
   "city": "Atlanta, GA",
   "windowDays": 14,
-  "eventCount": 26,
+  "eventCount": 22,
   "categories": [
-    "Live Music",
-    "Afrobeat / Reggae",
-    "Art / Gallery",
-    "Vegetarian / Food",
-    "Comedy",
-    "Dancing",
-    "Date Idea / Rooftop",
-    "Date Idea / Burlesque",
-    "Date Idea / Zoo",
-    "Food Festival",
-    "Hip-Hop"
+    "live music",
+    "Afrobeat/reggae",
+    "art gallery",
+    "vegetarian",
+    "comedy",
+    "dancing",
+    "date idea"
   ]
 }
