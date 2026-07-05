@@ -1,4 +1,12 @@
-# Boss Made Events — Next.js
+# Boss Made Events
+
+> ⚠️ **Note:** this directory is still named `bossmade-events-nextjs` on
+> disk and on GitHub, but **this IS the canonical Boss Made Events site**
+> (the older static HTML version was archived to
+> `archive/bossmade-events-static` on 2026-07-04). The repo name on
+> GitHub and the Vercel project are still `bossmade-events-nextjs`
+> because renaming would break deploys. Treat the directory name as
+> legacy and the project itself as just "Boss Made Events".
 
 A glassmorphic events site for Atlanta, built with Next.js (app router),
 TypeScript, and Tailwind v4. Configured for **static export** so it can
