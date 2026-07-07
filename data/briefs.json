@@ -1,5 +1,217 @@
 [
   {
+    "date": "2026-07-07",
+    "asOf": "Pre-market \u2014 Tue, Jul 7",
+    "headline": "Tech-heavy tape cracks pre-mkt on Asia chip unwind: NQ -1.0% as memory/semis (MU -5.6%, WDC -6.2%) sell off post-Samsung's record 19x profit, even as Dow bid, oil rebound on Hormuz tanker incident, and SpaceX's $4.3B-passive-inflow NDX debut keep the broader tape in two-way land.",
+    "sentiment": {
+      "tone": "bearish",
+      "score": -0.32,
+      "reason": "NQ -1.04% on Asia-led chip complex unwind (Samsung -10% despite record profit, MU/WDC/SNDK -5% to -6%) plus hawkish Waller 'risks flipped' remarks pushing 10Y to 4.50% two-week high \u2014 only offsets are Dow bid, oil +1.1% on Hormuz tanker attack, and BTC holding $63-64K."
+    },
+    "market": [
+      {
+        "symbol": "ES",
+        "label": "S&P Fut",
+        "value": "7,581",
+        "change": "-0.14%",
+        "direction": "down"
+      },
+      {
+        "symbol": "NQ",
+        "label": "Nasdaq Fut",
+        "value": "29,630",
+        "change": "-1.04%",
+        "direction": "down"
+      },
+      {
+        "symbol": "YM",
+        "label": "Dow Fut",
+        "value": "53,494",
+        "change": "+0.23%",
+        "direction": "up"
+      },
+      {
+        "symbol": "GC",
+        "label": "Gold",
+        "value": "4,176",
+        "change": "-0.50%",
+        "direction": "down"
+      },
+      {
+        "symbol": "CL",
+        "label": "WTI Oil",
+        "value": "69.32",
+        "change": "+1.12%",
+        "direction": "up"
+      },
+      {
+        "symbol": "BTC",
+        "label": "Bitcoin",
+        "value": "63,850",
+        "change": "+1.10%",
+        "direction": "up"
+      },
+      {
+        "symbol": "VIX",
+        "label": "VIX",
+        "value": "15.9",
+        "change": "+2.06%",
+        "direction": "up"
+      },
+      {
+        "symbol": "10Y",
+        "label": "UST 10Y",
+        "value": "4.50%",
+        "change": "+0.02",
+        "direction": "up"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "WDC",
+        "change": "-6.20%",
+        "direction": "down",
+        "reason": "Memory complex selloff spreads from Samsung's 19x-profit miss-the-bill; NAND/HBM peer-derating, MU/SNDK all -5%+ pre-mkt"
+      },
+      {
+        "symbol": "MU",
+        "change": "-5.60%",
+        "direction": "down",
+        "reason": "22% off peak as Samsung's record print fails to validate AI memory scarcity; Korean-supply overhang + SGH's 'rate hike on table' commentary"
+      },
+      {
+        "symbol": "SPCX",
+        "change": "-1.70%",
+        "direction": "down",
+        "reason": "Pre-mkt slip into Nasdaq-100 debut (largest IPO ever at $4.3B passive inflow day) \u2014 historical pattern of NDX additions fading post-inclusion"
+      }
+    ],
+    "sectorHeat": [
+      {
+        "symbol": "XLK",
+        "label": "Tech",
+        "change": "-1.10%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "change": "+0.15%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "change": "+0.85%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLV",
+        "label": "Health",
+        "change": "+0.20%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLY",
+        "label": "Cons Disc",
+        "change": "-0.25%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Staples",
+        "change": "+0.10%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLI",
+        "label": "Industrials",
+        "change": "+0.10%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLU",
+        "label": "Utilities",
+        "change": "+0.05%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLB",
+        "label": "Materials",
+        "change": "-0.10%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "change": "-0.15%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLC",
+        "label": "Comm Svc",
+        "change": "-0.35%",
+        "direction": "down"
+      }
+    ],
+    "news": [
+      {
+        "headline": "Samsung posts 19x operating-profit jump, but shares drop 10% \u2014 AI valuation jitters spread",
+        "context": "Sell-the-news reaction in Seoul (-6.7% KOSPI) is the cleanest read on the AI memory trade: record profits don't justify record multiples. Dragged MU/WDC/SNDK -5%+ pre-mkt.",
+        "tag": "Semis"
+      },
+      {
+        "headline": "Waller: 'risks have completely flipped' to higher inflation \u2014 10Y hits 4.50% two-week high",
+        "context": "Hawkish Fedspeak re-prices July 29 odds to 25.5% hike vs 74.5% hold; SGH's Duy adds 'rate hike on the table'. FOMC minutes Wed now the binary catalyst.",
+        "tag": "Fed"
+      },
+      {
+        "headline": "SpaceX (SPCX) officially joins Nasdaq-100 today \u2014 JPM models $4.3B passive inflows",
+        "context": "Largest IPO in history enters NDX; Coindesk flags 'historical warning' \u2014 prior megacap additions (PLTR, MSTR) saw post-inclusion volatility, not fresh rallies.",
+        "tag": "Equities"
+      },
+      {
+        "headline": "Tanker hit by projectile near Strait of Hormuz \u2014 WTI +1.1% to $69.32",
+        "context": "Oil snaps two-day drop on single-event risk; offsets the broader risk-off tone. Brent still -1% but WTI/Murban rebound; geopol premium back in the barrel.",
+        "tag": "Energy"
+      },
+      {
+        "headline": "BTC reclaims $64K as Strategy-selloff FUD fades, ETF flows turn constructive",
+        "context": "Decoupling from risk-asset beta: BTC +1.1% even as NQ -1%. 200W MA held; structural stabilization signal per on-chain metrics. Pairs-trade candidate vs QQQ weakness.",
+        "tag": "Crypto"
+      }
+    ],
+    "options": [
+      {
+        "symbol": "QQQ",
+        "thesis": "NQ -1.04% with VIX 15.9 (-2% up) signals dealer gamma flipping negative into the chip-led wash-out; put premium still cheap vs realized",
+        "signal": "Long QQQ weekly put spreads (29,500/29,300) into FOMC minutes Wed; roll into 29,400/29,200 if VIX breaks 18"
+      },
+      {
+        "symbol": "SPY",
+        "thesis": "ES -0.14% with software bid (MSFT/CRM/IBM green) creating dispersion vs semis \u2014 COR3M sub-10 favors single-name over index hedges",
+        "signal": "Long SPY put calendar (Jul 11 / Jul 18) for FOMC binary; pair with short MU calls to fund duration"
+      },
+      {
+        "symbol": "TSLA",
+        "thesis": "Lagging the BE/AI-power theme but Robotaxi narrative alive; vol still elevated into Q2 deliveries",
+        "signal": "Sell TSLA weekly straddle (260) into Wed FOMC; vol gift, no directional edge with macro binary ahead"
+      },
+      {
+        "symbol": "WDC",
+        "thesis": "-6.2% pre-mkt on Samsung selloff contagion; 30D IV expanding 80%+, unusual put flow in front-week 65Ps",
+        "signal": "Long WDC Aug 60/50 put spread (~$2.30) into memory-trade unwind; defined-risk, single-name beta to AI memory capex"
+      },
+      {
+        "symbol": "SPCX",
+        "thesis": "NDX debut day with JPM modeling $4.3B passive inflows; -1.7% pre-mkt suggests positioning not chasing \u2014 IV elevated into close",
+        "signal": "Sell SPCX 0DTE call spreads (165/170) into 4pm rebalance; premium-rich on the largest-passive-flow tape of the year"
+      }
+    ],
+    "takeaway": "Two-way tape: Asia chip unwind is the day's signal (Samsung -10% despite record profit is the cleanest 'AI valuation' tell in weeks), but Dow bid + oil + SpaceX NDX debut keep it from being a rout. Bias: fade NQ/QQQ into Wed FOMC minutes, pair-trade long BTC / short semis, watch for the 25.5%-hike-odds to bleed lower on cooler minutes.",
+    "generatedAt": "2026-07-07T13:00:00Z"
+  },
+  {
     "date": "2026-07-06",
     "asOf": "Pre-market \u2014 Mon, Jul 6 (Asia overnight mixed; Euro mkt open)",
     "headline": "Futures bid into July payrolls week: ES/NQ +0.4-0.7% as chip names (TSM +2% on Citi PT) and Micron memory bid offset oil -1.5% on OPEC+ Aug hike; BTC tags $63K for 5th straight green session, gold pulls back to $3,350 on USD recovery.",
