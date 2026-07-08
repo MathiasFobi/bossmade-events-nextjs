@@ -1,15 +1,5 @@
 [
   {
-    "title": "Screenings on The Green — Outdoor Movie Night",
-    "date": "2026-07-09",
-    "time": "7:00 PM – 9:00 PM",
-    "location": "The Green at High Street Atlanta, 62 N Main St, Alpharetta, GA",
-    "price": "Free",
-    "description": "Bring a blanket and a date to a complimentary outdoor movie screening on the lawn with free popcorn. Free, no-pressure Thursday-night date that pairs with dinner and drinks on the High Street boardwalk.",
-    "category": "date idea",
-    "url": "https://www.highstreetatlanta.com/events/screenings/"
-  },
-  {
     "title": "Summer Slamajama: A Summer Gallery Opening",
     "date": "2026-07-09",
     "time": "6:00 PM – 9:00 PM",
@@ -20,14 +10,14 @@
     "url": "https://happeningnext.com/event/summer-slamajama-a-summer-gallery-opening-eid1ef0l19w3qor"
   },
   {
-    "title": "Latin Wednesdays at Tongue & Groove",
-    "date": "2026-07-08",
-    "time": "9:00 PM – 3:00 AM",
-    "location": "Tongue & Groove, 565 Main St NE, Atlanta, GA",
-    "price": "Cover at the door",
-    "description": "Weekly Latin night in one of Atlanta's most intimate dance clubs — salsa, bachata, reggaetón with a great crowd. Perfect for couples who want to dance close, take a lesson together, or just people-watch from the lounge.",
-    "category": "dancing",
-    "url": "https://golatindance.com/event/latin-wednesdays-at-tongue-groove/2026-07-08/"
+    "title": "Screenings on The Green — Outdoor Movie Night",
+    "date": "2026-07-09",
+    "time": "7:00 PM – 9:00 PM",
+    "location": "The Green at High Street Atlanta, 62 N Main St, Alpharetta, GA",
+    "price": "Free",
+    "description": "Bring a blanket and a date to a complimentary outdoor movie screening on the lawn with free popcorn. Free, no-pressure Thursday-night date that pairs with dinner and drinks on the High Street boardwalk.",
+    "category": "date idea",
+    "url": "https://www.highstreetatlanta.com/events/screenings/"
   },
   {
     "title": "Na'im Lynn at Helium Comedy Club",
@@ -40,16 +30,6 @@
     "url": "https://atlanta.heliumcomedy.com/events/136704"
   },
   {
-    "title": "Music in the Garden — Atlanta Botanical Garden",
-    "date": "2026-07-11",
-    "time": "5:00 PM – 8:00 PM",
-    "location": "Atlanta Botanical Garden, 1345 Piedmont Ave NE, Atlanta, GA",
-    "price": "$5 – $14.95 (plus garden admission)",
-    "description": "Live outdoor music in the garden as the sun goes down. Walk the trails, listen to the band, and grab a drink at the outdoor bar — peak Atlanta summer date energy, the kind that feels like a movie scene.",
-    "category": "live music",
-    "url": "https://atlantabg.org/calendar/music-in-the-garden-5/"
-  },
-  {
     "title": "ATLANTA'S AFRO CARIBBEAN FEST",
     "date": "2026-07-11",
     "time": "3:00 PM – 8:00 PM",
@@ -60,54 +40,64 @@
     "url": "https://stayhappening.com/e/atlanta%E2%80%99s-afro-caribbean-fest-E118SB08MPJF8"
   },
   {
-    "title": "Saxophonist Jessy J at Perfect Note Atlanta",
+    "title": "Music in the Garden — Atlanta Botanical Garden",
     "date": "2026-07-11",
-    "time": "8:00 PM – 10:00 PM (doors 6:00 PM for dinner)",
-    "location": "Perfect Note Atlanta, 1100 Peachtree St NE, Atlanta, GA",
-    "price": "Ticketed ($10 min food/beverage per person)",
-    "description": "Smooth jazz sax in an intimate midtown listening room. Built for couples — order dinner, share a table, and let the saxophone do the talking.",
+    "time": "5:00 PM – 8:00 PM",
+    "location": "Atlanta Botanical Garden, 1345 Piedmont Ave NE, Atlanta, GA",
+    "price": "$5 – $14.95 (plus garden admission)",
+    "description": "Live outdoor music in the garden as the sun goes down. Walk the trails, listen to the band, and grab a drink at the outdoor bar — peak Atlanta summer date energy, the kind that feels like a movie scene.",
     "category": "live music",
-    "url": "https://perfectnoteliveatl.com/product/saxophonist-jessy-j-2/"
+    "url": "https://atlantabg.org/calendar/music-in-the-garden-5/"
+  },
+  {
+    "title": "Prima Materia — Group Exhibition Opening",
+    "date": "2026-07-11",
+    "time": "11:00 AM – 6:00 PM",
+    "location": "Empire Arts Gallery, Atlanta, GA",
+    "price": "Free",
+    "description": "The origin point of transformation — artists reveal the sacred beginning of the creative act where pigment, gesture, and intention emerge from the unknown. A quiet, intentional gallery walk that's a great excuse to hold hands and talk about what you see.",
+    "category": "art gallery",
+    "url": "https://www.theartifice.com/event-details/prima-materia"
   },
   {
     "title": "NE-YO & AKON: Nights Like This Tour 2026",
     "date": "2026-07-11",
     "time": "8:00 PM",
-    "location": "Lakewood Amphitheatre, 2002 Lakewood Way SE, Atlanta, GA",
+    "location": "Lakewood Amphitheatre, 2002 Lakewood Way SW, Atlanta, GA",
     "price": "Ticketed (Live Nation)",
-    "description": "Two R&B heavyweights on one stage outdoors. Pack a blanket, sing every word, and turn it into a late-night drive home singing the same songs.",
+    "description": "Two R&B heavyweights on one stage — pure 2000s nostalgia singalong. Tailgate-style date, bring a blanket and a bottle of wine, stay for the slow jams.",
     "category": "live music",
     "url": "https://www.livenation.com/event/vvG1zZ_d9PGHue/ne-yo-akon-nights-like-this-tour-2026"
-  },
-  {
-    "title": "Prima Materia — Group Exhibition Opening",
-    "date": "2026-07-11",
-    "time": "11:00 AM (opening day; runs through the month)",
-    "location": "Empire Arts Gallery, Atlanta, GA",
-    "price": "Free",
-    "description": "Group exhibition exploring the sacred origin of the creative act. Walk through together, talk about what you each see, and grab coffee after — a low-key afternoon date in the city.",
-    "category": "art gallery",
-    "url": "https://www.theartifice.com/event-details/prima-materia"
   },
   {
     "title": "Life Space Vegan Chef Cook-Off",
     "date": "2026-07-12",
     "time": "2:00 PM – 5:00 PM",
     "location": "294 Hamilton E Holmes Dr NW, Atlanta, GA",
-    "price": "Free / donations",
-    "description": "Live plant-based cook-off with local chefs competing in real time. Watch, taste, and vote — a community-driven Sunday that turns 'what should we do today?' into something memorable.",
+    "price": "Free – $20 (tasting votes)",
+    "description": "Taste, vote, and celebrate at this plant-based chef showdown. Perfect for a foodie couple — walk the booths together, compare notes, and pick a winner. A built-in conversation loop and zero date-night pressure.",
     "category": "vegetarian",
     "url": "https://stayhappening.com/e/life-space-vegan-chef-cook-off-E118SAYXVOJOI"
   },
   {
     "title": "PeachFest 2026",
     "date": "2026-07-12",
-    "time": "4:00 PM GA / 3:00 PM VIP",
-    "location": "Underground Atlanta, 50 Upper Alabama St, Atlanta, GA",
-    "price": "GA $95 / VIP $130",
-    "description": "A celebration of Georgia's most iconic fruit — peach-inspired dishes, cocktails, and live energy in a historic venue. A splurgy Sunday date that doubles as a culinary adventure.",
-    "category": "vegetarian",
-    "url": "https://tastenetwork.com/events/peachfest/"
+    "time": "12:00 PM – 6:00 PM",
+    "location": "Peachtree Center, 303 Peachtree St NE, Atlanta, GA",
+    "price": "Ticketed",
+    "description": "Annual celebration of Atlanta's iconic fruit with food vendors, live music, and a market. Sticky, sweet, summer-vibes date in the heart of downtown.",
+    "category": "date idea",
+    "url": "https://peachfestatl.com/"
+  },
+  {
+    "title": "Poetic Jazz: Prince Tribute Night",
+    "date": "2026-07-14",
+    "time": "8:00 PM – 10:00 PM",
+    "location": "The Vick at Healey, 57 Forsyth St NW, Atlanta, GA",
+    "price": "Ticketed (donation-based)",
+    "description": "An intimate jazz-poetry spin on Prince's catalog. Candles, cocktails, and a small downtown crowd — the kind of low-key, soulful night that turns a Tuesday into a memory.",
+    "category": "live music",
+    "url": "https://www.poeticjazz.org/events/071426"
   },
   {
     "title": "Cocktails in the Garden — Atlanta Botanical Garden",
@@ -115,118 +105,128 @@
     "time": "5:00 PM – 9:00 PM",
     "location": "Atlanta Botanical Garden, 1345 Piedmont Ave NE, Atlanta, GA",
     "price": "Included with garden admission",
-    "description": "Hand-crafted cocktails in the garden at golden hour. Stroll the trails with a drink in hand, find a bench, let the evening slow down. The closest thing Atlanta has to a movie-romance date.",
+    "description": "Cocktails, live DJ, and the gardens lit up at golden hour. A timeless Atlanta date formula — wander the trails, grab a drink, sit by the fountain. Easy to dress up or down.",
     "category": "date idea",
     "url": "https://atlantabg.org/calendar/cocktails-in-the-garden-2/2026-07-16/"
   },
   {
-    "title": "Steel Pulse",
-    "date": "2026-07-18",
-    "time": "8:00 PM EDT",
-    "location": "Center Stage Theater, 1374 W Peachtree St NW, Atlanta, GA",
-    "price": "$48 – $109",
-    "description": "Grammy-winning roots reggae legends in an intimate midtown venue. A couple's date that turns into a sing-along — reggae on a Saturday night is hard to beat.",
-    "category": "Afrobeat/reggae",
-    "url": "https://creativeloafing.com/event-625380-steel-pulse-07-18-2026-8-00-pm"
+    "title": "Karlous Miller at Helium Comedy Club (Couple's Package)",
+    "date": "2026-07-17",
+    "time": "7:00 PM (also 7/18 9:30 PM, 7/19 7:00 PM)",
+    "location": "Helium Comedy Club, 3070 Windward Plaza, Alpharetta, GA",
+    "price": "Couple's Package: 2 premium seats + $90 food & beverage credit",
+    "description": "85 South / Wild 'N Out star Karlous Miller in an intimate showroom — the venue literally sells a Couple's Package with reserved seating and a $90 F&B credit. Premium, no-stress date night with a guaranteed laugh.",
+    "category": "comedy",
+    "url": "https://atlanta.heliumcomedy.com/events/136985"
   },
   {
     "title": "Savanna Nights at Zoo Atlanta — Boy Bands & Girl Groups",
     "date": "2026-07-18",
-    "time": "6:00 PM – 8:30 PM (entry from 4:30 PM)",
+    "time": "6:00 PM – 8:30 PM",
     "location": "Zoo Atlanta, 800 Cherokee Ave SE, Atlanta, GA",
-    "price": "$24.95 non-members / free for members (21+)",
-    "description": "Adults-only night at the zoo with a Y2K/throwback soundtrack, cocktails, and a totally different energy than a daytime visit. One of Atlanta's most original date nights — slow walking, animal energy, and nostalgia.",
+    "price": "$40 – $60 (members / non-members)",
+    "description": "Cocktails, animal encounters, and a live Boy Bands & Girl Groups tribute set, all in the zoo after hours. Built-in 'first date' energy — fun, walkable, and full of moments to point and laugh at together.",
     "category": "date idea",
-    "url": "https://allevents.in/atlanta/savanna-nights-boy-bands-and-girl-groups/200030334707838"
+    "url": "https://zooatlanta.org/event/savanna-nights/"
   },
   {
-    "title": "Phillippia and Yoshi (R&B, Dinner & a Show)",
+    "title": "Steel Pulse",
+    "date": "2026-07-18",
+    "time": "Doors 7:00 PM",
+    "location": "The Eastern, 800 Old Flat Shoals Rd SE, Atlanta, GA",
+    "price": "Ticketed",
+    "description": "Legendary British roots-reggae band on a U.S. tour — deep grooves, conscious lyrics, and a converted-warehouse room that's perfect for slow-dancing close in the back.",
+    "category": "Afrobeat/reggae",
+    "url": "https://www.songkick.com/concerts/43110742-steel-pulse-at-eastern"
+  },
+  {
+    "title": "Phillippia and Yoshi — R&B Dinner & a Show",
     "date": "2026-07-18",
     "time": "8:00 PM – 10:00 PM",
-    "location": "Perfect Note Atlanta, 1100 Peachtree St NE, Atlanta, GA",
+    "location": "Perfect Note Atlanta, 1520 Federal Dr, Atlanta, GA",
     "price": "Ticketed (dinner separate)",
-    "description": "R&B showcase with an optional dinner pairing — couples can turn the whole evening into one reservation. Smooth vocals, table service, midtown views.",
+    "description": "An intimate R&B dinner-and-a-show experience. Order off the menu, candles on the tables, two voices that can actually sing — the kind of date that feels like an anniversary without trying.",
     "category": "live music",
     "url": "https://perfectnoteliveatl.com/product/rb-singers-phillippia-and-yoshi/"
-  },
-  {
-    "title": "Karlous Miller at Helium Comedy Club (Couple's Package)",
-    "date": "2026-07-17",
-    "time": "7:00 PM (also 7/18 7:00 PM, 7/19 7:00 PM)",
-    "location": "Helium Comedy Club, 3070 Windward Plaza, Alpharetta, GA",
-    "price": "Ticketed (Couple's Package: 2 seats + $90 food/beverage credit)",
-    "description": "85 South / 'Wild 'N Out' favorite headlining a full weekend — with an actual couple's package. Premium seats, food credit, and built-in two-item minimum. Date night with the math already done.",
-    "category": "comedy",
-    "url": "https://atlanta.heliumcomedy.com/events/136985"
   },
   {
     "title": "Lionel Richie & Earth, Wind & Fire — Sing a Song All Night Long",
     "date": "2026-07-19",
     "time": "7:30 PM",
     "location": "State Farm Arena, 1 State Farm Dr, Atlanta, GA",
-    "price": "Ticketed (Live Nation / State Farm Arena)",
-    "description": "Two legends, one stage, all the songs. Date-night energy dialed to 11 — both of you will know every chorus. The show that turns into the long, singing-in-the-car drive home.",
+    "price": "Ticketed (Live Nation)",
+    "description": "Two Hall of Fame acts, one night of 'All Night Long' / 'September' energy. Bring a partner who likes to dance in the aisle — the whole arena becomes a wedding reception by the encore.",
     "category": "live music",
     "url": "https://www.livenation.com/event/vvG1zZ_d9vs1Lx/lionel-richie-and-earth-wind-fire-sing-a-song-all-night-long"
   },
   {
     "title": "Rooftop Salsa & Bachata Social",
     "date": "2026-07-19",
-    "time": "4:30 PM – 9:30 PM (class at 4:30, social 5:30–9:30)",
-    "location": "Reverb Hotel Atlanta, 89 Centennial Olympic Park Dr NW, Atlanta, GA",
-    "price": "$20 admission",
-    "description": "Atlanta's premier rooftop salsa night — complimentary beginner class at 4:30, then social dancing under the skyline. Full bar, food, and $25 parking (with a drink ticket). The kind of date where neither of you has to know what you're doing.",
+    "time": "8:00 PM – 1:00 AM",
+    "location": "Atlanta (rooftop venue, TBA)",
+    "price": "Cover at the door",
+    "description": "A weekend rooftop salsa + bachata social — beginner-friendly floor, drinks with a view, and instructors on hand so you can take a lesson together before showing off (or laughing at each other).",
     "category": "dancing",
-    "url": "https://golatindance.com/event/rooftop-salsa-bachata-social/2026-07-26/"
+    "url": "https://golatindance.com/event/salsa-bachata-rooftop/2026-07-19/"
+  },
+  {
+    "title": "Amy Sherald: American Sublime — High Museum of Art",
+    "date": "2026-07-19",
+    "time": "10:00 AM – 5:00 PM",
+    "location": "High Museum of Art, 1280 Peachtree St NE, Atlanta, GA",
+    "price": "$28.50 (GA) / Free for members",
+    "description": "The final stop on the national tour of Georgia native Amy Sherald's most comprehensive exhibition to date. A meaningful, conversation-rich date — slow walk, big paintings, lunch in Midtown after.",
+    "category": "art gallery",
+    "url": "https://high.org/exhibition/amy-sherald-american-sublime/"
+  },
+  {
+    "title": "James \"Murr\" Murray at Helium Comedy Club",
+    "date": "2026-07-24",
+    "time": "7:00 PM (also 7/25 6:00 PM, 7/26 7:00 PM)",
+    "location": "Helium Comedy Club, 3070 Windward Plaza, Alpharetta, GA",
+    "price": "Ticketed (Helium)",
+    "description": "Impractical Jokers' Murr headlines a late-July weekend — goofy, storytelling-style stand-up that lands as fun group-date energy even for a duo. Pair with dinner at the boardwalk.",
+    "category": "comedy",
+    "url": "https://atlanta.heliumcomedy.com/events/134933"
   },
   {
     "title": "Buju Banton & Stephen Marley: Roots and Rhymes Tour",
     "date": "2026-07-25",
-    "time": "Gates ~6:30 PM (showtime TBA)",
-    "location": "Lakewood Amphitheatre, 2002 Lakewood Way SE, Atlanta, GA",
-    "price": "Ticketed (Lakewood / Live Nation)",
-    "description": "Two of reggae's most revered names on one stage outdoors — Buju Banton and Stephen Marley together is a once-in-a-generation pairing. Bring a blanket, soak up the warm July night, and sing into the open sky.",
+    "time": "7:00 PM",
+    "location": "Cellairis Amphitheatre at Lakewood, 2002 Lakewood Way SW, Atlanta, GA",
+    "price": "Ticketed",
+    "description": "A reggae double-header on the lawn — Bob Marley's son and a living legend together. Bring a blanket, bring a cooler, stay for the singalongs under the stars.",
     "category": "Afrobeat/reggae",
-    "url": "https://atlfan.com/posts/buju-banton-stephen-marley-roots-and-rhymes-tour-hits-lakewood-amphitheatre-on-july-25-2026"
-  },
-  {
-    "title": "Dinner and A Date: A Night Of Soul Live Music",
-    "date": "2026-07-26",
-    "time": "Evening (check listing)",
-    "location": "Apache XLR, Atlanta, GA",
-    "price": "Ticketed (AllEvents)",
-    "description": "Soul-focused live music night built around the dinner-and-a-show format — the entire date fits inside one reservation. Smooth, low-effort, and high-vibe.",
-    "category": "live music",
-    "url": "https://allevents.in/atlanta/dinner-and-a-date-a-night-of-soul-live-music-show/100001992794262283"
-  },
-  {
-    "title": "Rhythm & Roots: A JazzyEats Supper Club Experience",
-    "date": "2026-07-25",
-    "time": "Evening (check listing)",
-    "location": "JazzyEats LLC, Atlanta, GA",
-    "price": "Ticketed (AllEvents)",
-    "description": "Supper-club style evening with live jazz, a curated menu, and a slow, romantic pace. Designed for couples — every part of the night has been thought through so you can just show up.",
-    "category": "date idea",
-    "url": "https://allevents.in/atlanta/rhythm-and-roots-a-jazzyeats-supper-club-experience/100001992147814741"
+    "url": "https://www.tickpick.com/buy-buju-banton-stephen-marley-tickets-lakewood-amphitheatre-7-25-26-7pm/7878180/"
   },
   {
     "title": "INNER VIEWS Art Exhibition — Opening",
     "date": "2026-07-25",
-    "time": "11:00 AM opening; runs through Sept 13",
-    "location": "Atlanta (ARTSATL listed venue)",
+    "time": "11:00 AM – 5:00 PM",
+    "location": "One Contemporary Gallery, 395 Edgewood Ave SE, Atlanta, GA",
     "price": "Free",
-    "description": "Collective exhibition from fourteen contemporary artists musing on home, family, and community. The opening weekend is the best time to go — full energy, artists often in the room, and the conversations it sparks last longer than the visit.",
+    "description": "A collective musing on home, family, and community by 14 contemporary artists across multiple mediums. Quiet, thoughtful Saturday-afternoon gallery date in Edgewood — pair with lunch on the beltline.",
     "category": "art gallery",
     "url": "https://www.artsatl.org/event/attend-inner-views-art-exhibition/2026-07-25/"
   },
   {
-    "title": "Ink Studded Vegan Fest",
+    "title": "Savanna Nights at Zoo Atlanta — Decades Night",
     "date": "2026-07-25",
-    "time": "1:00 PM – 6:00 PM",
-    "location": "1879 S Stone Mountain Lithonia Rd, Lithonia, GA",
-    "price": "Free / vendor prices vary",
-    "description": "Plant-based food + tattoo artists in one festival — back-to-school vibes, indie crowd, and a totally different Saturday afternoon date. Skip dinner plans and graze.",
-    "category": "vegetarian",
-    "url": "https://stayhappening.com/e/ink-studded-vegan-fest-E118SB11YX5X7"
+    "time": "6:00 PM – 8:30 PM",
+    "location": "Zoo Atlanta, 800 Cherokee Ave SE, Atlanta, GA",
+    "price": "$40 – $60 (members / non-members)",
+    "description": "The final Savanna Nights of the summer — cocktails, animal encounters, and a Decades-night live set. Last-call romantic before the season closes; a memorable 'I can't believe we did that' kind of date.",
+    "category": "date idea",
+    "url": "https://zooatlanta.org/event/savanna-nights/"
+  },
+  {
+    "title": "Dinner and A Date: A Night Of Soul Live Music",
+    "date": "2026-07-26",
+    "time": "Evening (7:00 PM – 11:00 PM)",
+    "location": "Apache XLR, Atlanta, GA",
+    "price": "Ticketed (dinner separate)",
+    "description": "A dedicated date-night soul show — the entire event is built around couples, dining, and live R&B. Easy, on-theme, and Sunday-evening slow-dance material.",
+    "category": "live music",
+    "url": "https://allevents.in/atlanta/dinner-and-a-date-a-night-of-soul-live-music-show/100001992794262283"
   }
 ]
