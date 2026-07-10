@@ -1,23 +1,13 @@
 [
   {
-    "title": "Summer Slamajama: A Summer Gallery Opening",
-    "date": "2026-07-09",
-    "time": "6:00 PM – 9:00 PM",
-    "location": "Anne Irwin Fine Art, 690 Miami Cir NE, Atlanta, GA",
-    "price": "Free",
-    "description": "Open-air summer art opening with a DJ and refreshments. A relaxed, walk-around kind of date — easy conversation starter and a chance to pick out something for the apartment together.",
-    "category": "art gallery",
-    "url": "https://happeningnext.com/event/summer-slamajama-a-summer-gallery-opening-eid1ef0l19w3qor"
-  },
-  {
-    "title": "Screenings on The Green — Outdoor Movie Night",
-    "date": "2026-07-09",
-    "time": "7:00 PM – 9:00 PM",
-    "location": "The Green at High Street Atlanta, 62 N Main St, Alpharetta, GA",
-    "price": "Free",
-    "description": "Bring a blanket and a date to a complimentary outdoor movie screening on the lawn with free popcorn. Free, no-pressure Thursday-night date that pairs with dinner and drinks on the High Street boardwalk.",
+    "title": "Glow Nights After Hours — Georgia Aquarium",
+    "date": "2026-07-10",
+    "time": "4:00 PM – late",
+    "location": "Georgia Aquarium, 225 Baker St NW, Atlanta, GA",
+    "price": "Ticketed (18+)",
+    "description": "After-hours, 18+ aquarium experience with music, glowing exhibits, cocktails, and dancing. Built for couples — walk the belugas with a drink in hand, then dance under the lights. Easy 'why is this weekend special' answer.",
     "category": "date idea",
-    "url": "https://www.highstreetatlanta.com/events/screenings/"
+    "url": "https://www.georgiaaquarium.org/events/event/glow-nights-after-hours-july/"
   },
   {
     "title": "Na'im Lynn at Helium Comedy Club",
@@ -25,9 +15,19 @@
     "time": "7:00 PM (also 7/11 7:00 PM, 7/12 7:00 PM)",
     "location": "Helium Comedy Club, 3070 Windward Plaza, Alpharetta, GA",
     "price": "Ticketed (Helium)",
-    "description": "A polished headliner in a small-room club setting — exactly the right vibe for a first date or a 'let's get out of the house' weeknight. Cheap enough to grab dinner before or drinks after.",
+    "description": "A polished headliner in a small-room club setting — exactly the right vibe for a first date or a 'let's get out of the house' weeknight. Cheap enough to grab dinner before or drinks after at the Windward boardwalk.",
     "category": "comedy",
     "url": "https://atlanta.heliumcomedy.com/events/136704"
+  },
+  {
+    "title": "Tropical Latin Night at Sanctuary Nightclub",
+    "date": "2026-07-10",
+    "time": "8:30 PM – 2:00 AM",
+    "location": "Sanctuary Nightclub, Atlanta, GA",
+    "price": "Cover at the door (21+)",
+    "description": "Friday-night salsa/bachata/mambo social with DJs and a friendly mixed crowd. Great couples' energy — beginners welcome, dance floor large enough to learn together without anyone watching.",
+    "category": "dancing",
+    "url": "https://golatindance.com/event/viernes-tropicales-latin-night-atlanta-sanctuary-night-club/2026-07-10/"
   },
   {
     "title": "ATLANTA'S AFRO CARIBBEAN FEST",
@@ -58,6 +58,16 @@
     "description": "The origin point of transformation — artists reveal the sacred beginning of the creative act where pigment, gesture, and intention emerge from the unknown. A quiet, intentional gallery walk that's a great excuse to hold hands and talk about what you see.",
     "category": "art gallery",
     "url": "https://www.theartifice.com/event-details/prima-materia"
+  },
+  {
+    "title": "Pixels at Play — Billy Clifton-Strawn Solo Exhibition",
+    "date": "2026-07-11",
+    "time": "11:30 AM – 4:00 PM",
+    "location": "Atlanta Central Library, One Margaret Mitchell Square, Atlanta, GA",
+    "price": "Free",
+    "description": "Multimedia solo show exploring the beauty of the pixel — part art, part science, all wonder. Downtown Central Library makes this a perfect pre-dinner gallery stop; the show runs through Sept 8, so you can return together on another date.",
+    "category": "art gallery",
+    "url": "https://www.artsatl.org/event/pixels-at-play-an-exhibition-by-billy-clifton-strawn/"
   },
   {
     "title": "NE-YO & AKON: Nights Like This Tour 2026",
@@ -120,6 +130,16 @@
     "url": "https://atlanta.heliumcomedy.com/events/136985"
   },
   {
+    "title": "Dexter Tolson & Friends — Vibes Jazz Cafe",
+    "date": "2026-07-17",
+    "time": "Evening (doors typically 7:00 PM)",
+    "location": "Vibes Jazz Cafe at The Red Door, Atlanta, GA",
+    "price": "Ticketed (cover at the door)",
+    "description": "Smooth, intimate jazz night in one of Atlanta's coziest listening rooms. Date-night classic: small stage, low light, two seats at the bar, and a musician who knows how to read a room.",
+    "category": "live music",
+    "url": "https://www.jazznearyou.com/atlanta/events/dexter-tolson-and-friends-at-vibes-jazz-cafe-at-the-red-door-on-july-17"
+  },
+  {
     "title": "Savanna Nights at Zoo Atlanta — Boy Bands & Girl Groups",
     "date": "2026-07-18",
     "time": "6:00 PM – 8:30 PM",
@@ -154,7 +174,7 @@
     "date": "2026-07-19",
     "time": "7:30 PM",
     "location": "State Farm Arena, 1 State Farm Dr, Atlanta, GA",
-    "price": "Ticketed (Live Nation)",
+    "price": "From ~$74 (Live Nation)",
     "description": "Two Hall of Fame acts, one night of 'All Night Long' / 'September' energy. Bring a partner who likes to dance in the aisle — the whole arena becomes a wedding reception by the encore.",
     "category": "live music",
     "url": "https://www.livenation.com/event/vvG1zZ_d9vs1Lx/lionel-richie-and-earth-wind-fire-sing-a-song-all-night-long"
@@ -190,11 +210,21 @@
     "url": "https://atlanta.heliumcomedy.com/events/134933"
   },
   {
+    "title": "Tropical Latin Night at Sanctuary Nightclub",
+    "date": "2026-07-24",
+    "time": "8:30 PM – 2:00 AM",
+    "location": "Sanctuary Nightclub, Atlanta, GA",
+    "price": "Cover at the door (21+)",
+    "description": "Friday-night Latin social — salsa, bachata, reggaetón rotation. A couples' favorite: take a lesson together on the floor, then order a mojito and a selfie.",
+    "category": "dancing",
+    "url": "https://golatindance.com/event/viernes-tropicales-latin-night-atlanta-sanctuary-night-club/2026-07-24/"
+  },
+  {
     "title": "Buju Banton & Stephen Marley: Roots and Rhymes Tour",
     "date": "2026-07-25",
     "time": "7:00 PM",
     "location": "Cellairis Amphitheatre at Lakewood, 2002 Lakewood Way SW, Atlanta, GA",
-    "price": "Ticketed",
+    "price": "Ticketed (from ~$60+ lawn)",
     "description": "A reggae double-header on the lawn — Bob Marley's son and a living legend together. Bring a blanket, bring a cooler, stay for the singalongs under the stars.",
     "category": "Afrobeat/reggae",
     "url": "https://www.tickpick.com/buy-buju-banton-stephen-marley-tickets-lakewood-amphitheatre-7-25-26-7pm/7878180/"
@@ -222,7 +252,7 @@
   {
     "title": "Dinner and A Date: A Night Of Soul Live Music",
     "date": "2026-07-26",
-    "time": "Evening (7:00 PM – 11:00 PM)",
+    "time": "7:00 PM – 11:00 PM",
     "location": "Apache XLR, Atlanta, GA",
     "price": "Ticketed (dinner separate)",
     "description": "A dedicated date-night soul show — the entire event is built around couples, dining, and live R&B. Easy, on-theme, and Sunday-evening slow-dance material.",
