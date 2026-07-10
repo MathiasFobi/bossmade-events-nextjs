@@ -1,5 +1,217 @@
 [
   {
+    "date": "2026-07-10",
+    "asOf": "Pre-market — Fri, Jul 10",
+    "headline": "Memory-trade rotation day: SK Hynix's $26.5B US debut at $149 (7x oversubscribed) re-rates MU -2.7% on the 21% P/E gap, NQ -0.4% drags while Dow/ES flat; CRCL +15% on OCC trust bank greenlight and DAL -4% on record fuel costs split the tape — Iran ceasefire holds but oil stays bid.",
+    "sentiment": {
+      "tone": "mixed",
+      "score": -0.08,
+      "reason": "Index flat (ES -0.01%, NQ -0.43%, YM +0.24%) with single-name dispersion dominating: SK Hynix IPO re-rates semis complex, CRCL/DAL are binary catalysts, oil still bid on Hormuz tail — no clear risk-on/risk-off, just rotation."
+    },
+    "market": [
+      {
+        "symbol": "ES",
+        "label": "S&P Fut",
+        "value": "7588.50",
+        "change": "+0.00%",
+        "direction": "flat"
+      },
+      {
+        "symbol": "NQ",
+        "label": "Nasdaq Fut",
+        "value": "29808.25",
+        "change": "-0.43%",
+        "direction": "down"
+      },
+      {
+        "symbol": "YM",
+        "label": "Dow Fut",
+        "value": "52887.00",
+        "change": "+0.24%",
+        "direction": "up"
+      },
+      {
+        "symbol": "GC",
+        "label": "Gold",
+        "value": "4103.51",
+        "change": "-0.44%",
+        "direction": "down"
+      },
+      {
+        "symbol": "CL",
+        "label": "WTI Oil",
+        "value": "71.97",
+        "change": "-0.15%",
+        "direction": "down"
+      },
+      {
+        "symbol": "BTC",
+        "label": "Bitcoin",
+        "value": "63800",
+        "change": "+1.75%",
+        "direction": "up"
+      },
+      {
+        "symbol": "VIX",
+        "label": "VIX",
+        "value": "16.0",
+        "change": "-0.60%",
+        "direction": "down"
+      },
+      {
+        "symbol": "10Y",
+        "label": "UST 10Y",
+        "value": "4.54",
+        "change": "+0.04%",
+        "direction": "up"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "CRCL",
+        "change": "+15.00%",
+        "direction": "up",
+        "reason": "OCC greenlights national trust bank to hold USDC reserves — stablecoin infrastructure re-rate, mkt cap +$2.3B."
+      },
+      {
+        "symbol": "DAL",
+        "change": "-4.00%",
+        "direction": "down",
+        "reason": "Q2 record revenue $19.8B but fuel +77% YoY = highest in company history; EPS -26% YoY despite top-line beat."
+      },
+      {
+        "symbol": "MU",
+        "change": "-2.70%",
+        "direction": "down",
+        "reason": "SK Hynix ADRs priced at $149 (7x oversubscribed) re-rates memory complex; MU's 21% P/E premium to SK Hynix now in question."
+      }
+    ],
+    "sectorHeat": [
+      {
+        "symbol": "XLK",
+        "label": "Tech",
+        "change": "-0.35%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "change": "+0.05%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "change": "+0.45%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLV",
+        "label": "Health",
+        "change": "+0.15%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLY",
+        "label": "Cons Disc",
+        "change": "-0.15%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Staples",
+        "change": "+0.20%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLI",
+        "label": "Industrials",
+        "change": "+0.10%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLU",
+        "label": "Utilities",
+        "change": "+0.10%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLB",
+        "label": "Materials",
+        "change": "+0.05%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "change": "-0.05%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLC",
+        "label": "Comm Svc",
+        "change": "-0.20%",
+        "direction": "down"
+      }
+    ],
+    "news": [
+      {
+        "headline": "SK Hynix prices $26.5B US ADR offering at $149 — 7x oversubscribed, biggest foreign IPO in history",
+        "context": "Direct US trading closes 21% P/E gap to MU; MU -2.7% pre-mkt as the new security trades 'when-issued' as SKHYV today, switching to SKHY Monday.",
+        "tag": "Semis"
+      },
+      {
+        "headline": "Circle (CRCL) +15% on OCC approval to launch national trust bank for USDC reserves",
+        "context": "Stablecoin infra re-rate; gives USDC a federally regulated home ahead of the July 18 GENIUS Act implementation deadline.",
+        "tag": "Crypto"
+      },
+      {
+        "headline": "Delta (DAL) -4% despite record $19.8B revenue — fuel costs +77% YoY, EPS -26%",
+        "context": "Ed Bastian flags 'highest quarterly fuel expense in our history'; airline reaffirms FY $6.50-$7.50 outlook but fuel shock is the new operating reality.",
+        "tag": "Earnings"
+      },
+      {
+        "headline": "US-Iran tensions contained, WTI holds $72; Williams sees no permanent energy-price rise",
+        "context": "Geopolitical tail live but not escalating; Brent +0.3% to $76.38, gold -0.4% to $4,103 as safe-haven premium bleeds. CPI Tuesday is the next real test.",
+        "tag": "Macro"
+      },
+      {
+        "headline": "June CPI Tuesday, Fed Chair Warsh testifies, big-bank earnings kick off — full macro gauntlet",
+        "context": "June CPI + Warsh semi-annual + JPM/WFC/Citi prints = triple-stack catalyst. Williams stays neutral; market pricing ~1 hike by year-end.",
+        "tag": "Fed"
+      }
+    ],
+    "options": [
+      {
+        "symbol": "QQQ",
+        "thesis": "NQ -0.43% with VIX crushed to 16 — front-week IV mispriced vs realized into a CPI/Warsh triple-stack. Skew flat but tail risk is in the data, not the tape.",
+        "signal": "Buy 0DTE QQQ 29,700/29,500 put spreads Tuesday if CPI hot; VIX >18 = take profit"
+      },
+      {
+        "symbol": "SPY",
+        "thesis": "VIX 16 with 10Y at 4.54% — vol is being gifted into a packed catalyst calendar. COR3M still sub-10, dealer gamma long above 7,560.",
+        "signal": "Long SPY 7,500/7,400 put spreads July 17, fund with short 7,700 calls — risk-reversal for the CPI tail"
+      },
+      {
+        "symbol": "TSLA",
+        "thesis": "Lagging the tape into Q2 deliveries; IV elevated (~55%) with no fresh catalyst. Straddle seller gets paid for waiting.",
+        "signal": "Sell TSLA weekly straddle (~260) into Monday; vol gift, no edge in direction here"
+      },
+      {
+        "symbol": "CRCL",
+        "thesis": "OCC trust bank is binary catalyst, IV expanding fast on $2.3B mkt cap add. 30D vol has 48-72h shelf life before GENIUS Act implementation on July 18.",
+        "signal": "Sell CRCL weekly call spreads (80/90) into Friday close — IV crush setup, news-driven premium"
+      },
+      {
+        "symbol": "MU",
+        "thesis": "-2.7% on SK Hynix P/E gap but the supply story is unchanged; 30D IV expanding 80%+, dealer flow two-way as memory complex repriced.",
+        "signal": "Sell MU Aug 175/195 call calendar against long stock — harvest IV into mid-July while keeping AI memory upside"
+      }
+    ],
+    "takeaway": "The SK Hynix IPO is the cleanest 'rotation without panic' catalyst in weeks — semis complex re-rates, but the broader tape is flat and the calendar is the real risk. Trade: fade CRCL IV into GENIUS Act deadline, sell MU call calendars into the supply noise, hedge with SPY put spreads into Tuesday's CPI/Warsh triple-stack.",
+    "generatedAt": "2026-07-10T13:00:00.000Z"
+  },
+  {
     "date": "2026-07-08",
     "asOf": "Pre-market — Wed, Jul 8",
     "headline": "Risk-off pre-mkt as Trump kills Iran ceasefire: oil +3.9% lifts crude, semis bleed again (MU -7.0%, NVDA extends slide), and SPY/NQ/YM all red 0.5-0.8% into Fed minutes.",
