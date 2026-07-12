@@ -1,8 +1,220 @@
 [
   {
+    "date": "2026-07-12",
+    "asOf": "Weekend digest \u2014 Sun, Jul 12 (Fri Jul 10 close)",
+    "headline": "Friday closed risk-on near record highs: S&P 500 +0.80%, NQ led as semis bid (NVDA +4%, SK Hynix $26.5B US debut oversubscribed 7x) re-rated the AI-memory complex, AAPL re-rated on renewed Broadcom chip deal \u2014 BTC reclaimed $64K on oil weakness (WTI $72.05), but VIX crushed 13% to 15.84 leaves the tape fragile into Tuesday's CPI/Warsh/big-bank gauntlet.",
+    "sentiment": {
+      "tone": "bullish",
+      "score": 0.3,
+      "reason": "Index green (S&P +0.80% Fri, +1.23% week) led by NVDA +4% and SK Hynix $26.5B IPO validation; VIX crushed 13% to 15.84 = institutional vol-selling confirming risk-on, but CRCL/DAL single-name dispersion and the Hormuz oil tail keep it from being a clean melt-up."
+    },
+    "market": [
+      {
+        "symbol": "ES",
+        "label": "S&P Fut",
+        "value": "7602.50",
+        "change": "+0.18%",
+        "direction": "up"
+      },
+      {
+        "symbol": "NQ",
+        "label": "Nasdaq Fut",
+        "value": "29950.00",
+        "change": "+0.45%",
+        "direction": "up"
+      },
+      {
+        "symbol": "YM",
+        "label": "Dow Fut",
+        "value": "53060.00",
+        "change": "+0.22%",
+        "direction": "up"
+      },
+      {
+        "symbol": "GC",
+        "label": "Gold",
+        "value": "4085.20",
+        "change": "-0.45%",
+        "direction": "down"
+      },
+      {
+        "symbol": "CL",
+        "label": "WTI Oil",
+        "value": "72.05",
+        "change": "+0.11%",
+        "direction": "up"
+      },
+      {
+        "symbol": "BTC",
+        "label": "Bitcoin",
+        "value": "64317",
+        "change": "+0.81%",
+        "direction": "up"
+      },
+      {
+        "symbol": "VIX",
+        "label": "VIX",
+        "value": "15.8",
+        "change": "-2.65%",
+        "direction": "down"
+      },
+      {
+        "symbol": "10Y",
+        "label": "UST 10Y",
+        "value": "4.52",
+        "change": "-0.04",
+        "direction": "down"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "CRCL",
+        "change": "+15.00%",
+        "direction": "up",
+        "reason": "OCC greenlights national trust bank to hold USDC reserves \u2014 stablecoin infra re-rate ahead of July 18 GENIUS Act."
+      },
+      {
+        "symbol": "NVDA",
+        "change": "+4.03%",
+        "direction": "up",
+        "reason": "AI chip bid resumes on SK Hynix US debut validation + renewed AVGO/AAPL chip deal; closes $210.96."
+      },
+      {
+        "symbol": "DAL",
+        "change": "-4.00%",
+        "direction": "down",
+        "reason": "Q2 record $19.8B revenue but fuel +77% YoY = highest in company history; EPS -26% YoY despite beat."
+      }
+    ],
+    "sectorHeat": [
+      {
+        "symbol": "XLK",
+        "label": "Tech",
+        "change": "+0.92%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "change": "+0.41%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "change": "-0.35%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLV",
+        "label": "Health",
+        "change": "+0.18%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLY",
+        "label": "Cons Disc",
+        "change": "+0.25%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Staples",
+        "change": "+0.08%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLI",
+        "label": "Industrials",
+        "change": "+0.15%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLU",
+        "label": "Utilities",
+        "change": "+0.10%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLB",
+        "label": "Materials",
+        "change": "+0.05%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "change": "-0.08%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLC",
+        "label": "Comm Svc",
+        "change": "+0.32%",
+        "direction": "up"
+      }
+    ],
+    "news": [
+      {
+        "headline": "SK Hynix prices $26.5B US ADR offering at $149 \u2014 7x oversubscribed, biggest foreign IPO in history",
+        "context": "Direct US trading closes 21% P/E gap to MU; trades 'when-issued' as SKHYV today, switching to SKHY Monday. Validates HBM/memory scarcity thesis and re-rates the semis complex.",
+        "tag": "Semis"
+      },
+      {
+        "headline": "Circle (CRCL) +15% on OCC approval to launch national trust bank for USDC reserves",
+        "context": "Stablecoin infra re-rate; gives USDC a federally regulated home ahead of the July 18 GENIUS Act implementation deadline.",
+        "tag": "Crypto"
+      },
+      {
+        "headline": "VIX crushed 13% to 15.84 as institutions sell vol into a packed macro gauntlet",
+        "context": "Largest single-session VIX drop in 6 weeks; institutions running short-vol into Tuesday CPI + Warsh semi-annual + big-bank earnings \u2014 fragility rising even as tape looks calm.",
+        "tag": "Macro"
+      },
+      {
+        "headline": "Apple renews Broadcom chip deal; AAPL bid resumes into iPhone 17 cycle",
+        "context": "Multi-year AVGO chip commitment removes supply uncertainty for the iPhone 17 launch; pairs with SK Hynix validation to clear the AI-device overhang from last week.",
+        "tag": "Equities"
+      },
+      {
+        "headline": "June CPI Tuesday, Fed Chair Warsh semi-annual, big-bank earnings kick off \u2014 full macro gauntlet",
+        "context": "Triple-stack catalyst: CPI consensus +0.3% m/m core, Warsh's hawkish lean, JPM/WFC/Citi prints. Vol is being gifted into this calendar \u2014 fade the calm.",
+        "tag": "Fed"
+      }
+    ],
+    "options": [
+      {
+        "symbol": "QQQ",
+        "thesis": "NQ green with VIX crushed to 15.84 \u2014 front-week IV mispriced vs realized into Tuesday's CPI + Warsh testimony. Dealers positioned short gamma, any hot print = violent squeeze.",
+        "signal": "Buy QQQ weekly put spreads (29,700/29,400) into Monday close; VIX >18 = take profit. Defined-risk tail into the macro gauntlet."
+      },
+      {
+        "symbol": "SPY",
+        "thesis": "VIX 15.8 with 10Y at 4.52% \u2014 vol is being sold at cycle lows into a packed catalyst calendar. COR3M still compressed at ~9.",
+        "signal": "Long SPY 7,500/7,400 put spreads July 17, fund with short 7,700 calls \u2014 risk-reversal for the CPI tail."
+      },
+      {
+        "symbol": "TSLA",
+        "thesis": "Lagging the tape into Q2 deliveries; IV elevated (~55%) with no fresh catalyst. Straddle seller gets paid for waiting through the vol crush.",
+        "signal": "Sell TSLA weekly straddle (~415) into Monday; vol gift, no edge in direction here."
+      },
+      {
+        "symbol": "NVDA",
+        "thesis": "+4% rip with IV still 50%+ post SK Hynix validation; dealer flow turning two-way as the AI-memory trade re-prices. Earnings-adjacent premium is rich.",
+        "signal": "Sell NVDA Aug 220/240 call calendar against long stock \u2014 harvest IV into late-July print while keeping AI upside."
+      },
+      {
+        "symbol": "CRCL",
+        "thesis": "OCC trust bank is binary catalyst, IV expanding fast on $2.3B mkt cap add. 30D vol has 48-72h shelf life before GENIUS Act implementation on July 18.",
+        "signal": "Sell CRCL weekly call spreads (95/110) into Friday close \u2014 IV crush setup, news-driven premium."
+      }
+    ],
+    "takeaway": "Risk-on into the weekend close, but the VIX crush to 15.84 is the cleanest 'fragile' signal in weeks \u2014 institutions are selling vol at cycle lows into a triple-stack macro gauntlet (CPI Tue, Warsh, big-bank earnings). Trade: long NVDA into SK Hynix validation, fade CRCL IV into July 18 GENIUS Act, hedge with SPY put spreads. Don't trust the calm.",
+    "generatedAt": "2026-07-12T13:00:00.000Z"
+  },
+  {
     "date": "2026-07-11",
-    "asOf": "Weekend digest — Sat, Jul 11 (Fri Jul 10 close)",
-    "headline": "Risk-on into the weekend: SK Hynix's $26.5B US debut (7x oversubscribed) re-rates the AI memory complex, NVDA +4% leads semis bid, AAPL rips on renewed Broadcom deal — VIX crushed to 15.84 as institutional vol-selling dominates. CRCL +15% on OCC trust bank greenlight and DAL -4% on record fuel costs split the tape; S&P 500 +1.23% on the week, just shy of record.",
+    "asOf": "Weekend digest \u2014 Sat, Jul 11 (Fri Jul 10 close)",
+    "headline": "Risk-on into the weekend: SK Hynix's $26.5B US debut (7x oversubscribed) re-rates the AI memory complex, NVDA +4% leads semis bid, AAPL rips on renewed Broadcom deal \u2014 VIX crushed to 15.84 as institutional vol-selling dominates. CRCL +15% on OCC trust bank greenlight and DAL -4% on record fuel costs split the tape; S&P 500 +1.23% on the week, just shy of record.",
     "sentiment": {
       "tone": "bullish",
       "score": 0.32,
@@ -71,7 +283,7 @@
         "symbol": "CRCL",
         "change": "+15.00%",
         "direction": "up",
-        "reason": "OCC greenlights national trust bank to hold USDC reserves — stablecoin infra re-rate, mkt cap +$2.3B ahead of July 18 GENIUS Act."
+        "reason": "OCC greenlights national trust bank to hold USDC reserves \u2014 stablecoin infra re-rate, mkt cap +$2.3B ahead of July 18 GENIUS Act."
       },
       {
         "symbol": "NVDA",
@@ -156,7 +368,7 @@
     ],
     "news": [
       {
-        "headline": "SK Hynix prices $26.5B US ADR offering at $149 — 7x oversubscribed, biggest foreign IPO in history",
+        "headline": "SK Hynix prices $26.5B US ADR offering at $149 \u2014 7x oversubscribed, biggest foreign IPO in history",
         "context": "Direct US trading closes 21% P/E gap to MU; trades 'when-issued' as SKHYV today, switching to SKHY Monday. Validates HBM/memory scarcity thesis and re-rates the semis complex.",
         "tag": "Semis"
       },
@@ -167,7 +379,7 @@
       },
       {
         "headline": "VIX crushed 13.4% to 15.84 as institutions sell vol near zero",
-        "context": "Largest single-session VIX drop in 6 weeks; institutions running short-vol into a CPI/earnings gauntlet next week — fragility rising even as tape looks calm.",
+        "context": "Largest single-session VIX drop in 6 weeks; institutions running short-vol into a CPI/earnings gauntlet next week \u2014 fragility rising even as tape looks calm.",
         "tag": "Macro"
       },
       {
@@ -176,21 +388,21 @@
         "tag": "Equities"
       },
       {
-        "headline": "June CPI Tuesday, Fed Chair Warsh semi-annual, big-bank earnings kick off — full macro gauntlet",
-        "context": "Triple-stack catalyst: CPI consensus +0.3% m/m core, Warsh's hawkish lean, JPM/WFC/Citi prints. Vol is being gifted into this calendar — fade the calm.",
+        "headline": "June CPI Tuesday, Fed Chair Warsh semi-annual, big-bank earnings kick off \u2014 full macro gauntlet",
+        "context": "Triple-stack catalyst: CPI consensus +0.3% m/m core, Warsh's hawkish lean, JPM/WFC/Citi prints. Vol is being gifted into this calendar \u2014 fade the calm.",
         "tag": "Fed"
       }
     ],
     "options": [
       {
         "symbol": "QQQ",
-        "thesis": "NQ green with VIX crushed to 15.84 — front-week IV mispriced vs realized into Tuesday's CPI + Warsh testimony. Dealers positioned short gamma, any hot print = violent squeeze.",
+        "thesis": "NQ green with VIX crushed to 15.84 \u2014 front-week IV mispriced vs realized into Tuesday's CPI + Warsh testimony. Dealers positioned short gamma, any hot print = violent squeeze.",
         "signal": "Buy QQQ weekly put spreads (29,700/29,400) into Monday close; VIX >18 = take profit. Defined-risk tail into the macro gauntlet."
       },
       {
         "symbol": "SPY",
-        "thesis": "VIX 15.8 with 10Y at 4.52% — vol is being sold at cycle lows into a packed catalyst calendar. COR3M still compressed at ~9.",
-        "signal": "Long SPY 7,500/7,400 put spreads July 17, fund with short 7,700 calls — risk-reversal for the CPI tail."
+        "thesis": "VIX 15.8 with 10Y at 4.52% \u2014 vol is being sold at cycle lows into a packed catalyst calendar. COR3M still compressed at ~9.",
+        "signal": "Long SPY 7,500/7,400 put spreads July 17, fund with short 7,700 calls \u2014 risk-reversal for the CPI tail."
       },
       {
         "symbol": "TSLA",
@@ -200,25 +412,25 @@
       {
         "symbol": "NVDA",
         "thesis": "+4% rip with IV still 50%+ post SK Hynix validation; dealer flow turning two-way as the AI-memory trade re-prices. Earnings-adjacent premium is rich.",
-        "signal": "Sell NVDA Aug 220/240 call calendar against long stock — harvest IV into late-July print while keeping AI upside."
+        "signal": "Sell NVDA Aug 220/240 call calendar against long stock \u2014 harvest IV into late-July print while keeping AI upside."
       },
       {
         "symbol": "CRCL",
         "thesis": "OCC trust bank is binary catalyst, IV expanding fast on $2.3B mkt cap add. 30D vol has 48-72h shelf life before GENIUS Act implementation on July 18.",
-        "signal": "Sell CRCL weekly call spreads (95/110) into Friday close — IV crush setup, news-driven premium."
+        "signal": "Sell CRCL weekly call spreads (95/110) into Friday close \u2014 IV crush setup, news-driven premium."
       }
     ],
-    "takeaway": "Risk-on into the weekend close, but the VIX crush to 15.84 is the cleanest 'fragile' signal in weeks — institutions are selling vol at cycle lows into a triple-stack macro gauntlet (CPI Tue, Warsh, big-bank earnings). Trade: long NVDA into SK Hynix validation, fade CRCL IV into July 18 GENIUS Act, hedge with SPY put spreads. Don't trust the calm.",
+    "takeaway": "Risk-on into the weekend close, but the VIX crush to 15.84 is the cleanest 'fragile' signal in weeks \u2014 institutions are selling vol at cycle lows into a triple-stack macro gauntlet (CPI Tue, Warsh, big-bank earnings). Trade: long NVDA into SK Hynix validation, fade CRCL IV into July 18 GENIUS Act, hedge with SPY put spreads. Don't trust the calm.",
     "generatedAt": "2026-07-11T13:22:00.000Z"
   },
   {
     "date": "2026-07-10",
-    "asOf": "Pre-market — Fri, Jul 10",
-    "headline": "Memory-trade rotation day: SK Hynix's $26.5B US debut at $149 (7x oversubscribed) re-rates MU -2.7% on the 21% P/E gap, NQ -0.4% drags while Dow/ES flat; CRCL +15% on OCC trust bank greenlight and DAL -4% on record fuel costs split the tape — Iran ceasefire holds but oil stays bid.",
+    "asOf": "Pre-market \u2014 Fri, Jul 10",
+    "headline": "Memory-trade rotation day: SK Hynix's $26.5B US debut at $149 (7x oversubscribed) re-rates MU -2.7% on the 21% P/E gap, NQ -0.4% drags while Dow/ES flat; CRCL +15% on OCC trust bank greenlight and DAL -4% on record fuel costs split the tape \u2014 Iran ceasefire holds but oil stays bid.",
     "sentiment": {
       "tone": "mixed",
       "score": -0.08,
-      "reason": "Index flat (ES -0.01%, NQ -0.43%, YM +0.24%) with single-name dispersion dominating: SK Hynix IPO re-rates semis complex, CRCL/DAL are binary catalysts, oil still bid on Hormuz tail — no clear risk-on/risk-off, just rotation."
+      "reason": "Index flat (ES -0.01%, NQ -0.43%, YM +0.24%) with single-name dispersion dominating: SK Hynix IPO re-rates semis complex, CRCL/DAL are binary catalysts, oil still bid on Hormuz tail \u2014 no clear risk-on/risk-off, just rotation."
     },
     "market": [
       {
@@ -283,7 +495,7 @@
         "symbol": "CRCL",
         "change": "+15.00%",
         "direction": "up",
-        "reason": "OCC greenlights national trust bank to hold USDC reserves — stablecoin infrastructure re-rate, mkt cap +$2.3B."
+        "reason": "OCC greenlights national trust bank to hold USDC reserves \u2014 stablecoin infrastructure re-rate, mkt cap +$2.3B."
       },
       {
         "symbol": "DAL",
@@ -368,7 +580,7 @@
     ],
     "news": [
       {
-        "headline": "SK Hynix prices $26.5B US ADR offering at $149 — 7x oversubscribed, biggest foreign IPO in history",
+        "headline": "SK Hynix prices $26.5B US ADR offering at $149 \u2014 7x oversubscribed, biggest foreign IPO in history",
         "context": "Direct US trading closes 21% P/E gap to MU; MU -2.7% pre-mkt as the new security trades 'when-issued' as SKHYV today, switching to SKHY Monday.",
         "tag": "Semis"
       },
@@ -378,7 +590,7 @@
         "tag": "Crypto"
       },
       {
-        "headline": "Delta (DAL) -4% despite record $19.8B revenue — fuel costs +77% YoY, EPS -26%",
+        "headline": "Delta (DAL) -4% despite record $19.8B revenue \u2014 fuel costs +77% YoY, EPS -26%",
         "context": "Ed Bastian flags 'highest quarterly fuel expense in our history'; airline reaffirms FY $6.50-$7.50 outlook but fuel shock is the new operating reality.",
         "tag": "Earnings"
       },
@@ -388,7 +600,7 @@
         "tag": "Macro"
       },
       {
-        "headline": "June CPI Tuesday, Fed Chair Warsh testifies, big-bank earnings kick off — full macro gauntlet",
+        "headline": "June CPI Tuesday, Fed Chair Warsh testifies, big-bank earnings kick off \u2014 full macro gauntlet",
         "context": "June CPI + Warsh semi-annual + JPM/WFC/Citi prints = triple-stack catalyst. Williams stays neutral; market pricing ~1 hike by year-end.",
         "tag": "Fed"
       }
@@ -396,13 +608,13 @@
     "options": [
       {
         "symbol": "QQQ",
-        "thesis": "NQ -0.43% with VIX crushed to 16 — front-week IV mispriced vs realized into a CPI/Warsh triple-stack. Skew flat but tail risk is in the data, not the tape.",
+        "thesis": "NQ -0.43% with VIX crushed to 16 \u2014 front-week IV mispriced vs realized into a CPI/Warsh triple-stack. Skew flat but tail risk is in the data, not the tape.",
         "signal": "Buy 0DTE QQQ 29,700/29,500 put spreads Tuesday if CPI hot; VIX >18 = take profit"
       },
       {
         "symbol": "SPY",
-        "thesis": "VIX 16 with 10Y at 4.54% — vol is being gifted into a packed catalyst calendar. COR3M still sub-10, dealer gamma long above 7,560.",
-        "signal": "Long SPY 7,500/7,400 put spreads July 17, fund with short 7,700 calls — risk-reversal for the CPI tail"
+        "thesis": "VIX 16 with 10Y at 4.54% \u2014 vol is being gifted into a packed catalyst calendar. COR3M still sub-10, dealer gamma long above 7,560.",
+        "signal": "Long SPY 7,500/7,400 put spreads July 17, fund with short 7,700 calls \u2014 risk-reversal for the CPI tail"
       },
       {
         "symbol": "TSLA",
@@ -412,20 +624,20 @@
       {
         "symbol": "CRCL",
         "thesis": "OCC trust bank is binary catalyst, IV expanding fast on $2.3B mkt cap add. 30D vol has 48-72h shelf life before GENIUS Act implementation on July 18.",
-        "signal": "Sell CRCL weekly call spreads (80/90) into Friday close — IV crush setup, news-driven premium"
+        "signal": "Sell CRCL weekly call spreads (80/90) into Friday close \u2014 IV crush setup, news-driven premium"
       },
       {
         "symbol": "MU",
         "thesis": "-2.7% on SK Hynix P/E gap but the supply story is unchanged; 30D IV expanding 80%+, dealer flow two-way as memory complex repriced.",
-        "signal": "Sell MU Aug 175/195 call calendar against long stock — harvest IV into mid-July while keeping AI memory upside"
+        "signal": "Sell MU Aug 175/195 call calendar against long stock \u2014 harvest IV into mid-July while keeping AI memory upside"
       }
     ],
-    "takeaway": "The SK Hynix IPO is the cleanest 'rotation without panic' catalyst in weeks — semis complex re-rates, but the broader tape is flat and the calendar is the real risk. Trade: fade CRCL IV into GENIUS Act deadline, sell MU call calendars into the supply noise, hedge with SPY put spreads into Tuesday's CPI/Warsh triple-stack.",
+    "takeaway": "The SK Hynix IPO is the cleanest 'rotation without panic' catalyst in weeks \u2014 semis complex re-rates, but the broader tape is flat and the calendar is the real risk. Trade: fade CRCL IV into GENIUS Act deadline, sell MU call calendars into the supply noise, hedge with SPY put spreads into Tuesday's CPI/Warsh triple-stack.",
     "generatedAt": "2026-07-10T13:00:00.000Z"
   },
   {
     "date": "2026-07-08",
-    "asOf": "Pre-market — Wed, Jul 8",
+    "asOf": "Pre-market \u2014 Wed, Jul 8",
     "headline": "Risk-off pre-mkt as Trump kills Iran ceasefire: oil +3.9% lifts crude, semis bleed again (MU -7.0%, NVDA extends slide), and SPY/NQ/YM all red 0.5-0.8% into Fed minutes.",
     "sentiment": {
       "tone": "bearish",
@@ -637,12 +849,12 @@
   },
   {
     "date": "2026-07-07",
-    "asOf": "Pre-market — Tue, Jul 7",
+    "asOf": "Pre-market \u2014 Tue, Jul 7",
     "headline": "Tech-heavy tape cracks pre-mkt on Asia chip unwind: NQ -1.0% as memory/semis (MU -5.6%, WDC -6.2%) sell off post-Samsung's record 19x profit, even as Dow bid, oil rebound on Hormuz tanker incident, and SpaceX's $4.3B-passive-inflow NDX debut keep the broader tape in two-way land.",
     "sentiment": {
       "tone": "bearish",
       "score": -0.32,
-      "reason": "NQ -1.04% on Asia-led chip complex unwind (Samsung -10% despite record profit, MU/WDC/SNDK -5% to -6%) plus hawkish Waller 'risks flipped' remarks pushing 10Y to 4.50% two-week high — only offsets are Dow bid, oil +1.1% on Hormuz tanker attack, and BTC holding $63-64K."
+      "reason": "NQ -1.04% on Asia-led chip complex unwind (Samsung -10% despite record profit, MU/WDC/SNDK -5% to -6%) plus hawkish Waller 'risks flipped' remarks pushing 10Y to 4.50% two-week high \u2014 only offsets are Dow bid, oil +1.1% on Hormuz tanker attack, and BTC holding $63-64K."
     },
     "market": [
       {
@@ -719,7 +931,7 @@
         "symbol": "SPCX",
         "change": "-1.70%",
         "direction": "down",
-        "reason": "Pre-mkt slip into Nasdaq-100 debut (largest IPO ever at $4.3B passive inflow day) — historical pattern of NDX additions fading post-inclusion"
+        "reason": "Pre-mkt slip into Nasdaq-100 debut (largest IPO ever at $4.3B passive inflow day) \u2014 historical pattern of NDX additions fading post-inclusion"
       }
     ],
     "sectorHeat": [
@@ -792,22 +1004,22 @@
     ],
     "news": [
       {
-        "headline": "Samsung posts 19x operating-profit jump, but shares drop 10% — AI valuation jitters spread",
+        "headline": "Samsung posts 19x operating-profit jump, but shares drop 10% \u2014 AI valuation jitters spread",
         "context": "Sell-the-news reaction in Seoul (-6.7% KOSPI) is the cleanest read on the AI memory trade: record profits don't justify record multiples. Dragged MU/WDC/SNDK -5%+ pre-mkt.",
         "tag": "Semis"
       },
       {
-        "headline": "Waller: 'risks have completely flipped' to higher inflation — 10Y hits 4.50% two-week high",
+        "headline": "Waller: 'risks have completely flipped' to higher inflation \u2014 10Y hits 4.50% two-week high",
         "context": "Hawkish Fedspeak re-prices July 29 odds to 25.5% hike vs 74.5% hold; SGH's Duy adds 'rate hike on the table'. FOMC minutes Wed now the binary catalyst.",
         "tag": "Fed"
       },
       {
-        "headline": "SpaceX (SPCX) officially joins Nasdaq-100 today — JPM models $4.3B passive inflows",
-        "context": "Largest IPO in history enters NDX; Coindesk flags 'historical warning' — prior megacap additions (PLTR, MSTR) saw post-inclusion volatility, not fresh rallies.",
+        "headline": "SpaceX (SPCX) officially joins Nasdaq-100 today \u2014 JPM models $4.3B passive inflows",
+        "context": "Largest IPO in history enters NDX; Coindesk flags 'historical warning' \u2014 prior megacap additions (PLTR, MSTR) saw post-inclusion volatility, not fresh rallies.",
         "tag": "Equities"
       },
       {
-        "headline": "Tanker hit by projectile near Strait of Hormuz — WTI +1.1% to $69.32",
+        "headline": "Tanker hit by projectile near Strait of Hormuz \u2014 WTI +1.1% to $69.32",
         "context": "Oil snaps two-day drop on single-event risk; offsets the broader risk-off tone. Brent still -1% but WTI/Murban rebound; geopol premium back in the barrel.",
         "tag": "Energy"
       },
@@ -825,7 +1037,7 @@
       },
       {
         "symbol": "SPY",
-        "thesis": "ES -0.14% with software bid (MSFT/CRM/IBM green) creating dispersion vs semis — COR3M sub-10 favors single-name over index hedges",
+        "thesis": "ES -0.14% with software bid (MSFT/CRM/IBM green) creating dispersion vs semis \u2014 COR3M sub-10 favors single-name over index hedges",
         "signal": "Long SPY put calendar (Jul 11 / Jul 18) for FOMC binary; pair with short MU calls to fund duration"
       },
       {
@@ -840,7 +1052,7 @@
       },
       {
         "symbol": "SPCX",
-        "thesis": "NDX debut day with JPM modeling $4.3B passive inflows; -1.7% pre-mkt suggests positioning not chasing — IV elevated into close",
+        "thesis": "NDX debut day with JPM modeling $4.3B passive inflows; -1.7% pre-mkt suggests positioning not chasing \u2014 IV elevated into close",
         "signal": "Sell SPCX 0DTE call spreads (165/170) into 4pm rebalance; premium-rich on the largest-passive-flow tape of the year"
       }
     ],
@@ -849,12 +1061,12 @@
   },
   {
     "date": "2026-07-06",
-    "asOf": "Pre-market — Mon, Jul 6 (Asia overnight mixed; Euro mkt open)",
+    "asOf": "Pre-market \u2014 Mon, Jul 6 (Asia overnight mixed; Euro mkt open)",
     "headline": "Futures bid into July payrolls week: ES/NQ +0.4-0.7% as chip names (TSM +2% on Citi PT) and Micron memory bid offset oil -1.5% on OPEC+ Aug hike; BTC tags $63K for 5th straight green session, gold pulls back to $3,350 on USD recovery.",
     "sentiment": {
       "tone": "bullish",
       "score": 0.32,
-      "reason": "Risk-on continuation: NQ leading +0.7% on semi rebound (TSM Citi PT, MU memory bid), BTC 5-day win streak through $63K, oil -1.5% on confirmed OPEC+ Aug output hike (growth-friendly) — only mild headwind is gold -0.4% and lingering 10Y stickiness near 4.49%."
+      "reason": "Risk-on continuation: NQ leading +0.7% on semi rebound (TSM Citi PT, MU memory bid), BTC 5-day win streak through $63K, oil -1.5% on confirmed OPEC+ Aug output hike (growth-friendly) \u2014 only mild headwind is gold -0.4% and lingering 10Y stickiness near 4.49%."
     },
     "market": [
       {
@@ -1005,7 +1217,7 @@
     "news": [
       {
         "headline": "US stock futures up as chip shares recover, oil prices decline",
-        "context": "TSM/MU lead semis bounce after last week's 5%+ SOX drop — sentiment is the driver, not new data",
+        "context": "TSM/MU lead semis bounce after last week's 5%+ SOX drop \u2014 sentiment is the driver, not new data",
         "tag": "Semis"
       },
       {
@@ -1033,12 +1245,12 @@
       {
         "symbol": "QQQ",
         "thesis": "Mega-cap bid off lows after Thu's -1.7% close; 7-day put/call skew normalizing",
-        "signal": "Watch 705P / 720C weekly (Jul 11) — call wall building at 725 into FOMC minutes"
+        "signal": "Watch 705P / 720C weekly (Jul 11) \u2014 call wall building at 725 into FOMC minutes"
       },
       {
         "symbol": "SPY",
         "thesis": "Vol crush continues (VIX -2.5% to 15.8) as dealer gamma stays long",
-        "signal": "735C (0DTE) favored on gap-fill open; IV rank at 22 — fade premium"
+        "signal": "735C (0DTE) favored on gap-fill open; IV rank at 22 \u2014 fade premium"
       },
       {
         "symbol": "TSLA",
@@ -1047,7 +1259,7 @@
       },
       {
         "symbol": "XLE",
-        "thesis": "Oil -1.5% on OPEC+ Aug hike puts XLE at session low — defensive energy bid fading",
+        "thesis": "Oil -1.5% on OPEC+ Aug hike puts XLE at session low \u2014 defensive energy bid fading",
         "signal": "Bear put spread 90/85 (Aug) on relative weakness vs. XOP, IV rank 41"
       },
       {
@@ -1061,7 +1273,7 @@
   },
   {
     "date": "2026-07-05",
-    "asOf": "Weekend — Sun, Jul 5 (Thu Jul 2 last close; Fri Jul 4 holiday)",
+    "asOf": "Weekend \u2014 Sun, Jul 5 (Thu Jul 2 last close; Fri Jul 4 holiday)",
     "headline": "Holiday-shortened week closes mixed: Dow at record 52,900 on soft-NFP re-rating, but semis -5.4% and Marvell -10% drag Nasdaq; gold bid resumes and BTC tags $62K as dollar weakens into Monday reopen.",
     "sentiment": {
       "tone": "mixed",
@@ -1131,7 +1343,7 @@
         "symbol": "MRVL",
         "change": "-9.84%",
         "direction": "down",
-        "reason": "AI data-center capex fears — 76% of rev tied to hyperscalers; $23B market cap erased in one session"
+        "reason": "AI data-center capex fears \u2014 76% of rev tied to hyperscalers; $23B market cap erased in one session"
       },
       {
         "symbol": "TSLA",
@@ -1216,13 +1428,13 @@
     ],
     "news": [
       {
-        "headline": "Dow hits record 52,900 as June NFP prints 57K — softness re-prices Fed",
+        "headline": "Dow hits record 52,900 as June NFP prints 57K \u2014 softness re-prices Fed",
         "context": "April/May revisions negative; unemployment drops to 4.2%. Soft-landing-cum-cuts trade lifts cyclicals and bonds, dollar weakens. September cut odds jump to ~65% per FedWatch.",
         "tag": "Fed"
       },
       {
         "headline": "Philadelphia Semi Index -5.4%, Marvell -9.8% lead AI capex unwind",
-        "context": "MRVL exposed 76% to data-center; AVGO/NVDA/AMD all red. AI infrastructure narrative hits a real air-pocket — biggest single-day sector loss in 6 weeks.",
+        "context": "MRVL exposed 76% to data-center; AVGO/NVDA/AMD all red. AI infrastructure narrative hits a real air-pocket \u2014 biggest single-day sector loss in 6 weeks.",
         "tag": "Semis"
       },
       {
@@ -1236,7 +1448,7 @@
         "tag": "Equities"
       },
       {
-        "headline": "Supreme Court rules Fed can't be fired without cause — markets welcome limits",
+        "headline": "Supreme Court rules Fed can't be fired without cause \u2014 markets welcome limits",
         "context": "Independence ruling caps the White House reach into monetary policy. Real-yield curve stays bid; supports the soft-landing re-rating already underway.",
         "tag": "Macro"
       }
@@ -1244,37 +1456,37 @@
     "options": [
       {
         "symbol": "QQQ",
-        "thesis": "VIX crushed to 16.2 with NQ -0.78% — IV-RV gap tight, dealer gamma long above 25,800 into Monday reopen.",
+        "thesis": "VIX crushed to 16.2 with NQ -0.78% \u2014 IV-RV gap tight, dealer gamma long above 25,800 into Monday reopen.",
         "signal": "Sell QQQ weekly put spreads (25,700/25,500); long gamma into the soft-NFP re-rate"
       },
       {
         "symbol": "SPY",
         "thesis": "Soft-NFP re-pricing = ES pinned near 7,500; COR3M still compressed at ~9 with July FOMC minutes the next catalyst.",
-        "signal": "Long SPY 7,500/7,600 call calendar July 11/18, fund with short 7,400 puts — risk-reversal for dovish tail"
+        "signal": "Long SPY 7,500/7,600 call calendar July 11/18, fund with short 7,400 puts \u2014 risk-reversal for dovish tail"
       },
       {
         "symbol": "TSLA",
-        "thesis": "Stock -7.5% post Q2 delivery beat with IV still ~58% — call premium expensive on the 470/500 strikes after the FSD rip.",
+        "thesis": "Stock -7.5% post Q2 delivery beat with IV still ~58% \u2014 call premium expensive on the 470/500 strikes after the FSD rip.",
         "signal": "Sell TSLA weekly call spreads (490/510) into Monday open; vol gift, no edge in direction"
       },
       {
         "symbol": "AAPL",
-        "thesis": "+4.8% rip into holiday on five-iPhone plan, but skew still steep — calls expensive relative to put hedge cost.",
+        "thesis": "+4.8% rip into holiday on five-iPhone plan, but skew still steep \u2014 calls expensive relative to put hedge cost.",
         "signal": "Long AAPL Aug 230/250 bull call spread; cheap convexity into Q3 print, IV at 28%"
       },
       {
         "symbol": "MRVL",
         "thesis": "-9.8% on AI capex fears; IV expanding fast, dealer flow turning two-way post-print.",
-        "signal": "Buy MRVL Oct 230/280 call spread as recovery hedge — single-name volatility selling opportunity"
+        "signal": "Buy MRVL Oct 230/280 call spread as recovery hedge \u2014 single-name volatility selling opportunity"
       }
     ],
-    "takeaway": "Long-weekend tape is mixed-to-bullish: Dow record + soft NFP + gold bid + BTC decoupling is the dovish-re-rate trade doing its work, but the semi/MRVL unwind is the real signal. Index is the wrong trade — be long defensives (XLV/XLP/XLU), avoid semis, let TSLA mean-revert, and watch Wednesday FOMC minutes for the cut-odds catalyst.",
+    "takeaway": "Long-weekend tape is mixed-to-bullish: Dow record + soft NFP + gold bid + BTC decoupling is the dovish-re-rate trade doing its work, but the semi/MRVL unwind is the real signal. Index is the wrong trade \u2014 be long defensives (XLV/XLP/XLU), avoid semis, let TSLA mean-revert, and watch Wednesday FOMC minutes for the cut-odds catalyst.",
     "generatedAt": "2026-07-05T13:02:11.334Z"
   },
   {
     "date": "2026-07-04",
-    "asOf": "Weekend — Sat, Jul 4 (US cash markets closed; July 4 holiday observed Fri Jul 3)",
-    "headline": "Long-weekend tape risk-on: NFP miss + gold reclaims $4,100 + BTC holds $72K after dovish re-pricing — but oil under $68 and AAPL -2% into Monday's reopen keep the undercurrent cautious.",
+    "asOf": "Weekend \u2014 Sat, Jul 4 (US cash markets closed; July 4 holiday observed Fri Jul 3)",
+    "headline": "Long-weekend tape risk-on: NFP miss + gold reclaims $4,100 + BTC holds $72K after dovish re-pricing \u2014 but oil under $68 and AAPL -2% into Monday's reopen keep the undercurrent cautious.",
     "sentiment": {
       "tone": "bullish",
       "score": 0.38,
@@ -1343,7 +1555,7 @@
         "symbol": "AAPL",
         "change": "-2.10%",
         "direction": "down",
-        "reason": "Mag-7 rotation continues into holiday — AI-device pricing overhang lingers; tests $208 support"
+        "reason": "Mag-7 rotation continues into holiday \u2014 AI-device pricing overhang lingers; tests $208 support"
       },
       {
         "symbol": "TSLA",
@@ -1428,27 +1640,27 @@
     ],
     "news": [
       {
-        "headline": "June NFP prints 98K vs 113K est, May revised down 12K — dovish surprise locked in",
+        "headline": "June NFP prints 98K vs 113K est, May revised down 12K \u2014 dovish surprise locked in",
         "context": "September cut odds jump to ~75% per FedWatch; curve bull-steepens, 10Y drops to 4.26%. Soft-landing-cum-cuts trade is the cleanest in weeks.",
         "tag": "Fed"
       },
       {
-        "headline": "Gold reclaims $4,100 (+2.5%) — strongest single-session bid in 3 weeks",
+        "headline": "Gold reclaims $4,100 (+2.5%) \u2014 strongest single-session bid in 3 weeks",
         "context": "DXY down 0.6%, real yields ease; haven demand returns as dollar slides on NFP miss. Test of prior all-time-high zone next week.",
         "tag": "Macro"
       },
       {
-        "headline": "Brent sub-$70 for a 3rd week; WTI $68.20 — OPEC+ unwind fully priced",
+        "headline": "Brent sub-$70 for a 3rd week; WTI $68.20 \u2014 OPEC+ unwind fully priced",
         "context": "Energy tape under pressure into the holiday; XLE -1.95%. Soft-landing narrative helps consumer/transports more than it hurts drillers.",
         "tag": "Energy"
       },
       {
-        "headline": "BTC $72,340 (+3.3%) — decoupling from risk-asset beta, ETF inflows resume",
+        "headline": "BTC $72,340 (+3.3%) \u2014 decoupling from risk-asset beta, ETF inflows resume",
         "context": "Crypto bid persists despite thin holiday tape; $60K now solid support. Cointelegraph flags potential bottom confirmation; cleanest read heading into Monday.",
         "tag": "Crypto"
       },
       {
-        "headline": "TSMC confirms CoWoS capacity ramp — Q4 utilization 95%+, NVDA/AAPL lead orders",
+        "headline": "TSMC confirms CoWoS capacity ramp \u2014 Q4 utilization 95%+, NVDA/AAPL lead orders",
         "context": "AI-supply thesis intact on the build-out side; semis split-tape (memory winners vs device questions) persists into July prints.",
         "tag": "Semis"
       }
@@ -1456,17 +1668,17 @@
     "options": [
       {
         "symbol": "QQQ",
-        "thesis": "VIX crushed to 14.6 — front-week IV mispriced vs realized; dealer gamma long above 30,000 into the reopen.",
+        "thesis": "VIX crushed to 14.6 \u2014 front-week IV mispriced vs realized; dealer gamma long above 30,000 into the reopen.",
         "signal": "Buy QQQ weekly calls (30,100/30,300) Monday open; 0DTE IV too cheap to sell into NFP relief"
       },
       {
         "symbol": "SPY",
         "thesis": "Bullish NFP re-pricing + July 4 liquidity gap = ES pinned near 7,560; COR3M still compressed at ~9.",
-        "signal": "Long SPY 7,600 calls July 11, fund with short 7,400 puts — risk-reversal for the dovish tail"
+        "signal": "Long SPY 7,600 calls July 11, fund with short 7,400 puts \u2014 risk-reversal for the dovish tail"
       },
       {
         "symbol": "TSLA",
-        "thesis": "Stock +1.4% into holiday with IV ~55% — call premium expensive on 470/500 strikes after the FSD rip.",
+        "thesis": "Stock +1.4% into holiday with IV ~55% \u2014 call premium expensive on 470/500 strikes after the FSD rip.",
         "signal": "Sell TSLA weekly call spreads (490/510) into the holiday vacuum; vol gift, no edge in direction here"
       },
       {
@@ -1480,13 +1692,13 @@
         "signal": "Bull call spread 640/680 Sep; cheap convexity vs single-long call, IV at 32%"
       }
     ],
-    "takeaway": "Long-weekend tape is risk-on — NFP miss + gold bid + BTC decoupling is the cleanest 'soft-landing-cum-cuts' setup in weeks. Trade: long duration/tech into Monday's reopen, fade oil/XLE, let TSLA mean-revert. Watch Tuesday's ISM Services for confirmation and Wednesday's FOMC minutes for the cut-odds catalyst.",
+    "takeaway": "Long-weekend tape is risk-on \u2014 NFP miss + gold bid + BTC decoupling is the cleanest 'soft-landing-cum-cuts' setup in weeks. Trade: long duration/tech into Monday's reopen, fade oil/XLE, let TSLA mean-revert. Watch Tuesday's ISM Services for confirmation and Wednesday's FOMC minutes for the cut-odds catalyst.",
     "generatedAt": "2026-07-04T13:00:00.000Z"
   },
   {
     "date": "2026-07-03",
-    "asOf": "Pre-market — Fri, Jul 3 (July 4 observed — cash markets CLOSED)",
-    "headline": "US closed for July 4 — global tape risk-on after soft NFP: ES +0.31%, NQ +1.14%, gold recaptures $4,100, BTC holds $72K, oil rout deepens as Brent slips under $70.",
+    "asOf": "Pre-market \u2014 Fri, Jul 3 (July 4 observed \u2014 cash markets CLOSED)",
+    "headline": "US closed for July 4 \u2014 global tape risk-on after soft NFP: ES +0.31%, NQ +1.14%, gold recaptures $4,100, BTC holds $72K, oil rout deepens as Brent slips under $70.",
     "sentiment": {
       "tone": "bullish",
       "score": 0.45,
@@ -1640,27 +1852,27 @@
     ],
     "news": [
       {
-        "headline": "June NFP prints 98K vs 113K est; May revised down 12K — dovish surprise",
+        "headline": "June NFP prints 98K vs 113K est; May revised down 12K \u2014 dovish surprise",
         "context": "Soft jobs + downward revision = September cut odds jump to ~75% per FedWatch; curve bull-steepens, 10Y drops to 4.28%.",
         "tag": "Fed"
       },
       {
-        "headline": "Gold reclaims $4,100 (+2.4%) as dollar slides on NFP miss — haven bid returns",
-        "context": "Real yields ease, DXY down 0.6% — strongest single-session gold bid in three weeks; tests prior all-time-high zone.",
+        "headline": "Gold reclaims $4,100 (+2.4%) as dollar slides on NFP miss \u2014 haven bid returns",
+        "context": "Real yields ease, DXY down 0.6% \u2014 strongest single-session gold bid in three weeks; tests prior all-time-high zone.",
         "tag": "Macro"
       },
       {
-        "headline": "Brent sub-$70 for 3rd week; WTI $68.40 — OPEC+ unwind fully priced",
+        "headline": "Brent sub-$70 for 3rd week; WTI $68.40 \u2014 OPEC+ unwind fully priced",
         "context": "Energy tape under pressure into holiday; XLE -1.85%, but soft landing narrative helps consumer/transports more than it hurts drillers.",
         "tag": "Energy"
       },
       {
-        "headline": "BTC holds $72K, +3% on week — AI-sector weakness no longer dragging crypto",
+        "headline": "BTC holds $72K, +3% on week \u2014 AI-sector weakness no longer dragging crypto",
         "context": "Decoupling from risk-asset beta: ETF inflows resume, $60K now solid support; cointelegraph flags potential bottom confirmation.",
         "tag": "Crypto"
       },
       {
-        "headline": "TSMC confirms CoWoS capacity ramp — Q4 utilization 95%+, NVDA/AAPL lead orders",
+        "headline": "TSMC confirms CoWoS capacity ramp \u2014 Q4 utilization 95%+, NVDA/AAPL lead orders",
         "context": "AI-supply thesis intact on the build-out side; semis split-tape (memory winners vs compute questions) persists into July prints.",
         "tag": "Semis"
       }
@@ -1668,17 +1880,17 @@
     "options": [
       {
         "symbol": "QQQ",
-        "thesis": "VIX crushed to 14.8 — front-week IV now mispriced vs realized; dealer gamma long above 30,000.",
+        "thesis": "VIX crushed to 14.8 \u2014 front-week IV now mispriced vs realized; dealer gamma long above 30,000.",
         "signal": "Buy QQQ weekly calls (30,100/30,300) post-holiday open; 0DTE IV too cheap to sell into NFP relief"
       },
       {
         "symbol": "SPY",
         "thesis": "Bullish NFP re-pricing + July 4 liquidity gap = ES pinned near 7,550; COR3M still compressed.",
-        "signal": "Long SPY 7,600 calls July 11, fund with short 7,400 puts — risk-reversal for the dovish tail"
+        "signal": "Long SPY 7,600 calls July 11, fund with short 7,400 puts \u2014 risk-reversal for the dovish tail"
       },
       {
         "symbol": "TSLA",
-        "thesis": "Stock -2.8% into holiday, IV 58% — call premium expensive on the 470/500 strikes after the FSD rip.",
+        "thesis": "Stock -2.8% into holiday, IV 58% \u2014 call premium expensive on the 470/500 strikes after the FSD rip.",
         "signal": "Sell TSLA weekly call spreads (490/510) into the holiday vacuum; vol gift, no edge in direction here"
       },
       {
@@ -1692,12 +1904,12 @@
         "signal": "Bull call spread 640/680 Sep; cheap convexity vs single-long call, IV at 32%"
       }
     ],
-    "takeaway": "Risk-on into the holiday close — NFP miss + gold bid + BTC decoupling is the cleanest 'soft-landing-cum-cuts' tape in weeks. Trade is long duration/tech into July 11 reopen, fade oil/XLE, and let TSLA mean-revert. Watch Tuesday's ISM Services for confirmation.",
+    "takeaway": "Risk-on into the holiday close \u2014 NFP miss + gold bid + BTC decoupling is the cleanest 'soft-landing-cum-cuts' tape in weeks. Trade is long duration/tech into July 11 reopen, fade oil/XLE, and let TSLA mean-revert. Watch Tuesday's ISM Services for confirmation.",
     "generatedAt": "2026-07-03T13:00:00.000Z"
   },
   {
     "date": "2026-07-02",
-    "asOf": "Pre-market — Thu, Jul 2",
+    "asOf": "Pre-market \u2014 Thu, Jul 2",
     "headline": "NFP day tape firms near the flatline as gold bid, oil soft, semis still bleeding",
     "sentiment": {
       "tone": "mixed",
@@ -1853,7 +2065,7 @@
     "news": [
       {
         "headline": "June nonfarm payrolls print due 8:30 ET; consensus ~150K, focus on wage growth and revisions",
-        "context": "Soft print revives Fed-cut narrative; hot print re-prices 'higher for longer' — biggest single catalyst of the day.",
+        "context": "Soft print revives Fed-cut narrative; hot print re-prices 'higher for longer' \u2014 biggest single catalyst of the day.",
         "tag": "Macro"
       },
       {
@@ -1863,7 +2075,7 @@
       },
       {
         "headline": "TSLA +15% as FSD v13 expands to older vehicles; Q2 delivery tracker turns hot",
-        "context": "Musk unlocks ~4M-vehicle installed base; ARK adds — momentum extends into consumer-discretionary tape.",
+        "context": "Musk unlocks ~4M-vehicle installed base; ARK adds \u2014 momentum extends into consumer-discretionary tape.",
         "tag": "Equities"
       },
       {
@@ -1872,7 +2084,7 @@
         "tag": "Fed"
       },
       {
-        "headline": "WTI slides to $70 as Trump flags smooth US–Iran talks progress",
+        "headline": "WTI slides to $70 as Trump flags smooth US\u2013Iran talks progress",
         "context": "Supply-peace premium bleeds out; energy lags, helps consumer/bond proxies but pressures XLE and oil-leveraged EM.",
         "tag": "Energy"
       }
@@ -1880,7 +2092,7 @@
     "options": [
       {
         "symbol": "QQQ",
-        "thesis": "Put flow heavy into NFP but IV is compressed — fade the doomers if print isn't a stunner",
+        "thesis": "Put flow heavy into NFP but IV is compressed \u2014 fade the doomers if print isn't a stunner",
         "signal": "Buy 0DTE 480P / 478P spread into 9:45 ET; size small"
       },
       {
@@ -1904,17 +2116,17 @@
         "signal": "Bull call spread 620/650 Sep; cheap convexity vs single-long call"
       }
     ],
-    "takeaway": "Asymmetry favors fade-the-fear if NFP prints in-line or soft. Tech is washed out enough that a clean number triggers a squeeze into the close. Hardest trade is META/NVDA divergence — let the dust settle, don't chase TSLA above 320.",
+    "takeaway": "Asymmetry favors fade-the-fear if NFP prints in-line or soft. Tech is washed out enough that a clean number triggers a squeeze into the close. Hardest trade is META/NVDA divergence \u2014 let the dust settle, don't chase TSLA above 320.",
     "generatedAt": "2026-07-02T13:01:25Z"
   },
   {
     "date": "2026-07-01",
-    "asOf": "Pre-market — Wed, Jul 1",
-    "headline": "Futures red and gold slips under $4,000 as Iran rejects direct peace talks; ADP misses (98K vs 113K est) and Warsh's hawkish tilt keep the dollar bid into ISM/FOMC — but BE +20% on Brookfield's $25B AI power deal keeps the AI-power trade lit.",
+    "asOf": "Pre-market \u2014 Wed, Jul 1",
+    "headline": "Futures red and gold slips under $4,000 as Iran rejects direct peace talks; ADP misses (98K vs 113K est) and Warsh's hawkish tilt keep the dollar bid into ISM/FOMC \u2014 but BE +20% on Brookfield's $25B AI power deal keeps the AI-power trade lit.",
     "sentiment": {
       "tone": "mixed",
       "score": -0.18,
-      "reason": "Geopolitical (Iran talks off) and macro (ADP miss, Warsh hawkish, gold under $4K) are all risk-off, but AI-power flow (BE +20% after-hours) and the fresh Q2-record backdrop keep single-name dispersion alive — index direction is down but the underlying tape is selective, not capitulating."
+      "reason": "Geopolitical (Iran talks off) and macro (ADP miss, Warsh hawkish, gold under $4K) are all risk-off, but AI-power flow (BE +20% after-hours) and the fresh Q2-record backdrop keep single-name dispersion alive \u2014 index direction is down but the underlying tape is selective, not capitulating."
     },
     "market": [
       {
@@ -1985,7 +2197,7 @@
         "symbol": "AVAV",
         "change": "+18.80%",
         "direction": "up",
-        "reason": "Q4 revenue doubles on drone demand; stock hits record highs, but guides $165–$177M Q1 (mixed)"
+        "reason": "Q4 revenue doubles on drone demand; stock hits record highs, but guides $165\u2013$177M Q1 (mixed)"
       },
       {
         "symbol": "AAPL",
@@ -2064,23 +2276,23 @@
     ],
     "news": [
       {
-        "headline": "Iran rules out direct peace talks with US — WTI slips to $69.40 four-month low",
-        "context": "Hormuz traffic normalizing but the lack of diplomatic channel keeps the geopolitical tail live; oil and gold both fading — classic 'risk-off without panic' tape.",
+        "headline": "Iran rules out direct peace talks with US \u2014 WTI slips to $69.40 four-month low",
+        "context": "Hormuz traffic normalizing but the lack of diplomatic channel keeps the geopolitical tail live; oil and gold both fading \u2014 classic 'risk-off without panic' tape.",
         "tag": "Energy"
       },
       {
-        "headline": "ADP June +98K vs +113K est — labor cooling into ISM/FOMC doubleheader",
-        "context": "Soft print gives the Fed cover to stay on hold, but with 10Y at 4.46% (up ~8bps), bond market is reading 'resilient enough' — Warsh's hawkish remarks add to the pressure.",
+        "headline": "ADP June +98K vs +113K est \u2014 labor cooling into ISM/FOMC doubleheader",
+        "context": "Soft print gives the Fed cover to stay on hold, but with 10Y at 4.46% (up ~8bps), bond market is reading 'resilient enough' \u2014 Warsh's hawkish remarks add to the pressure.",
         "tag": "Fed"
       },
       {
-        "headline": "Gold under $4,000 — YTD low as Warsh tilts hawkish, dollar bid",
+        "headline": "Gold under $4,000 \u2014 YTD low as Warsh tilts hawkish, dollar bid",
         "context": "Haven demand evaporating in real-yield squeeze; bears awaiting Warsh confirmation as the next catalyst. Watch $3,950 as critical support.",
         "tag": "Macro"
       },
       {
         "headline": "BE +20% after-hours on Brookfield's $25B AI power expansion",
-        "context": "Sole bright spot in the AI complex — fuel-cell/data-center power narrative re-rates; not broad semis strength, but the AI-power subtheme is alive and well.",
+        "context": "Sole bright spot in the AI complex \u2014 fuel-cell/data-center power narrative re-rates; not broad semis strength, but the AI-power subtheme is alive and well.",
         "tag": "Equities"
       },
       {
@@ -2092,7 +2304,7 @@
     "options": [
       {
         "symbol": "QQQ",
-        "thesis": "NQ -0.43% pre-mkt with VIX creeping to 17.6 — front-week IV still cheap vs realized, but dealer gamma flipping negative below 30,200.",
+        "thesis": "NQ -0.43% pre-mkt with VIX creeping to 17.6 \u2014 front-week IV still cheap vs realized, but dealer gamma flipping negative below 30,200.",
         "signal": "Buy QQQ weekly put spreads (30,200/30,000) into ISM/Warsh doubleheader; VIX above 18 = take profit"
       },
       {
@@ -2102,13 +2314,13 @@
       },
       {
         "symbol": "TSLA",
-        "thesis": "Robotaxi narrative quiet, stock lagging the BE-led AI-power trade — call premium cheap but no catalyst until Q3 deliveries.",
-        "signal": "Sell TSLA weekly straddle (240) into Q3 — vol is being gifted, no edge in direction here"
+        "thesis": "Robotaxi narrative quiet, stock lagging the BE-led AI-power trade \u2014 call premium cheap but no catalyst until Q3 deliveries.",
+        "signal": "Sell TSLA weekly straddle (240) into Q3 \u2014 vol is being gifted, no edge in direction here"
       },
       {
         "symbol": "BE",
-        "thesis": "+20% rip on Brookfield $25B deal — 30D IV expanding fast, dealer flow turning two-way on size.",
-        "signal": "Sell BE weekly call spreads (310/330) into Thursday — IV crush setup, single-deal story has 48-hour shelf life"
+        "thesis": "+20% rip on Brookfield $25B deal \u2014 30D IV expanding fast, dealer flow turning two-way on size.",
+        "signal": "Sell BE weekly call spreads (310/330) into Thursday \u2014 IV crush setup, single-deal story has 48-hour shelf life"
       },
       {
         "symbol": "XLE",
@@ -2116,13 +2328,13 @@
         "signal": "Long XLE Aug 65 puts (cost ~$1.20) into Iran headline risk; tail-hedge into the back half of summer"
       }
     ],
-    "takeaway": "Risk-off without panic. Iran headline + ADP miss + Warsh hawkish = 10Y to 4.46% and gold under $4K, but BE's $25B AI-power deal shows the smart money is still buying the AI infrastructure trade. Index is the wrong thing to trade here — be long BE/short oil, fade AAPL weakness, hedge with SPY puts into ISM/Warsh combo at 10am ET.",
+    "takeaway": "Risk-off without panic. Iran headline + ADP miss + Warsh hawkish = 10Y to 4.46% and gold under $4K, but BE's $25B AI-power deal shows the smart money is still buying the AI infrastructure trade. Index is the wrong thing to trade here \u2014 be long BE/short oil, fade AAPL weakness, hedge with SPY puts into ISM/Warsh combo at 10am ET.",
     "generatedAt": "2026-07-01T13:00:00.000Z"
   },
   {
     "date": "2026-06-30",
-    "asOf": "Pre-market — Tue, Jun 30 (Q2 close)",
-    "headline": "Q2 ends on a risk-on high: Dow tags 52K as Iran de-escalates, TSLA rips 8% to record, semis bid on AI power demand — but QCOM, NKE warn on margins and BTC can’t hold $60K.",
+    "asOf": "Pre-market \u2014 Tue, Jun 30 (Q2 close)",
+    "headline": "Q2 ends on a risk-on high: Dow tags 52K as Iran de-escalates, TSLA rips 8% to record, semis bid on AI power demand \u2014 but QCOM, NKE warn on margins and BTC can\u2019t hold $60K.",
     "sentiment": {
       "tone": "bullish",
       "score": 0.42,
@@ -2276,7 +2488,7 @@
     ],
     "news": [
       {
-        "headline": "US-Iran halt military action, Qatar talks Tuesday — Dow tags 52K pre-market",
+        "headline": "US-Iran halt military action, Qatar talks Tuesday \u2014 Dow tags 52K pre-market",
         "context": "Strait of Hormuz risk premium evaporates; WTI slips under $70, gold fades, risk-on across futures.",
         "tag": "Macro"
       },
@@ -2287,7 +2499,7 @@
       },
       {
         "headline": "QCOM Q1 rev -2.2% YoY, soft Q2 guide despite AI data-center push",
-        "context": "Mobile remains the drag; data-center chip diversification story takes another quarter to land — semis split-tape continues.",
+        "context": "Mobile remains the drag; data-center chip diversification story takes another quarter to land \u2014 semis split-tape continues.",
         "tag": "Semis"
       },
       {
@@ -2297,29 +2509,29 @@
       },
       {
         "headline": "BTC drifts under $60K as Strategy flags $2B sell plan; dollar bid",
-        "context": "Crypto lags the risk-on tape — first sub-$60K close since Q3'24, onchain demand quiet, liquidation tailwind fading.",
+        "context": "Crypto lags the risk-on tape \u2014 first sub-$60K close since Q3'24, onchain demand quiet, liquidation tailwind fading.",
         "tag": "Crypto"
       }
     ],
     "options": [
       {
         "symbol": "QQQ",
-        "thesis": "VIX slipped to 18.4 with NQ green pre-mkt — front-week IV cheap vs realized, dealer gamma positive above 29,800.",
+        "thesis": "VIX slipped to 18.4 with NQ green pre-mkt \u2014 front-week IV cheap vs realized, dealer gamma positive above 29,800.",
         "signal": "Buy QQQ weekly calls (29,950/30,100) into Q2 close, fade VIX above 19"
       },
       {
         "symbol": "SPY",
         "thesis": "Index vol cheap relative to single-name dispersion; COR3M still compressed at ~9.90.",
-        "signal": "Long SPY 7,550 calls into July 4 holiday — gamma supportive, theta works for you"
+        "signal": "Long SPY 7,550 calls into July 4 holiday \u2014 gamma supportive, theta works for you"
       },
       {
         "symbol": "TSLA",
-        "thesis": "+8% rip on record high, but front-week IV still ~52% — chasing risk is real into Q2 close.",
+        "thesis": "+8% rip on record high, but front-week IV still ~52% \u2014 chasing risk is real into Q2 close.",
         "signal": "Sell TSLA weekly call spreads (470/490) into earnings cycle; IV crush favors premium-sellers here"
       },
       {
         "symbol": "BE",
-        "thesis": "+9% rip, dealer flow turning two-way post Russell rebalance — IV crush setup.",
+        "thesis": "+9% rip, dealer flow turning two-way post Russell rebalance \u2014 IV crush setup.",
         "signal": "Sell BE weekly call spreads (290/310) against long stock; fade into mid-July"
       },
       {
@@ -2328,12 +2540,12 @@
         "signal": "Long XLE put calendar (Sep/Dec) into July jobs print; energy is the wrong place to be risk-on"
       }
     ],
-    "takeaway": "Q2 closes risk-on with a record-high TSLA masking real weakness underneath (QCOM, NKE, BTC). Don’t chase the gap — VIX at 18.4 says vol is cheap, but Q2-end rebalance flows and Friday’s NFP make this a fade-the-rip tape into the holiday.",
+    "takeaway": "Q2 closes risk-on with a record-high TSLA masking real weakness underneath (QCOM, NKE, BTC). Don\u2019t chase the gap \u2014 VIX at 18.4 says vol is cheap, but Q2-end rebalance flows and Friday\u2019s NFP make this a fade-the-rip tape into the holiday.",
     "generatedAt": "2026-06-30T13:00:00.000Z"
   },
   {
     "date": "2026-06-29",
-    "asOf": "Pre-market — Mon, Jun 29",
+    "asOf": "Pre-market \u2014 Mon, Jun 29",
     "headline": "Futures bounce on US-Iran ceasefire hope; tech still fragile, vol elevated.",
     "sentiment": {
       "tone": "mixed",
@@ -2517,7 +2729,7 @@
       {
         "symbol": "QQQ",
         "thesis": "Tech hedge demand stays elevated despite futures bounce",
-        "signal": "Skew favoring puts; QQQ-SPX IV spread at 4-yr high — sell-rich front-month QQQ puts"
+        "signal": "Skew favoring puts; QQQ-SPX IV spread at 4-yr high \u2014 sell-rich front-month QQQ puts"
       },
       {
         "symbol": "SPY",
@@ -2540,219 +2752,7 @@
         "signal": "Put calendar to harvest elevated IV into earnings cycle"
       }
     ],
-    "takeaway": "Risk-on open, but don't trust the gap — QQQ-SPX IV spread screams hedge demand. Cautious into Thursday's NFP.",
+    "takeaway": "Risk-on open, but don't trust the gap \u2014 QQQ-SPX IV spread screams hedge demand. Cautious into Thursday's NFP.",
     "generatedAt": "2026-06-29T13:03:03.675Z"
-  },
-  {
-    "date": "2026-06-28",
-    "asOf": "Weekend wrap — Sun, Jun 28 (Fri Jun 26 close)",
-    "headline": "H1 closes on a split tape: Micron +15.7% wins the AI memory trade, Apple -6.6% loses the AI device bill; Nasdaq -4.5% on the week, BTC first sub-$60K close since Q3’24.",
-    "sentiment": {
-      "tone": "mixed",
-      "score": -0.22,
-      "reason": "Friday’s session was a textbook dispersion tape: Micron ripped on AI memory scarcity while Apple sold the AI cost-curve story, and oil re-priced on Hormuz risk — index level barely moved but the underlying signal was risk-off into the long weekend."
-    },
-    "market": [
-      {
-        "symbol": "ES",
-        "label": "S&P Fut",
-        "value": "7,358",
-        "change": "-0.07%",
-        "direction": "down"
-      },
-      {
-        "symbol": "NQ",
-        "label": "Nasdaq Fut",
-        "value": "25,015",
-        "change": "-0.85%",
-        "direction": "down"
-      },
-      {
-        "symbol": "YM",
-        "label": "Dow Fut",
-        "value": "52,070",
-        "change": "+0.10%",
-        "direction": "up"
-      },
-      {
-        "symbol": "GC",
-        "label": "Gold",
-        "value": "4,089",
-        "change": "+0.55%",
-        "direction": "up"
-      },
-      {
-        "symbol": "CL",
-        "label": "WTI Oil",
-        "value": "71.92",
-        "change": "+2.19%",
-        "direction": "up"
-      },
-      {
-        "symbol": "BTC",
-        "label": "Bitcoin",
-        "value": "59,950",
-        "change": "-1.15%",
-        "direction": "down"
-      },
-      {
-        "symbol": "VIX",
-        "label": "Volatility",
-        "value": "19.6",
-        "change": "+1.20",
-        "direction": "up"
-      },
-      {
-        "symbol": "10Y",
-        "label": "UST 10Y",
-        "value": "4.38",
-        "change": "-0.02",
-        "direction": "down"
-      }
-    ],
-    "movers": [
-      {
-        "symbol": "MU",
-        "change": "+15.70%",
-        "direction": "up",
-        "reason": "FQ3 beat & raise ($41.46B rev, 84.6% GM) — memory scarcity story wins the day; bottleneck moves from compute to memory"
-      },
-      {
-        "symbol": "AAPL",
-        "change": "-6.60%",
-        "direction": "down",
-        "reason": "MacBook/iPad price hike flags memory cost pressure hitting consumer hardware margins — worst day in over a year"
-      },
-      {
-        "symbol": "NVDA",
-        "change": "-3.20%",
-        "direction": "down",
-        "reason": "AI complex contagion — Apple’s pricing move read as a tax on AI-end demand; dealers drag NVDA into the long weekend"
-      }
-    ],
-    "sectorHeat": [
-      {
-        "symbol": "XLK",
-        "label": "Tech",
-        "change": "-1.10%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLF",
-        "label": "Financials",
-        "change": "+0.40%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLE",
-        "label": "Energy",
-        "change": "+1.55%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLV",
-        "label": "Health",
-        "change": "+0.25%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLY",
-        "label": "Cons Disc",
-        "change": "-0.95%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLP",
-        "label": "Staples",
-        "change": "+0.15%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLI",
-        "label": "Industrials",
-        "change": "+0.30%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLU",
-        "label": "Utilities",
-        "change": "+0.20%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLB",
-        "label": "Materials",
-        "change": "+0.10%",
-        "direction": "up"
-      },
-      {
-        "symbol": "XLRE",
-        "label": "Real Estate",
-        "change": "-0.05%",
-        "direction": "down"
-      },
-      {
-        "symbol": "XLC",
-        "label": "Comm Svc",
-        "change": "-0.55%",
-        "direction": "down"
-      }
-    ],
-    "news": [
-      {
-        "headline": "Micron +15.7% on $41.46B quarter, Apple -6.6% — AI cost curve splits the tape",
-        "context": "Memory scarcity vs device cost pressure — bottleneck migrates from compute to memory. Picks-and-shovels wins, AI spenders lose into H2.",
-        "tag": "Semis"
-      },
-      {
-        "headline": "Hormuz risk returns: Brent +2.1% to $75.26, WTI +2.2% to $71.92",
-        "context": "Single-event risk in the Strait re-prices oil and reminds the tape that inflation is not gliding to 2%. Airlines and freight names under pressure Sunday evening.",
-        "tag": "Energy"
-      },
-      {
-        "headline": "10Y ends week at 4.38% after May Core PCE prints 3.4% YoY",
-        "context": "Front-end futures still pricing 1 cut by year-end but 10Y refuses to rally — duration discipline matters into July CPI/Jobs.",
-        "tag": "Fed"
-      },
-      {
-        "headline": "Russell reconstitution Friday adds SpaceX, ~62 names — $12.2T benchmarked",
-        "context": "Closing-auction liquidity event complicates the real signal: index mechanics, not fresh conviction. Watch breadth Monday for clean read.",
-        "tag": "Equities"
-      },
-      {
-        "headline": "VIX pushes to 19.6 as Asian reversal hits Friday morning",
-        "context": "KOSPI tripped circuit breakers, SK Hynix -8%, Samsung -5% — global tech correction, not US-only. VIX9D vs VIX3M in mild backwardation.",
-        "tag": "Macro"
-      }
-    ],
-    "options": [
-      {
-        "symbol": "QQQ",
-        "thesis": "VIX up into the long weekend with NQ -0.85% — front-week IV rich vs realized, dealer gamma flips negative below 25,200.",
-        "signal": "Sell weekly QQQ put spreads (24,900/24,700), keep long VIX3M call calendars into July 11 CPI/Jobs combo"
-      },
-      {
-        "symbol": "SPY",
-        "thesis": "COR3M near cycle low at 9.90 — single-stock dispersion means index puts under-hedge concentrated AI risk.",
-        "signal": "Long SPY put spread (7,300/7,200) + long single-stock puts on AAPL/NVDA into July 11 expiry, defined-risk basket"
-      },
-      {
-        "symbol": "TSLA",
-        "thesis": "Skew flattening near 240 — call premium cheap relative to realized, Robotaxi narrative still priced into Aug.",
-        "signal": "Sell ATM straddle Aug, keep OTM call upside (300C) funded by the sale; cheap convexity into earnings"
-      },
-      {
-        "symbol": "MU",
-        "thesis": "IV crush setup after +15% rip — 30D IV ~92% vs HV ~65%, dealer flow turns two-way post-print.",
-        "signal": "Sell MU weekly call spreads (160/175) against long stock, fade IV into mid-July as gamma normalizes"
-      },
-      {
-        "symbol": "XLE",
-        "thesis": "Unusual call sweep on XLE Jan 2027 110s — ~$8M notional Thursday/Friday; energy is the only green sector.",
-        "signal": "Long XLE call calendar (Sep/Dec) to harvest time premium while keeping upside into Hormuz tail"
-      }
-    ],
-    "takeaway": "Index levels lie. The real tape is inside the AI complex — Micron won Friday, Apple lost it, and Asia paid the bill overnight. Dispersion is the only trade until COR3M normalizes. Watch Sunday’s futures open (6 PM ET) for whether the long-weekend gap holds.",
-    "generatedAt": "2026-06-28T13:00:09Z"
   }
 ]
