@@ -1,63 +1,13 @@
 [
   {
-    "title": "Music in the Garden — Atlanta Botanical Garden",
-    "date": "2026-07-11",
-    "time": "5:00 PM – 8:00 PM",
-    "location": "Atlanta Botanical Garden, 1345 Piedmont Ave NE, Atlanta, GA",
-    "price": "$5 – $14.95 (plus garden admission)",
-    "description": "Live outdoor music in the garden as the sun goes down. Walk the trails, listen to the band, grab a drink at the outdoor bar — peak Atlanta summer date energy, the kind that feels like a movie scene.",
-    "category": "live music",
-    "url": "https://atlantabg.org/calendar/music-in-the-garden-5/"
-  },
-  {
-    "title": "Prima Materia — Group Exhibition Opening",
-    "date": "2026-07-11",
-    "time": "11:00 AM – 6:00 PM",
-    "location": "Empire Arts Gallery, Atlanta, GA",
-    "price": "Free",
-    "description": "The origin point of transformation — artists reveal the sacred beginning of the creative act where pigment, gesture, and intention emerge from the unknown. A quiet, intentional gallery walk that's a great excuse to hold hands and talk about what you see.",
-    "category": "art gallery",
-    "url": "https://www.theartifice.com/event-details/prima-materia"
-  },
-  {
-    "title": "Tumbao Dance Social ft. Alabama Dance Project (2 Rooms)",
-    "date": "2026-07-11",
-    "time": "9:30 PM – 2:00 AM",
-    "location": "The Academy Ballroom, 800 Miami Cir NE, Atlanta, GA",
+    "title": "Zae France Album Release — I ❤️ R&B Mondays at Starlit Rooftop",
+    "date": "2026-07-13",
+    "time": "10:00 PM – 2:00 AM",
+    "location": "Vision Restaurant & Rooftop, 2230 Piedmont Rd NE, Atlanta, GA",
     "price": "Cover at the door (21+)",
-    "description": "Two-room Latin social — salsa in one room, bachata in the other, hosted every 2nd Saturday at the Academy Ballroom. Built-in beginner-friendly energy; perfect for a couple that wants to dance close, learn together, and stay out past midnight.",
-    "category": "dancing",
-    "url": "https://golatindance.com/event/tumbao-dance-social-3/2026-07-11/"
-  },
-  {
-    "title": "NE-YO & AKON: Nights Like This Tour 2026",
-    "date": "2026-07-11",
-    "time": "8:00 PM",
-    "location": "Lakewood Amphitheatre, 2002 Lakewood Way SW, Atlanta, GA",
-    "price": "Ticketed (Live Nation)",
-    "description": "Two R&B heavyweights on one stage — pure 2000s nostalgia singalong. Tailgate-style date: bring a blanket and a bottle of wine, stay for the slow jams under the lights.",
+    "description": "R&B singer Zae France celebrates his album release on a Midtown rooftop under the stars. Late-night date energy — city lights, slow grooves, and a built-in reason to dress up and stay out past midnight.",
     "category": "live music",
-    "url": "https://www.livenation.com/event/vvG1zZ_d9PGHue/ne-yo-akon-nights-like-this-tour-2026"
-  },
-  {
-    "title": "La Placita — Dancing Under the Stars (Dunwoody)",
-    "date": "2026-07-12",
-    "time": "6:00 PM – 10:00 PM",
-    "location": "Spruill Center for the Arts, 4681 Ashford Dunwoody Rd, Dunwoody, GA",
-    "price": "Free / cash bar",
-    "description": "Sunday-evening outdoor Latin social under the stars — DJ spinning salsa, bachata, and merengue on the lawn. Casual, family-friendly vibe until 9ish, then it turns into a grown-ups dance floor. Bring a blanket and a partner who'll let you lead.",
-    "category": "dancing",
-    "url": "https://golatindance.com/event/la-placita-dancing-under-the-stars/2026-07-12/"
-  },
-  {
-    "title": "Life Space Vegan Chef Cook-Off",
-    "date": "2026-07-12",
-    "time": "2:00 PM – 5:00 PM",
-    "location": "294 Hamilton E Holmes Dr NW, Atlanta, GA",
-    "price": "Free – $20 (tasting votes)",
-    "description": "Taste, vote, and celebrate at this plant-based chef showdown. Perfect for a foodie couple — walk the booths together, compare notes, pick a winner. A built-in conversation loop with zero date-night pressure.",
-    "category": "vegetarian",
-    "url": "https://www.eventbrite.com/e/life-space-vegan-chef-cook-off-tickets-1990021669383"
+    "url": "https://stayhappening.com/e/zae-france-hosts-his-album-release-i-%E2%9D%A4%EF%B8%8F-randampb-mondays-starlit-rooftop-E118SB1N7VUI4"
   },
   {
     "title": "Poetic Jazz: Prince Tribute Night",
@@ -78,6 +28,16 @@
     "description": "Cocktails, live DJ, and the gardens lit up at golden hour. A timeless Atlanta date formula — wander the trails, grab a drink, sit by the fountain. Easy to dress up or down.",
     "category": "date idea",
     "url": "https://atlantabg.org/calendar/cocktails-in-the-garden-2/2026-07-16/"
+  },
+  {
+    "title": "Latin Night at Sebastian Pintxos",
+    "date": "2026-07-17",
+    "time": "10:00 PM – 2:00 AM",
+    "location": "Sebastian Pintxos, 818 N Highland Ave NE, Atlanta, GA",
+    "price": "Cover at the door (21+)",
+    "description": "Friday-night Latin social in the heart of Virginia-Highland — salsa, bachata, reggaetón rotation. Pintxos and cocktails on the menu, beginner-friendly floor, the kind of low-commitment Friday where you dance, snack, and decide together whether to stay for round two.",
+    "category": "dancing",
+    "url": "https://golatindance.com/event/latin-night-at-sebastian-pintxos/2026-07-17/"
   },
   {
     "title": "Styx & Chicago — The Windy Cities Tour",
@@ -108,6 +68,16 @@
     "description": "Smooth, intimate jazz night in one of Atlanta's coziest listening rooms. Date-night classic: small stage, low light, two seats at the bar, and a musician who knows how to read a room.",
     "category": "live music",
     "url": "https://www.jazznearyou.com/atlanta/events/dexter-tolson-and-friends-at-vibes-jazz-cafe-at-the-red-door-on-july-17"
+  },
+  {
+    "title": "Singer Jazz McKenzie — Perfect Note Atlanta (from The Voice)",
+    "date": "2026-07-17",
+    "time": "8:00 PM – 10:00 PM",
+    "location": "Perfect Note Atlanta, 1520 Federal Dr, Atlanta, GA",
+    "price": "Ticketed (VIP front-row available; dinner separate)",
+    "description": "Dinner-and-a-show date night with a Voice-season vocalist. Sit-down service, candles, and a real R&B set — the kind of evening where conversation stops and shoulders lean in.",
+    "category": "live music",
+    "url": "https://perfectnoteliveatl.com/product/singer-jazz-mckenzie-2/"
   },
   {
     "title": "Savanna Nights at Zoo Atlanta — Boy Bands & Girl Groups",
@@ -194,7 +164,7 @@
     "date": "2026-07-22",
     "time": "7:30 PM – 9:00 PM",
     "location": "El Sótano, Atlanta, GA (East Atlanta Village)",
-    "price": "Ticketed (All Day Lunch Break)",
+    "price": "Ticketed",
     "description": "Stand-up showcase in the heart of EAV — a low-key Wednesday night that pairs perfectly with dinner and drinks on Flat Shoals Ave. Local comics, intimate room, easy midweek reset for couples.",
     "category": "comedy",
     "url": "https://stayhappening.com/e/the-eav-comedy-show-E118SB1ST5WJY"
@@ -230,6 +200,16 @@
     "url": "https://golatindance.com/event/viernes-tropicales-latin-night-atlanta-sanctuary-night-club/2026-07-24/"
   },
   {
+    "title": "Tanda — Afro House at District Atlanta",
+    "date": "2026-07-24",
+    "time": "10:00 PM – late",
+    "location": "District Atlanta, 1271 Glenwood Ave SE, Atlanta, GA",
+    "price": "Ticketed (21+)",
+    "description": "Tanda Global Sounds brings an Afro House night to District — a sleek, dance-floor-first setting for couples who want a more grown-up Afrobeats/Afro-house experience. Think deep percussion, golden lighting, and a room that pulses.",
+    "category": "Afrobeat/reggae",
+    "url": "https://districtatlanta.com/events/2026/tanda-afro-house-with-bogi-friday-july-24th-2026.php"
+  },
+  {
     "title": "Buju Banton & Stephen Marley: Roots and Rhymes Tour",
     "date": "2026-07-25",
     "time": "7:00 PM",
@@ -237,7 +217,7 @@
     "price": "Ticketed (from ~$60+ lawn)",
     "description": "A reggae double-header on the lawn — Bob Marley's son and a living legend together. Bring a blanket, bring a cooler, stay for the singalongs under the stars.",
     "category": "Afrobeat/reggae",
-    "url": "https://www.tickpick.com/buy-buju-banton-stephen-marley-tickets-lakewood-amphitheatre-7-25-26-7pm/7878180/"
+    "url": "https://www.livenation.com/event/vvG1zZ_FJ0a_Xr/buju-banton-stephen-marley-roots-and-rhymes-tour"
   },
   {
     "title": "INNER VIEWS Art Exhibition — Opening",
@@ -260,6 +240,16 @@
     "url": "https://zooatlanta.org/event/savanna-nights/"
   },
   {
+    "title": "Steel Pulse & The Original Wailers ft. Al Anderson — Reggae Against Racism Tour",
+    "date": "2026-07-26",
+    "time": "8:00 PM",
+    "location": "The Eastern, 777 Memorial Dr SE Building C, Atlanta, GA",
+    "price": "Ticketed (Live Nation)",
+    "description": "Two foundational reggae acts on one bill — Steel Pulse and the Original Wailers (with Al Anderson) in the Eastern's premium listening room. Sunday-night closer for couples who want big reggae history in a sit-down setting.",
+    "category": "Afrobeat/reggae",
+    "url": "https://www.jambase.com/show/steel-pulse-the-eastern-20260726"
+  },
+  {
     "title": "Dinner and A Date: A Night of Soul — Apache XLR",
     "date": "2026-07-26",
     "time": "7:00 PM – 11:00 PM",
@@ -278,5 +268,15 @@
     "description": "Singer-songwriter tribute night honoring two queens of soulful R&B. Buckhead date-night setting — small room, two voices, candlelight, and a built-in reason to hold someone's hand during 'If I Ain't Got You.'",
     "category": "live music",
     "url": "https://stayhappening.com/e/alicia-keys-andamp-anita-baker-live-tribute-the-betty-buckhead-sun-july-26th-E118SB14KY894"
+  },
+  {
+    "title": "Midsummer Market at Wild Heaven West End",
+    "date": "2026-07-26",
+    "time": "1:00 PM – 7:00 PM",
+    "location": "Wild Heaven Beer: West End Brewery & Gardens, 1010 White St SW, Atlanta, GA",
+    "price": "Free entry (food/drink separate)",
+    "description": "Sunday-afternoon maker's market on the West End brewery lawn — local vendors, beer garden, food trucks. A walking, browsing, sun-on-the-skin kind of date that ends with a flight of beers in the shade.",
+    "category": "date idea",
+    "url": "https://stayhappening.com/e/midsummer-market-at-wild-heaven-west-end-E118SAY0QVI8F"
   }
 ]
