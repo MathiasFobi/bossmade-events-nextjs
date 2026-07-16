@@ -1,25 +1,5 @@
 [
   {
-    "title": "Zae France Album Release — I ❤️ R&B Mondays at Starlit Rooftop",
-    "date": "2026-07-13",
-    "time": "10:00 PM – 2:00 AM",
-    "location": "Vision Restaurant & Rooftop, 2230 Piedmont Rd NE, Atlanta, GA",
-    "price": "Cover at the door (21+)",
-    "description": "R&B singer Zae France celebrates his album release on a Midtown rooftop under the stars. Late-night date energy — city lights, slow grooves, and a built-in reason to dress up and stay out past midnight.",
-    "category": "live music",
-    "url": "https://stayhappening.com/e/zae-france-hosts-his-album-release-i-%E2%9D%A4%EF%B8%8F-randampb-mondays-starlit-rooftop-E118SB1N7VUI4"
-  },
-  {
-    "title": "Poetic Jazz: Prince Tribute Night",
-    "date": "2026-07-14",
-    "time": "8:00 PM – 10:00 PM",
-    "location": "The Vick at Healey, 57 Forsyth St NW, Atlanta, GA",
-    "price": "Ticketed (donation-based)",
-    "description": "An intimate jazz-poetry spin on Prince's catalog. Candles, cocktails, and a small downtown crowd — the kind of low-key, soulful Tuesday that turns into a memory.",
-    "category": "live music",
-    "url": "https://www.poeticjazz.org/events/071426"
-  },
-  {
     "title": "Cocktails in the Garden — Atlanta Botanical Garden",
     "date": "2026-07-16",
     "time": "5:00 PM – 9:00 PM",
@@ -28,6 +8,26 @@
     "description": "Cocktails, live DJ, and the gardens lit up at golden hour. A timeless Atlanta date formula — wander the trails, grab a drink, sit by the fountain. Easy to dress up or down.",
     "category": "date idea",
     "url": "https://atlantabg.org/calendar/cocktails-in-the-garden-2/2026-07-16/"
+  },
+  {
+    "title": "HANGEO Thursdays — Salsa & Bachata Night (Sandy Springs)",
+    "date": "2026-07-16",
+    "time": "7:00 PM – 11:30 PM (lessons at 7 & 8 PM, social 9 PM)",
+    "location": "PASOFino Dance Studio, 290 Hilderbrand Dr, Sandy Springs, GA",
+    "price": "Free entry; drop-in lessons $25 (BYOB)",
+    "description": "Thursday-night salsa + bachata with a two-level lesson block then social dancing. Beginner-friendly, BYOB, and free entry means a zero-pressure first dance date — take the class, laugh at each other, then stay for the floor.",
+    "category": "dancing",
+    "url": "https://golatindance.com/event/hangeo-thursdays-1st-3rd-salsa-bachata-night-in-atlanta/2026-07-16/"
+  },
+  {
+    "title": "HAVEN Harmonies Music Series — King Street",
+    "date": "2026-07-16",
+    "time": "7:00 PM – 10:00 PM",
+    "location": "HAVEN Restaurant & Bar, 1441 Dresden Dr NE, Brookhaven, GA",
+    "price": "Free (food & drink separate)",
+    "description": "Free live-music night on the patio at a Brookhaven date-night favorite. Low-key, easy-to-walk-into midweek reset — order the wine list, share a plate, stay a while.",
+    "category": "live music",
+    "url": "https://www.havenrestaurant.com/happenings/haven-harmonies-king-street-july16"
   },
   {
     "title": "Latin Night at Sebastian Pintxos",
@@ -110,6 +110,16 @@
     "url": "https://perfectnoteliveatl.com/product/rb-singers-phillippia-and-yoshi/"
   },
   {
+    "title": "Candlelight: Neo-Soul Favorites — Prince, Childish Gambino & More",
+    "date": "2026-07-18",
+    "time": "8:45 PM",
+    "location": "The Chapel on Sycamore, Decatur, GA",
+    "price": "Ticketed (Fever)",
+    "description": "A candlelit live-string tribute to Prince, Childish Gambino, Lauryn Hill, and more. Surrounded by candles, in a chapel — the kind of slow, beautiful Friday night that turns into a long talk on the porch afterwards.",
+    "category": "live music",
+    "url": "https://happeningnext.com/event/candlelight-neo-soul-favorites-ft-songs-by-prince-childish-gambino-andamp-more-eid1afw6tn6dhb"
+  },
+  {
     "title": "Reggae After Dark — Free Entry + Drink Until 11 PM",
     "date": "2026-07-18",
     "time": "10:00 PM – 3:00 AM",
@@ -118,6 +128,16 @@
     "description": "Late-night reggae + dancehall vibes in the Old Fourth Ward / Edgewood corridor. Free entry and a free-drink window makes it a no-brainer Saturday nightcap — couples who want reggae energy without committing to a full amphitheater ticket.",
     "category": "Afrobeat/reggae",
     "url": "https://stayhappening.com/e/reggae-after-dark-free-entry-drink-until-11pm-E118SB1G5CUG0"
+  },
+  {
+    "title": "Atlanta Summer Halal Food Festival (BeltLine — 2 Days)",
+    "date": "2026-07-18",
+    "time": "12:00 PM – 8:00 PM (Sat & Sun)",
+    "location": "Old Fourth Ward Skatepark (Atlanta BeltLine), Atlanta, GA",
+    "price": "$5 – $15 suggested donation",
+    "description": "Inaugural halal food festival expands to a full weekend on the BeltLine — global flavors from Palestine to Pakistan, plus live music and a family-friendly vibe. A walking, tasting, hand-holding kind of date that ends in dessert.",
+    "category": "date idea",
+    "url": "https://adventuresinatlanta.com/atlanta-summer-halal-food-festival-expandsto-two-days-moves-to-atlanta-beltline/"
   },
   {
     "title": "Lionel Richie & Earth, Wind & Fire — Sing a Song All Night Long",
@@ -130,16 +150,6 @@
     "url": "https://www.livenation.com/event/vvG1zZ_d9vs1Lx/lionel-richie-and-earth-wind-fire-sing-a-song-all-night-long"
   },
   {
-    "title": "Atlanta Summer Halal Food Festival",
-    "date": "2026-07-19",
-    "time": "12:00 PM – 8:00 PM",
-    "location": "Atlantic Station, 1380 Atlantic Dr NW, Atlanta, GA",
-    "price": "$5 – $15 suggested donation",
-    "description": "Inaugural halal food festival on the BeltLine-adjacent Atlantic Station lawn — global flavors from Palestine to Pakistan, plus live music and a family-friendly vibe. A walking, tasting, hand-holding kind of date that ends in dessert.",
-    "category": "date idea",
-    "url": "https://atlantafi.com/summer-halal-food-festival/"
-  },
-  {
     "title": "Rooftop Salsa & Bachata Social (Politan Row)",
     "date": "2026-07-19",
     "time": "8:00 PM – 1:00 AM",
@@ -148,6 +158,16 @@
     "description": "Sunday-night rooftop salsa + bachata with skyline views and a food hall downstairs. Beginner-friendly floor with instructors on hand — take a lesson together, then dinner or drinks at Politan Row after.",
     "category": "dancing",
     "url": "https://golatindance.com/event/salsa-at-politan-row-at-the-colony-square/2026-07-19/"
+  },
+  {
+    "title": "Sundresses & Sangrias — Rooftop Brunch & Day Party",
+    "date": "2026-07-19",
+    "time": "3:30 PM – 9:00 PM",
+    "location": "Cafe Circa Restaurant & Lounge, 464 Edgewood Ave SE, Atlanta, GA",
+    "price": "Ticketed (Revel Atlanta)",
+    "description": "Sunday afternoon rooftop day party — sangrias, R&B/hip-hop rotation, golden hour over Edgewood. The kind of lazy-but-loud date that ends with takeout and a long Sunday night at home.",
+    "category": "Afrobeat/reggae",
+    "url": "https://stayhappening.com/e/sundresses-andamp-sangrias-rooftop-brunch-andamp-day-party-E118SB1QUB282"
   },
   {
     "title": "Amy Sherald: American Sublime — High Museum of Art (Final Stop)",
@@ -160,10 +180,20 @@
     "url": "https://high.org/exhibition/amy-sherald-american-sublime/"
   },
   {
+    "title": "Bubba Dub at Helium Comedy Club",
+    "date": "2026-07-19",
+    "time": "7:00 PM",
+    "location": "Helium Comedy Club, 3070 Windward Plaza, Alpharetta, GA",
+    "price": "Ticketed (Helium)",
+    "description": "One of TikTok's fastest-rising comedians in an intimate showroom — a high-energy, easy-Sunday reset for a couple that needs a laugh and a late dinner out.",
+    "category": "comedy",
+    "url": "https://atlanta.heliumcomedy.com/events/135638"
+  },
+  {
     "title": "The E.A.V. Comedy Show at El Sótano",
     "date": "2026-07-22",
     "time": "7:30 PM – 9:00 PM",
-    "location": "El Sótano, Atlanta, GA (East Atlanta Village)",
+    "location": "El Sótano, East Atlanta Village, Atlanta, GA",
     "price": "Ticketed",
     "description": "Stand-up showcase in the heart of EAV — a low-key Wednesday night that pairs perfectly with dinner and drinks on Flat Shoals Ave. Local comics, intimate room, easy midweek reset for couples.",
     "category": "comedy",
@@ -180,6 +210,16 @@
     "url": "https://venunite.com/events/afro-caribbean-vs-hip-hop-rnb"
   },
   {
+    "title": "PHYSIQUE (2026) — Juried Exhibition Opening at Kai Lin Art",
+    "date": "2026-07-24",
+    "time": "7:00 PM – 10:00 PM",
+    "location": "Kai Lin Art, 309 E Paces Ferry Rd NE, Atlanta, GA",
+    "price": "Free",
+    "description": "Kai Lin Art's first-ever juried exhibition — opening-night mixer with the artists, drinks, and a chance to actually talk to the people making the work. A Westside gallery date that ends with dinner on the BeltLine.",
+    "category": "art gallery",
+    "url": "https://www.kailinart.com/physique-2026"
+  },
+  {
     "title": "Dustin Ross at City Winery Atlanta",
     "date": "2026-07-24",
     "time": "6:30 PM (also 10:00 PM late show)",
@@ -188,6 +228,16 @@
     "description": "Storytelling-style stand-up with a wine-paired dinner option on-site. Date-night formula solved: dinner + show in one ticket, sit-down seats, no dance floor pressure.",
     "category": "comedy",
     "url": "https://tickets.citywinery.com/event/dustin-ross-2pj2hj"
+  },
+  {
+    "title": "Daniel Caesar — Son of Spergy Tour",
+    "date": "2026-07-24",
+    "time": "7:30 PM",
+    "location": "State Farm Arena, 1 State Farm Dr, Atlanta, GA",
+    "price": "Ticketed (Live Nation)",
+    "description": "Daniel Caesar in arena mode — soft R&B, gospel-adjacent vocals, and the kind of set that turns a date into a memory. Pick seats mid-floor; the room sings every chorus with him.",
+    "category": "live music",
+    "url": "https://www.livenation.com/event/vvG1zZ_6mUb5sK/daniel-caesar-son-of-spergy-tour"
   },
   {
     "title": "Tropical Latin Night at Sanctuary Nightclub",
@@ -210,11 +260,21 @@
     "url": "https://districtatlanta.com/events/2026/tanda-afro-house-with-bogi-friday-july-24th-2026.php"
   },
   {
+    "title": "ANATOMY X — Christmas-in-July Sip N Paint",
+    "date": "2026-07-24",
+    "time": "8:00 PM – 11:00 PM",
+    "location": "NDA Social, Atlanta, GA",
+    "price": "Ticketed (Anatomy X)",
+    "description": "A guided paint-and-sip night — beginners welcome, materials included, drinks in hand. A playful, no-skill-required date where the worst-case is a bad painting and the best-case is a keepsake.",
+    "category": "date idea",
+    "url": "https://stayhappening.com/e/anatomy-x-a-night-of-xmas-in-july-sip-n-paint-E118SB0HIULP3"
+  },
+  {
     "title": "Buju Banton & Stephen Marley: Roots and Rhymes Tour",
     "date": "2026-07-25",
     "time": "7:00 PM",
     "location": "Cellairis Amphitheatre at Lakewood, 2002 Lakewood Way SW, Atlanta, GA",
-    "price": "Ticketed (from ~$60+ lawn)",
+    "price": "Ticketed (from ~$62+ lawn)",
     "description": "A reggae double-header on the lawn — Bob Marley's son and a living legend together. Bring a blanket, bring a cooler, stay for the singalongs under the stars.",
     "category": "Afrobeat/reggae",
     "url": "https://www.livenation.com/event/vvG1zZ_FJ0a_Xr/buju-banton-stephen-marley-roots-and-rhymes-tour"
@@ -225,9 +285,19 @@
     "time": "11:00 AM – 5:00 PM",
     "location": "One Contemporary Gallery, 395 Edgewood Ave SE, Atlanta, GA",
     "price": "Free",
-    "description": "A collective musing on home, family, and community by 14 contemporary artists across multiple mediums. Quiet, thoughtful Saturday-afternoon gallery date in Edgewood — pair with lunch on the beltline.",
+    "description": "A collective musing on home, family, and community by 14 contemporary artists across multiple mediums. Quiet, thoughtful Saturday-afternoon gallery date in Edgewood — pair with lunch on the BeltLine.",
     "category": "art gallery",
     "url": "https://www.artsatl.org/event/attend-inner-views-art-exhibition/2026-07-25/"
+  },
+  {
+    "title": "James 'Murr' Murray (Impractical Jokers) at Helium",
+    "date": "2026-07-25",
+    "time": "6:00 PM",
+    "location": "Helium Comedy Club, 3070 Windward Plaza, Alpharetta, GA",
+    "price": "Ticketed (Helium)",
+    "description": "Murr from Impractical Jokers on stage in Alpharetta — the kind of show where you'll be quoting lines to each other for weeks. Date-night + show + late dinner is the move.",
+    "category": "comedy",
+    "url": "https://atlanta.heliumcomedy.com/events/134933"
   },
   {
     "title": "Savanna Nights at Zoo Atlanta — Decades Night (Finale)",
@@ -240,6 +310,16 @@
     "url": "https://zooatlanta.org/event/savanna-nights/"
   },
   {
+    "title": "Midsummer Food Truck Alley — Georgia Freight Depot",
+    "date": "2026-07-25",
+    "time": "10:00 AM – 5:00 PM (Fri–Sun weekend run)",
+    "location": "The Georgia Freight Depot, Atlanta, GA",
+    "price": "Free entry (food separate)",
+    "description": "Three-day rotating food-truck alley in downtown — vegetarian and vegan-friendly options alongside the BBQ and taco trucks. A walking, sharing, deciding-together kind of Saturday that ends in ice cream.",
+    "category": "vegetarian",
+    "url": "https://happeningnext.com/event/2026-atlanta-midsummer-food-truck-alley-eid1ef0l11sp9qa"
+  },
+  {
     "title": "Steel Pulse & The Original Wailers ft. Al Anderson — Reggae Against Racism Tour",
     "date": "2026-07-26",
     "time": "8:00 PM",
@@ -248,6 +328,16 @@
     "description": "Two foundational reggae acts on one bill — Steel Pulse and the Original Wailers (with Al Anderson) in the Eastern's premium listening room. Sunday-night closer for couples who want big reggae history in a sit-down setting.",
     "category": "Afrobeat/reggae",
     "url": "https://www.jambase.com/show/steel-pulse-the-eastern-20260726"
+  },
+  {
+    "title": "Rooftop Salsa & Bachata Social — Reverb Hotel",
+    "date": "2026-07-26",
+    "time": "4:30 PM – 9:30 PM (free class at 4:30, social 5:30–9:30)",
+    "location": "Reverb Hotel Atlanta, 89 Centennial Olympic Park Dr, Atlanta, GA",
+    "price": "$20 admission",
+    "description": "Downtown rooftop with skyline views, a free 4:30 lesson for beginners, then social dancing. The $20 entry is a steal for a built-in date-night: take the class, dance the social, dinner in Castleberry Hill after.",
+    "category": "dancing",
+    "url": "https://golatindance.com/event/rooftop-salsa-bachata-social/2026-07-26/"
   },
   {
     "title": "Dinner and A Date: A Night of Soul — Apache XLR",
@@ -270,6 +360,16 @@
     "url": "https://stayhappening.com/e/alicia-keys-andamp-anita-baker-live-tribute-the-betty-buckhead-sun-july-26th-E118SB14KY894"
   },
   {
+    "title": "Soulful Sunday R&B Brunch — Perfect Note Marietta",
+    "date": "2026-07-26",
+    "time": "Brunch service (afternoon seating)",
+    "location": "Perfect Note Atlanta — Marietta, 3000 Windy Hill Rd STE 116, Marietta, GA",
+    "price": "Ticketed (food & drinks separate)",
+    "description": "A Sunday R&B brunch with a live vocalist while you eat — bottomless mimosas, sit-down service, no DJ shouting over your conversation. The slow, grown-up version of a date brunch.",
+    "category": "live music",
+    "url": "https://perfectnoteliveatl.com/product/soulful-sunday-rb-brunch-with-erica-dawson-july-26/"
+  },
+  {
     "title": "Midsummer Market at Wild Heaven West End",
     "date": "2026-07-26",
     "time": "1:00 PM – 7:00 PM",
@@ -278,5 +378,25 @@
     "description": "Sunday-afternoon maker's market on the West End brewery lawn — local vendors, beer garden, food trucks. A walking, browsing, sun-on-the-skin kind of date that ends with a flight of beers in the shade.",
     "category": "date idea",
     "url": "https://stayhappening.com/e/midsummer-market-at-wild-heaven-west-end-E118SAY0QVI8F"
+  },
+  {
+    "title": "Back to Black: The Music of Amy Winehouse — City Winery",
+    "date": "2026-07-28",
+    "time": "8:00 PM",
+    "location": "City Winery Atlanta, 650 North Ave NE, Atlanta, GA",
+    "price": "From $24",
+    "description": "A live tribute to Amy Winehouse in City Winery's sit-down room — wine, dinner service, and a voice channeling one of the most soulful catalogs of the 2000s. Slow-dance material, end to end.",
+    "category": "live music",
+    "url": "https://tickets.citywinery.com/event/back-to-black-the-music-of-amy-winehouse-nd73ro"
+  },
+  {
+    "title": "Jazz Affair: Dinner & A Date Jazz Night — Apache XLR",
+    "date": "2026-07-29",
+    "time": "8:00 PM – 11:30 PM",
+    "location": "Apache XLR, 393 Marietta St NW, Atlanta, GA",
+    "price": "Ticketed (dinner separate)",
+    "description": "A purpose-built 'Dinner & A Date' jazz night — the whole show is framed around couples at a table, slow sets, and a real sit-down menu. Easy midweek anniversary move without the anniversary pressure.",
+    "category": "live music",
+    "url": "https://stayhappening.com/e/jazz-affair-live-jazz-E118SB1JYD94H"
   }
 ]
