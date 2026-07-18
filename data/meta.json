@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-17T07:00:00-07:00",
-  "generatedAtHuman": "Friday, July 17, 2026 — 7:00 AM PT",
+  "generatedAt": "2026-07-18T07:00:00-07:00",
+  "generatedAtHuman": "Saturday, July 18, 2026 — 7:00 AM PT",
   "source": "Atlanta Event Finder (cron)",
   "city": "Atlanta, GA",
   "windowDays": 14,
-  "eventCount": 47,
+  "eventCount": 19,
   "categories": [
     "live music",
     "Afrobeat/reggae",
