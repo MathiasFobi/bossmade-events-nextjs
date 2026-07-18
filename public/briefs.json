@@ -1,5 +1,217 @@
 [
   {
+    "date": "2026-07-18",
+    "asOf": "Weekend — Sat, Jul 18 (post Fri close)",
+    "headline": "Risk-off week closes ugly: semis -18% in July (SOX bear market confirmed), NFLX -7.3% / ISRG -14.1% / META -2.7% / GOOGL -3.2% on earnings, NVDA loses #1 to AAPL then reclaims, WTI +4.8% to $82 on Iran escalation, 10Y eases to 4.55%, VIX spikes 12% to 18.8 — tape fragile into next week's heavy earnings.",
+    "sentiment": {
+      "tone": "bearish",
+      "score": -0.48,
+      "reason": "All three indices down on the day and week (SPX -1.01% / NDX -1.40% / DJIA -0.77%); SOX confirmed bear market (-20.2% from Jun 22 ATH, worst week in 12mo); VIX +12% to 18.8 as Iran oil shock layers on AI-fatigue positioning into mega-cap earnings."
+    },
+    "market": [
+      {
+        "symbol": "ES",
+        "label": "S&P Fut",
+        "value": "7458",
+        "change": "-1.01%",
+        "direction": "down"
+      },
+      {
+        "symbol": "NQ",
+        "label": "Nasdaq Fut",
+        "value": "25520",
+        "change": "-1.40%",
+        "direction": "down"
+      },
+      {
+        "symbol": "YM",
+        "label": "Dow Fut",
+        "value": "52146",
+        "change": "-0.77%",
+        "direction": "down"
+      },
+      {
+        "symbol": "GC",
+        "label": "Gold",
+        "value": "4018",
+        "change": "+0.65%",
+        "direction": "up"
+      },
+      {
+        "symbol": "CL",
+        "label": "WTI Oil",
+        "value": "82.04",
+        "change": "+4.80%",
+        "direction": "up"
+      },
+      {
+        "symbol": "BTC",
+        "label": "Bitcoin",
+        "value": "62850",
+        "change": "-1.85%",
+        "direction": "down"
+      },
+      {
+        "symbol": "VIX",
+        "label": "VIX",
+        "value": "18.8",
+        "change": "+12.19%",
+        "direction": "up"
+      },
+      {
+        "symbol": "10Y",
+        "label": "UST 10Y",
+        "value": "4.55",
+        "change": "-0.02",
+        "direction": "down"
+      }
+    ],
+    "movers": [
+      {
+        "symbol": "ISRG",
+        "change": "-14.10%",
+        "direction": "down",
+        "reason": "Q2 beat but da Vinci procedure growth guide unchanged + ACA-enhanced-credit expiry fears; medical-device leader cracks."
+      },
+      {
+        "symbol": "NFLX",
+        "change": "-7.30%",
+        "direction": "down",
+        "reason": "Q2 revenue light + Q3 guide below consensus; content-spend sustainability doubts after YTD -20%."
+      },
+      {
+        "symbol": "NVDA",
+        "change": "-2.21%",
+        "direction": "down",
+        "reason": "Briefly lost #1 market-cap crown to AAPL intra-day; AI-spend-fatigue narrative + memory-cycle contagion from SK Hynix/Samsung."
+      }
+    ],
+    "sectorHeat": [
+      {
+        "symbol": "XLK",
+        "label": "Tech",
+        "change": "-1.09%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "change": "-0.86%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "change": "+1.16%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLV",
+        "label": "Health",
+        "change": "-0.45%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLY",
+        "label": "Cons Disc",
+        "change": "-1.55%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Staples",
+        "change": "+0.12%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLI",
+        "label": "Industrials",
+        "change": "-0.38%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLU",
+        "label": "Utilities",
+        "change": "+0.22%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLB",
+        "label": "Materials",
+        "change": "-0.18%",
+        "direction": "down"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "change": "+0.05%",
+        "direction": "up"
+      },
+      {
+        "symbol": "XLC",
+        "label": "Comm Svc",
+        "change": "-1.95%",
+        "direction": "down"
+      }
+    ],
+    "news": [
+      {
+        "headline": "Semiconductor index enters bear market: SOX -20.2% from Jun 22 ATH, worst week in 12+ months",
+        "context": "AI-spend fatigue + memory-cycle collapse (Samsung/SK Hynix Seoul -6-9% on Kospi) cascade into US semis; still +65% YTD vs SPX +9%.",
+        "tag": "Semis"
+      },
+      {
+        "headline": "WTI +4.8% to $82.04, Brent +4.6% to $88.10 as US expands Iran strikes (bridges + key port tower hit)",
+        "context": "Strait-of-Hormuz tanker-flow risk repriced; energy sole S&P sector gainer (+1.16%), drives 30Y mortgage to ~1yr high.",
+        "tag": "Energy"
+      },
+      {
+        "headline": "Moonshot AI's Kimi K3 launch reignites 'DeepSeek-style' capex-disruption fears",
+        "context": "Chinese low-cost frontier model echoes Jan-2025 DeepSeek shock; questions whether trillion-dollar AI infra buildout is over-spent.",
+        "tag": "Equities"
+      },
+      {
+        "headline": "UMich consumer sentiment jumps to 5-month high; 1Y inflation expectations ease",
+        "context": "Mixed signal — soft-data optimism but oil shock + sticky services CPI keep Fed cautious; 10Y eases to 4.55% (-2bp).",
+        "tag": "Macro"
+      },
+      {
+        "headline": "Bitcoin breaks below $63K as AI-stock fatigue + Iran risk-off spreads to crypto",
+        "context": "BTC trading as high-beta Nasdaq proxy (-1.85% on day); $62K support now critical, $60K psychological level in sight.",
+        "tag": "Crypto"
+      }
+    ],
+    "options": [
+      {
+        "symbol": "QQQ",
+        "thesis": "Heavy put OI at $680 strikes building into next week's mega-cap earnings (GOOGL/TSLA/MSFT)",
+        "signal": "Bearish skew widening; sell premium into IV-rank >30 if holds $680."
+      },
+      {
+        "symbol": "SPY",
+        "thesis": "Massive put wall at $725 vs call resistance $760 — range-bound into Fri OpEx with Iran tail",
+        "signal": "Iron condor $735/$755 Aug weekly favored; skew +12% from VIX spike."
+      },
+      {
+        "symbol": "TSLA",
+        "thesis": "5.99M OI with 1.93M contracts Thu; IV rank elevated pre-earnings (next Wed)",
+        "signal": "Straddle or strangle into print; premium-rich, watch for IV crush post-event."
+      },
+      {
+        "symbol": "XLE",
+        "thesis": "Oil-shock winner + only S&P sector green; calls bid on Iran escalation",
+        "signal": "Bull-call-spread Sep $60/$65 captures Iran tail without naked upside risk."
+      },
+      {
+        "symbol": "NVDA",
+        "thesis": "Down -2.2% but reclaimed #1 cap-crown; options pricing wider-than-expected post-memory-cycle reset",
+        "signal": "Sell Aug puts against core long — premium juicy after 12% VIX spike."
+      }
+    ],
+    "takeaway": "Week closed with a textbook risk-off trifecta: semis bear-market confirmed (SOX -20.2% from ATH), oil shock from Iran (WTI +16% on week), and crypto correlating with Nasdaq beta. Tape needs a relief bid early next week or the XLE/Staples defensive rotation hardens. Watch Sun/Mon for Iran de-escalation headlines and Tuesday mega-cap earnings (TSLA the first domino) for direction into month-end.",
+    "generatedAt": "2026-07-18T13:00:56Z"
+  },
+  {
     "date": "2026-07-17",
     "asOf": "Pre-market — Fri, Jul 17",
     "headline": "Risk-off Friday open: NFLX -11% on Q3 guide miss + memory chip panic (SNDK/WDC/MU/STX -3-5%) + ISRG -10% on recall drive NQ -1.67% hard, WTI +2.2% to $80.60 on Iran oil-license revocation keeps XLE bid — health/financials defensive bid, 10Y 4.58% holds tape fragile into UMich sentiment.",
