@@ -1,9 +1,11 @@
 {
-  "generatedAt": "2026-07-20T07:00:00-07:00",
-  "generatedAtHuman": "Monday, July 20, 2026 — 7:00 AM PT",
+  "generatedAt": "2026-07-25T13:02:00-07:00",
+  "generatedAtHuman": "Saturday, July 25, 2026 — 1:02 PM PT",
   "source": "Atlanta Event Finder (cron)",
   "city": "Atlanta, GA",
   "windowDays": 14,
+  "windowStart": "2026-07-25",
+  "windowEnd": "2026-08-08",
   "eventCount": 20,
   "categories": [
     "live music",
